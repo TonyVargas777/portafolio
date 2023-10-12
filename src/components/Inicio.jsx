@@ -14,22 +14,22 @@ export const Inicio = () => {
         Hola, soy <strong className="type">Tony Vargas</strong> y soy
         Desarrollador Web.
       </h1>
-      <h2>
+      <h2 className="texts">
         Vivo en Barcelona, y ofrezco mis servicios de{" "}
         <strong> programación</strong> y <strong>desarrollo </strong>
         en todo tipo de proyectos web.
       </h2>
       <div>
-          <img className="skills" src={image_html} alt="" />
-        </div>
-        <div>
-          <img className="skills1" src={image_mongo} alt="MONGO" />
-          <img className="skills1" src={image_express} alt="EXPRESS" />
-          <img className="skills1" src={image_react} alt="REACT" />
-          <img className="skills1" src={image_node} alt="NODE" />
-          
-        </div>
-      <h2>
+        <img className="skills" src={image_html} alt="" />
+      </div>
+      <h1>MERN STACK</h1>
+      <div>
+        <img className="skills1" src={image_mongo} alt="MONGO" />
+        <img className="skills1" src={image_express} alt="EXPRESS" />
+        <img className="skills1" src={image_react} alt="REACT" />
+        <img className="skills1" src={image_node} alt="NODE" />            
+      </div>
+      <h2 className="texts">
         Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y
         relevancia en internet.
       </h2>
@@ -37,58 +37,67 @@ export const Inicio = () => {
         <Link to="/contacto" align="center">Contacta conmigo</Link>
       </h2>
 
-      <p align="center" className="redes">
-        <a
+      <div align="center" className="redes">
+        <div>
+          <a 
           href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
-          target="blank"
-        >
-          <img
+          target="blank">
+          <img className="red"
             align="center"
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
             alt="LinkedIn"
             height="40px"
-            width="40px"
-          ></img>
+            width="40px">
+
+            </img>
         </a>
+
+        </div>
+        <div>
         <a
           href="https://www.instagram.com/tonaco777/"
-          alt="tony777."
+          alt="instagram"
           height="40px"
           width="40px"
         >
-          <img
+          <img className="red"
             align="center"
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-            alt="LinkedIn"
+            alt="instagram"
             height="40px"
             width="40px"
           ></img>
         </a>
+        </div>
+        <div>
         <a
           href="https://twitter.com/tonaco777"
           alt="tony777."
           height="40px"
           width="40px"
         >
-          <img
+          <img className="red"
             align="center"
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-            alt="LinkedIn"
+            alt="twitter"
             height="40px"
             width="40px"
           >            
           </img>
         </a>
+        </div>
+        <div>
         <a href="mailto:tonacovargas@hotmail.com" target="blank">
-          <img
+          <img className="red"
             align="center"
             src="https://us.123rf.com/450wm/mamanamsai/mamanamsai1501/mamanamsai150100386/35929070-email-icono-en-el-fondo-azul-limpio-vector.jpg"
-            alt="tony777."
+            alt="email"
             height="40"
             width="40"
-          ></img>{" "}
+          ></img>
         </a>
-      </p>
+        </div>
+      </div>
 
       <section className="lasts-works">
         <h2 className="heading">Mis últimos proyectos:</h2>
