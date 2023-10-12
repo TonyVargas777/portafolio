@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ListadoTrabajos } from "./ListadoTrabajos";
+import image_html from "./img/html_css_js.png";
+import image_react from "./img/reactjs-ar21.png";
+import image_node from "./img/nodejs-ar21.png";
+import image_mongo from "./img/Mongo-db-logo.png";
+import image_express from "./img/express.png";
 
 export const Inicio = () => {
   return (
@@ -14,7 +19,16 @@ export const Inicio = () => {
         <strong> programación</strong> y <strong>desarrollo </strong>
         en todo tipo de proyectos web.
       </h2>
-
+      <div>
+          <img className="skills" src={image_html} alt="" />
+        </div>
+        <div>
+          <img className="skills1" src={image_mongo} alt="MONGO" />
+          <img className="skills1" src={image_express} alt="EXPRESS" />
+          <img className="skills1" src={image_react} alt="REACT" />
+          <img className="skills1" src={image_node} alt="NODE" />
+          
+        </div>
       <h2>
         Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y
         relevancia en internet.
