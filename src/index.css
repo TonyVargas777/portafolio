@@ -1,0 +1,462 @@
+:root {
+  font-family: Integoldr, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  width:100%;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url("./components/img/1kc1.gif");
+  background-size:110%;
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%; */
+}
+html{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+.layout {
+  width: 95%;
+  place-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 132px;
+  border: 5px solid blue;
+  border-radius: 25px 0px 25px 0px;
+  margin-bottom: 35px;
+  background: black;
+  color: blue;
+  width: 100%;
+}
+/* .header .logo {
+  height: fit-content;
+  width: fit-content;
+  flex-grow: 2;
+  display: flex;
+} */
+.header .logo span {
+  display: block;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.header .logo h3 {
+  display: block;
+  flex-basis: 40px;
+  margin-left: 5px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+.port {
+  margin-left: 25px;
+}
+.header nav {
+  flex-grow: 1;
+}
+nav{
+  width: 100%;
+}
+.header nav ul {
+  /* height: 132px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.header li {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.header li a {
+  color: blue;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.header a:hover {
+  color: #fa4529;
+}
+
+.header .active {
+  color: #fa4529;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: fit-content;
+  padding-bottom: 75px;
+}
+/* .content {
+  min-height: 1000px;
+  height: fit-content;
+}
+ */
+.footer {
+  text-align: center;
+  font-size: 14px;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  margin-top: 35px;
+  padding-top: 45px;
+  min-height: 50px;
+  line-height: 10px;
+  background: black;
+}
+.home {
+  background: black;
+  border: 3px solid blue;
+  margin-top: 50px;
+  padding: 25px;
+  border-radius: 25px 0px 25px 0px;
+  text-align: left;
+}
+.home h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+ /*  font-weight: 400;
+  font-size: 40px; */
+  margin-bottom: 0px;
+}
+.home h2 {
+  font-weight: lighter;
+}
+.home a, .work-item a{
+  background: blue;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 4px;
+  text-decoration: none;
+}
+.home a:hover, .work-item a:hover {
+  background: blue;
+  color: lightpink;
+  transition: all 300ms;
+  border: 1px solid lightpink
+}
+.home strong {
+  color: #fa4529;
+}
+.type {
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  font-family: "Courier New";
+  border-right: 0.1em solid blue;
+  animation: blink 1s steps(1) infinite;
+  width: 0;
+  height: 65px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 1.5s steps(11) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 315px;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.page .heading,
+.home .heading,
+.content .heading {  
+  text-align: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 500;
+}
+.heading2{
+  text-align: center;
+}
+.redes a, .redes a:hover{
+  background-color: transparent;
+  border:none;
+  margin: 5px;
+}
+.services {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.service {
+  background: black;
+  width: 27%;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+}
+.education1:hover {
+  border: 2px solid #fa4529;
+  background-color: #646cff;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+  transition: all 300ms;
+}
+.service p {
+  align-items: flex-end;
+}
+.service strong {
+  color: red;
+  font-weight: 500;
+}
+.service strong:hover {
+  border-radius: 3px;
+  background: blue;
+  color: black;
+  transition: all 300ms;
+}
+.service h2 {
+  color: blue;
+}
+input[type="text"],
+textarea {
+  display: block;
+  padding: 15px;
+  width: 75%;
+  margin: 20px;
+  margin-top: 25px;
+}
+input[type="submit"] {
+  border-radius: 10px;
+  background: blue;
+  color: black;
+  transition: all 300ms;   
+  font-size: 15px;  
+  padding: 15px;
+  text-decoration: none;
+}
+input[type="submit"]:hover {
+  background: blue;
+  color: lightpink;
+  transition: all 300ms;
+  border: 1px solid lightpink;
+  padding: 15px;  
+  border-radius: 10px; 
+  text-decoration: none;
+}
+.skills {
+  border: 1px solid black;
+  border-radius: 150px;
+  transition: all 300ms;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.skills1 {
+  border: 1px solid black;
+  width: 15%;
+  transition: all 300ms;
+  margin: 1%;
+}
+.skills:hover {
+  border: 15px solid black;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.skills1:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(15deg);
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: 4px solid blue;
+  background: black;
+  border-radius: 25px 0px 25px 0px;
+  margin-top: 25px;
+  padding: 25px;
+  text-align: center;
+}
+.education li:hover {
+  background: lightblue;
+  border-radius: 20px;
+  color: black;
+}
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-item {
+  flex-basis: 35%;
+  flex-grow: 1;
+  margin: 30px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  padding: 15px;
+  background: black;
+}
+.work-item .mask {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  border: 1px solid black;
+  box-shadow: 0px 5px 14px gray;
+}
+.work-item img {
+  width: 200%;
+  object-fit: cover;
+}
+.work-item img:hover {
+  transition: all 300ms;
+  width: 500%;
+  object-fit: cover;
+}
+.work-item span {
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin-top: 35px;
+}
+.work-item h2 {
+  display: block;
+  color: black;
+}
+.work-item a {
+  background: blue;
+  color: black;
+  transition: all 300ms;
+}
+.work-item a:hover {
+  color: lightpink;
+}
+@media (max-width: 1000px) {
+  :root{
+
+    background-image: url("./components/img/1kc1.gif");
+    background-size:  120% auto;
+  }
+  .layout{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+  }
+  .header{
+    margin-top: -25px;
+    margin-bottom: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+  }
+  .header li{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .port{
+    margin: 0px;
+    height: 30px;
+  }
+  nav{
+    margin-left: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
+  .home{
+    font-size: 0.8em;
+    min-width: 320px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  padding: 15px;
+  }
+  .ancho_home{
+    min-width: 320px;
+  }
+  .footer {
+    width: 100%;
+  }
+  .service {
+    background: black;
+    width: 85%;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+  }  
+  .page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .education{
+    font-size: 0.7em;
+    width: 95%;
+  }
+  .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
