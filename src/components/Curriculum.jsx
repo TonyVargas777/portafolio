@@ -13,6 +13,7 @@ export const Curriculum = () => {
         <div>
           <img className="skills" src={image_html} alt="" />
         </div>
+        <h1>MERN STACK</h1>
         <div>
           <img className="skills1" src={image_mongo} alt="MONGO" />
           <img className="skills1" src={image_express} alt="EXPRESS" />
@@ -40,9 +41,9 @@ export const Curriculum = () => {
           </div>
           <div className="education1">
             <h2>
-              C2 PROFICIENT ENGLISH CERTIFICATE (CEFR)
+              C2 - PROFICIENT  ENGLISH  CERTIFICATE  (CEFR)
             </h2>
-            <h4>EF SET (2003)</h4> 
+            <h4> EF Standard English Test (EF SET) (2023)</h4> 
             </div>        
       </div>
     </div>

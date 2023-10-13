@@ -255,11 +255,12 @@ nav{
   padding: 15px;
 }
 .education1:hover {
-  border: 2px solid #fa4529;
+  border: 3px solid #fa4529;
   background-color: #646cff;
-  -webkit-transform: scale(1.5);
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
   transition: all 300ms;
+  width: 100%;
 }
 .service p {
   align-items: flex-end;
@@ -304,20 +305,19 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 .skills{
-  border: 1px solid black;
-  border-radius: 150px;
+  border: 6px double blue;
   transition: all 300ms;
   width: 50%;
   margin-bottom: 20px;
 }
 .skills1 {
-  border: 1px solid black;
+  border: 1px solid blue;
   width: 15%;
   transition: all 300ms;
   margin: 1%;
 }
 .skills:hover {
-  border: 15px solid black;
+  border: 9px double blue;
   -webkit-transform: scale(1.3);
   transform: scale(1.1);
 }

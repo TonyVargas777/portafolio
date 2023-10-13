@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ListadoTrabajos } from "./ListadoTrabajos";
-import image_html from "./img/html_css_js.png";
+import image_html from "./img/html_css_js1.png";
 import image_react from "./img/reactjs-ar21.png";
 import image_node from "./img/nodejs-ar21.png";
 import image_mongo from "./img/Mongo-db-logo.png";

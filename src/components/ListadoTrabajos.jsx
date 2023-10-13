@@ -11,7 +11,7 @@ export const ListadoTrabajos = ({limite}) => {
             <div className="mask">
               {/* <img src={"../src/components/img/"+trabajo.id+".png"}/> */}
               {/* <img src={process.env.PUBLIC_URL + "/img/" + trabajo.id + ".png"}/> */}
-              <img src={"/public/img/"+trabajo.id+".png"}/>
+              <img src={"/img/"+trabajo.id+".png"}/>
 
             </div>
             <span>{trabajo.categorias}</span>
