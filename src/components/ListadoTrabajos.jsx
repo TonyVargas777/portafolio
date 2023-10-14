@@ -14,9 +14,11 @@ export const ListadoTrabajos = ({limite}) => {
               <img src={"/img/"+trabajo.id+".png"}/>
 
             </div>
-            <span>{trabajo.categorias}</span>
-            <h2><Link to={trabajo.url} target="blank">{trabajo.nombre}</Link></h2>
-            <h3>{trabajo.tecnologias}</h3>
+            <div className="datos">
+              <span>{trabajo.categorias}</span>
+              <h2><Link to={trabajo.url} target="blank">{trabajo.nombre}</Link></h2>
+              <h3>{trabajo.tecnologias}</h3>
+            </div>
           </article>
         );
       })}
