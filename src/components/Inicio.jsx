@@ -100,12 +100,12 @@ export const Inicio = () => {
       </div>
 
       <section className="lasts-works">
-        <h2 className="heading">Mis últimos proyectos:</h2>
+        <h2 className="heading">Mi último proyecto:</h2>
         <p className="heading2">
-          Estos son algunos de mis trabajos de desarrollo web:
+          Miniatura de mi último proyecto:
         </p>
         <div className="works">
-          <ListadoTrabajos limite="2" />
+          <ListadoTrabajos limite="1" />
         </div>
       </section>
     </div>

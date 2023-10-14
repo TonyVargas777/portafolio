@@ -7,26 +7,33 @@ export const trabajos = [
         'categorias': 'Desarrollo Web'
     },
     {
-        'id': 'facebook',
-        'nombre': 'Facebook',
-        'url': 'https://facebook.com',
+        'id': 'juegos',
+        'nombre': 'Los Juegos de mi Vida',
+        'url': 'https://ibb.co/5rmyKTd',
         'tecnologias': 'REACT, Node, Mongo',
         'categorias': 'Desarrollo Web'
     },
     {
-        'id': 'twitter',
-        'nombre': 'Twitter',
-        'url': 'https://twitter.com',
-        'tecnologias': 'HTML, CSS',
+        'id': 'videojuegos',
+        'nombre': 'Welcome Gamers',
+        'url': 'https://ibb.co/d2ktFws',
+        'tecnologias': 'CRUD PHP',
         'categorias': 'Desarrollo Web'
     },
     {
-        'id': 'linkedin',
-        'nombre': 'LinkedIn',
-        'url': 'https://linkedin.com',
-        'tecnologias': 'HTML, CSS, JS, PHP, Laravel',
+        'id': 'starwars',
+        'nombre': 'Star Wars',
+        'url': 'https://ibb.co/DKCKFb5',
+        'tecnologias': 'API, HTML, CSS, JS',
         'categorias': 'Desarrollo Web'
     },
+    {
+        'id': 'musica',
+        'nombre': 'Compositores',
+        'url': 'https://ibb.co/B2wVtp4',
+        'tecnologias': 'HTML, CSS, JS',
+        'categorias': 'Desarrollo Web'
+    }/* ,
     {
         'id': 'udemy',
         'nombre': 'Udemy',
@@ -40,5 +47,5 @@ export const trabajos = [
         'url': 'https://youtube.com',
         'tecnologias': 'JS, REACt, PHP, Symfony',
         'categorias': 'Desarrollo Web'
-    },
+    }, */
 ]
