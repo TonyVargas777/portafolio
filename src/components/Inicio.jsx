@@ -87,6 +87,23 @@ export const Inicio = () => {
         </a>
         </div>
         <div>
+        <a
+          href="https://github.com/TonyVargas777"
+          alt="github"
+          height="40px"
+          width="40px"
+        >
+          <img className="red"
+            align="center"
+            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+            alt="github"
+            height="40px"
+            width="40px"
+          >            
+          </img>
+        </a>
+        </div>
+        <div>
         <a href="mailto:tonacovargas@hotmail.com" target="blank">
           <img className="red"
             align="center"
