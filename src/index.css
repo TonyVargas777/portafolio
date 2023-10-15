@@ -1,5 +1,5 @@
 :root {
-  font-family: Integoldr, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:  Lucida Handwriting, Integoldr, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   width:100%;
@@ -7,11 +7,6 @@
   color: rgba(255, 255, 255, 0.87);
   background-image: url("./components/img/1kc1.gif");
   background-size:110%;
-  /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
 }
 html{
   
@@ -38,19 +33,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
 .layout {
   width: 95%;
   place-items: center;
@@ -65,14 +47,8 @@ button:focus-visible {
   margin-bottom: 35px;
   background: black;
   color: blue;
-  width: 100%;
+  width: 105%;
 }
-/* .header .logo {
-  height: fit-content;
-  width: fit-content;
-  flex-grow: 2;
-  display: flex;
-} */
 .header .logo span {
   display: block;
   font-size: 60px;
@@ -136,6 +112,7 @@ nav{
 }
  */
 .footer {
+  width: 105%;
   text-align: center;
   font-size: 14px;
   border-top: 5px solid blue;
@@ -148,6 +125,7 @@ nav{
 }
 .home {
   background: black;
+  width: 100%;
   border: 3px solid blue;
   margin-top: 50px;
   padding: 25px;
@@ -416,6 +394,7 @@ input[type="submit"]:hover {
     font-size: 0.8em;
   }
   .header{
+    width: 100%;
     margin-top: -25px;
     margin-bottom: 10px;
     height: fit-content;
