@@ -9,14 +9,14 @@ export const trabajos = [
     {
         'id': 'juegos',
         'nombre': 'Los Juegos de mi Vida',
-        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/be9b80a6-e0dc-4fdc-a07b-1fe284a4160d',
+        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/a923fed3-ebba-4127-a203-87d845d6f9df',
         'tecnologias': 'REACT, Node, Mongo',
         'categorias': 'Desarrollo Web'
     },
     {
         'id': 'videojuegos',
         'nombre': 'Welcome Gamers',
-        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/a923fed3-ebba-4127-a203-87d845d6f9df',
+        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/be9b80a6-e0dc-4fdc-a07b-1fe284a4160d',
         'tecnologias': 'CRUD PHP',
         'categorias': 'Desarrollo Web'
     },
