@@ -254,6 +254,12 @@ nav{
   text-align: center;
   padding: 15px;
 }
+.service:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 300ms;
+  box-shadow: 0px 0px 5px 5px #646cff;
+}
 .education1:hover {
   border: 3px solid #fa4529;
   background-color: #646cff;
@@ -268,12 +274,6 @@ nav{
 .service strong {
   color: red;
   font-weight: 500;
-}
-.service strong:hover {
-  border-radius: 3px;
-  background: blue;
-  color: black;
-  transition: all 300ms;
 }
 .service h2 {
   color: blue;
@@ -479,7 +479,7 @@ input[type="submit"]:hover {
     text-align: center;
     padding: 15px;
   }  
-  .page{
+  .services{
     display: flex;
     flex-direction: column;
     align-items: center;

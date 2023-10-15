@@ -9,28 +9,28 @@ export const trabajos = [
     {
         'id': 'juegos',
         'nombre': 'Los Juegos de mi Vida',
-        'url': 'https://ibb.co/5rmyKTd',
+        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/be9b80a6-e0dc-4fdc-a07b-1fe284a4160d',
         'tecnologias': 'REACT, Node, Mongo',
         'categorias': 'Desarrollo Web'
     },
     {
         'id': 'videojuegos',
         'nombre': 'Welcome Gamers',
-        'url': 'https://ibb.co/d2ktFws',
+        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/a923fed3-ebba-4127-a203-87d845d6f9df',
         'tecnologias': 'CRUD PHP',
         'categorias': 'Desarrollo Web'
     },
     {
         'id': 'starwars',
         'nombre': 'Star Wars',
-        'url': 'https://ibb.co/DKCKFb5',
+        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/05dce3f1-3093-4552-b483-ca41fa5bcb39',
         'tecnologias': 'API, HTML, CSS, JS',
         'categorias': 'Desarrollo Web'
     },
     {
         'id': 'musica',
         'nombre': 'Compositores',
-        'url': 'https://ibb.co/B2wVtp4',
+        'url': 'https://github.com/TonyVargas777/portafolio/assets/129131613/fbd95f74-293c-449f-a3df-53c957ee4585',
         'tecnologias': 'HTML, CSS, JS',
         'categorias': 'Desarrollo Web'
     }/* ,
