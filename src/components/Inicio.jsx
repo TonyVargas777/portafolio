@@ -107,7 +107,8 @@ export const Inicio = () => {
         <a href="mailto:tonacovargas@hotmail.com" target="blank">
           <img className="red"
             align="center"
-            src="https://us.123rf.com/450wm/mamanamsai/mamanamsai1501/mamanamsai150100386/35929070-email-icono-en-el-fondo-azul-limpio-vector.jpg"
+            /* src="https://us.123rf.com/450wm/mamanamsai/mamanamsai1501/mamanamsai150100386/35929070-email-icono-en-el-fondo-azul-limpio-vector.jpg" */
+            src="img/email.jpg"
             alt="email"
             height="40"
             width="40"
