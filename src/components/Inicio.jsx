@@ -6,19 +6,28 @@ import image_react from "./img/reactjs-ar21.png";
 import image_node from "./img/nodejs-ar21.png";
 import image_mongo from "./img/Mongo-db-logo.png";
 import image_express from "./img/express.png";
+import image_photo from "./img/perfil.jpg";
 
 export const Inicio = () => {
   return (
     <div className="home">
-      <h1 className="ancho_home">
-        Hola, soy <strong className="type">Tony Vargas</strong> y soy
-        Desarrollador Web.
-      </h1>
+      <div className="my_self">
+        <div className="photo">
+        <img className="skills1" src={image_photo} alt="photo" />
+        </div>
+        <div className="my_self_type">
+          <h1 className="ancho_home">
+            Hola, soy <strong className="type">Tony Vargas</strong> y soy
+            Desarrollador Web.
+          </h1>
+         
+        </div>
+      </div>
       <h2 className="texts">
-        Vivo en Barcelona, y ofrezco mis servicios de{" "}
-        <strong> programación</strong> y <strong>desarrollo </strong>
-        en todo tipo de proyectos web.
-      </h2>
+            Vivo en Barcelona, y ofrezco mis servicios de{" "}
+            <strong> programación</strong> y <strong>desarrollo </strong>
+            en todo tipo de proyectos web.
+          </h2>
       <div>
         <img className="skills" src={image_html} alt="" />
       </div>
@@ -54,7 +63,7 @@ export const Inicio = () => {
             ></img>
           </a>
         </div>
-        
+
         <div>
           <a
             href="https://twitter.com/tonaco777"

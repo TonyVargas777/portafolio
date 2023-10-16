@@ -106,11 +106,6 @@ nav{
   height: fit-content;
   padding-bottom: 75px;
 }
-/* .content {
-  min-height: 1000px;
-  height: fit-content;
-}
- */
 .footer {
   width: 105%;
   text-align: center;
@@ -122,6 +117,27 @@ nav{
   min-height: 50px;
   line-height: 10px;
   background: black;
+}
+.my_self{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.photo{
+  width: 20%;
+  padding: 5%;
+}
+.photo img{
+  width: 100%;
+  border: 12px double blue;
+  border-radius: 300px;
+  padding: 5%;
+}
+.my_self_type{
+  padding: 5%;
+  display: flex;
+  flex-direction: columnn;
 }
 .home {
   background: black;
@@ -138,8 +154,6 @@ nav{
 }
 .home h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
- /*  font-weight: 400;
-  font-size: 40px; */
   margin-bottom: 0px;
 }
 .home h2 {
@@ -436,8 +450,25 @@ input[type="submit"]:hover {
     margin-top: 0px;
     padding: 15px;
   }
+  .my_self{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .my_self_type{
+    display: flex;
+    flex-direction: column;
+  }
   .ancho_home{
     min-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  .photo{
+    width: 25%;
+    display: grid;
+    place-items: center;
   }
   .texts{
     width: 85%;
@@ -475,12 +506,34 @@ input[type="submit"]:hover {
     align-items: center;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .header nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     margin-left: -15px;
+  }
+  .my_self{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .photo{
+    width: 40%;
+    display: grid;
+    place-items: center;
+  }
+  .photo img{
+    width: 100%;
+    border: 12px double blue;
+    border-radius: 300px;
+    padding: 5%;
+  }
+  .my_self_type{
+    padding: 5%;
+    display: flex;
+    flex-direction: columnn;
   }
 }
