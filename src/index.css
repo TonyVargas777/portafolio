@@ -139,6 +139,11 @@ nav{
   display: flex;
   flex-direction: columnn;
 }
+.ancho_home{
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
 .home {
   background: black;
   width: 100%;
@@ -174,7 +179,7 @@ nav{
   border: 1px solid lightpink
 }
 .home strong {
-  color: #fa4529;
+  color: blue;
 }
 .type {
   display: grid;
