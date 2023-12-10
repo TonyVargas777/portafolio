@@ -7,7 +7,7 @@ const BotonSubir = () => {
     
   return (
     <div className="botonSubir" >
-      <a href="#">SUBIR</a>
+      <a href="#">▲</a>
     </div>
   );
 };

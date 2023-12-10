@@ -19,7 +19,7 @@ export const Inicio = () => {
         <div className="my_self_type">
           <h1 className="ancho_home">
             Hola, soy <strong className="type">Tony Vargas</strong> y soy
-            Desarrollador Web.
+            Desarrollador Web Full Stack
           </h1>
         </div>
       </div>
