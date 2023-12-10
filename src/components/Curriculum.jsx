@@ -1,5 +1,5 @@
 import React from "react";
-import image_html from "./img/html_css_js.png";
+import image_html from "./img/tailwind-html-js.png";
 import image_react from "./img/reactjs-ar21.png";
 import image_node from "./img/nodejs-ar21.png";
 import image_mongo from "./img/Mongo-db-logo.png";

@@ -7,27 +7,27 @@ import image_node from "./img/nodejs-ar21.png";
 import image_mongo from "./img/Mongo-db-logo.png";
 import image_express from "./img/express.png";
 import image_photo from "./img/perfil.jpg";
+import BotonSubir from './BotonSubir'
 
 export const Inicio = () => {
   return (
     <div className="home">
       <div className="my_self">
-        <div className="photo">
-        <img className="skills1" src={image_photo} alt="photo" />
+        <div className="container">
+          <img className="avatar" src={image_photo} alt="photo" />
         </div>
         <div className="my_self_type">
           <h1 className="ancho_home">
             Hola, soy <strong className="type">Tony Vargas</strong> y soy
             Desarrollador Web.
           </h1>
-         
         </div>
       </div>
       <h2 className="texts">
-            Vivo en Barcelona, y ofrezco mis servicios de{" "}
-            <strong> programación</strong> y <strong>desarrollo </strong>
-            en todo tipo de proyectos web.
-          </h2>
+        Vivo en Barcelona, y ofrezco mis servicios de{" "}
+        <strong> programación</strong> y <strong>desarrollo </strong>
+        en todo tipo de proyectos web.
+      </h2>
       <div>
         <img className="skills" src={image_html} alt="" />
       </div>
