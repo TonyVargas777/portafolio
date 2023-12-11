@@ -64,7 +64,7 @@ export const Servicios = () => {
           <h2>6. Experiencia en Tecnologías:</h2>
           <p>
             Mi conjunto de habilidades incluye experiencia en <strong>HTML5, CSS3,
-            JavaScript</strong>, así como en el uso de frameworks como <strong>Bootstrap y React</strong>.
+            JavaScript</strong>, así como en el uso de frameworks como <strong>Tailwind y React</strong>.
             Además, tengo experiencia en la optimización de sitios web para el
             rendimiento y la accesibilidad, lo que garantiza que cada proyecto
             sea rápido y disponible para todos.
