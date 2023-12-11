@@ -424,7 +424,7 @@ input[type="submit"]:hover {
 }
 .work-item img:hover {
   transition: all 300ms;
-  width: 115%;
+  width: 130%;
   overflow: hidden;
 }
 .work-item span {
@@ -637,4 +637,20 @@ input[type="submit"]:hover {
 	transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 	img { width: 100%; height: auto; }
+}
+.botonSubir{
+  position: fixed;
+  bottom: 1rem;
+  right: 1.25rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  color: #1e40af;
+  background-color: #ffffff;
+  border: 4px solid #1e40af;  
+  border-radius: 0.75rem;
+  cursor: pointer;  
+}
+.botonSubir:hover {
+  border: 3px solid #1a365d;
+  bottom: 1rem;  
 }

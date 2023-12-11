@@ -9,8 +9,6 @@ export const ListadoTrabajos = ({limite}) => {
         return (
           <article key={trabajo.id} className="work-item">
             <div className="mask">
-              {/* <img src={"../src/components/img/"+trabajo.id+".png"}/> */}
-              {/* <img src={process.env.PUBLIC_URL + "/img/" + trabajo.id + ".png"}/> */}
               <img src={"/img/"+trabajo.id+".png"}/>
 
             </div>

@@ -5,7 +5,7 @@ export const Portafolio = () => {
   return (
     <div className="page">
       
-      <ListadoTrabajos/>
+      <ListadoTrabajos />
       
     </div>
   );

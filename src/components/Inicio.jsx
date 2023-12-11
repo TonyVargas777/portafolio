@@ -47,7 +47,7 @@ export const Inicio = () => {
           Contacta conmigo
         </Link>
       </h2>
-      <div align="center" className="redes">
+      <div className="redes">
         <div>
           <a
             href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
