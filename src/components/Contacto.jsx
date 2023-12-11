@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export const Contacto = () => {
   return (
-    <div className='education'>
-      <h1 className='heading'>Contacto:</h1>
-      <div align="center" className="redes">
+    <div className="education">
+      <h1 className="heading">Contacto:</h1>
+      <div align="center" className="redes_contacto">
         <div>
           <a
             href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
@@ -20,7 +20,13 @@ export const Contacto = () => {
             ></img>
           </a>
         </div>
-        
+        <a
+          href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
+          alt="linkedin"
+        >
+          https://linkedin.com/in/tony-vargas-garcía-122b1424b
+        </a>
+
         <div>
           <a
             href="https://twitter.com/tonaco777"
@@ -38,6 +44,9 @@ export const Contacto = () => {
             ></img>
           </a>
         </div>
+        <a href="https://twitter.com/tonaco777" alt="twitter">
+          https://twitter.com/tonaco777
+        </a>
         <div>
           <a
             href="https://www.instagram.com/tonaco777/"
@@ -55,6 +64,9 @@ export const Contacto = () => {
             ></img>
           </a>
         </div>
+        <a href="https://www.instagram.com/tonaco777/">
+          https://www.instagram.com/tonaco777/
+        </a>
         <div>
           <a
             href="https://github.com/TonyVargas777"
@@ -72,6 +84,9 @@ export const Contacto = () => {
             ></img>
           </a>
         </div>
+        <a href="https://github.com/TonyVargas777" alt="github">
+          https://github.com/TonyVargas777
+        </a>
         <div>
           <a href="mailto:tonacovargas@hotmail.com" target="blank">
             <img
@@ -84,16 +99,10 @@ export const Contacto = () => {
             ></img>
           </a>
         </div>
+        <a href="mailto:tonacovargas@hotmail.com" target="blank">
+        tonacovargas@hotmail.com
+        </a>
       </div>
-      <form className="contact" action="mailto:tonacovargas@hotmail.com">
-        <input type="text" placeholder='Nombre'/>
-        <input type="text" placeholder='Apellidos'/>
-        <input type="text" placeholder='Email'/>
-        <textarea placeholder='Motivo de contacto'></textarea>
-        <input type="submit" value="Enviar" />
-      </form>
-
     </div>
-  )
-}
- 
+  );
+};
