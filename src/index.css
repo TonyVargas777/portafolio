@@ -457,6 +457,9 @@ input[type="submit"]:hover {
     background-image: url("./components/img/1kc1.gif");
     background-size: cover;
   }
+  html{
+    height: 1000px;
+  }
   .layout{
     width: 95%;
     display: flex;
