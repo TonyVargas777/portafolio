@@ -14,9 +14,10 @@
 }
 html{
   width: 100%;
+  height: 2000px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
 }
 
 button {
