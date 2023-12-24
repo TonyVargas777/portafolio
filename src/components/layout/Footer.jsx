@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div>Portafolio Tony Vargas &copy; Máster en React</div>
-      <div>
+      <section>
         <div className="redes_footer">
           <div>
             <a
@@ -26,7 +26,7 @@ export const Footer = () => {
               href="https://twitter.com/tonaco777"
               alt="tony777."
               height="20px"
-                width="20px"
+              width="20px"
             >
               <img
                 className="red"
@@ -43,7 +43,7 @@ export const Footer = () => {
               href="https://www.instagram.com/tonaco777/"
               alt="instagram"
               height="20px"
-                width="20px"
+              width="20px"
             >
               <img
                 className="red"
@@ -60,7 +60,7 @@ export const Footer = () => {
               href="https://github.com/TonyVargas777"
               alt="github"
               height="20px"
-                width="20px"
+              width="20px"
             >
               <img
                 className="red"
@@ -73,8 +73,12 @@ export const Footer = () => {
             </a>
           </div>
           <div>
-            <a href="mailto:tonacovargas@hotmail.com" target="blank" height="20px"
-                width="20px">
+            <a
+              href="mailto:tonacovargas@hotmail.com"
+              target="blank"
+              height="20px"
+              width="20px"
+            >
               <img
                 className="red"
                 align="center"
@@ -86,7 +90,7 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-      </div>
+      </section>
     </footer>
   );
 };
