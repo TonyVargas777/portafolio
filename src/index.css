@@ -164,6 +164,7 @@ nav{
   padding: 2%;
   display: flex;
   flex-direction: columnn;
+  margin-left: 5%;
 }
 .ancho_home{
   min-width: 320px;
@@ -263,8 +264,9 @@ nav{
   padding-left: 10%;
   padding-right: 10%;
   padding-top:3%;
-  padding-bottom:3%;
+  padding-bottom:6%;
   margin: 15px;
+  margin-bottom: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -353,7 +355,7 @@ input[type="submit"]:hover {
 .skills{
   border: 6px double blue;
   transition: all 300ms;
-  width: 50%;
+  width: 40%;
   margin-bottom: 20px;
 }
 .skills1 {
@@ -365,7 +367,7 @@ input[type="submit"]:hover {
 .skills:hover {
   border: 9px double blue;
   -webkit-transform: scale(1.3);
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .skills1:hover {
   -webkit-transform: rotate(360deg);
@@ -452,7 +454,9 @@ input[type="submit"]:hover {
   align-items: center;
 }
 .texts{
-  width: 80%;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 3%;
 }
 @media (max-width: 1030px) {
   :root{
@@ -538,6 +542,12 @@ input[type="submit"]:hover {
   .red{
     margin: 5px;
     padding: 5px;
+  }
+  .skills{
+    border: 6px double blue;
+    transition: all 300ms;
+    width: 50%;
+    margin-bottom: 20px;
   }
   .footer {
     width: 100%;

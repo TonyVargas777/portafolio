@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const BotonSubir = () => {
   const [showButton, setShowButton] = useState(false);
@@ -13,23 +13,20 @@ const BotonSubir = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Limpia el event listener cuando el componente se desmonta
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const handleScrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
-    <div
-      className="botonSubir"
-      onClick={handleScrollToTop}
-    >
+    <div className="botonSubir" onClick={handleScrollToTop}>
       <span>⬆️</span>
     </div>
   );

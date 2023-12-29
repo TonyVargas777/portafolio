@@ -21,7 +21,7 @@ export const Footer = () => {
               ></img>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a
               href="https://twitter.com/tonaco777"
               alt="tony777."
@@ -37,8 +37,8 @@ export const Footer = () => {
                 width="20px"
               ></img>
             </a>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <a
               href="https://www.instagram.com/tonaco777/"
               alt="instagram"
@@ -54,7 +54,7 @@ export const Footer = () => {
                 width="20px"
               ></img>
             </a>
-          </div>
+          </div> */}
           <div>
             <a
               href="https://github.com/TonyVargas777"

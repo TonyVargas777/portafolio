@@ -3,10 +3,10 @@ import { ListadoTrabajos } from "./ListadoTrabajos"
 
 export const Portafolio = () => {
   return (
-    <div className="page">
+    <section className="page">
       
       <ListadoTrabajos />
       
-    </div>
+    </section>
   );
 };

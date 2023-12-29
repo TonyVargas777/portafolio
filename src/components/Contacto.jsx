@@ -2,10 +2,10 @@ import React from "react";
 
 export const Contacto = () => {
   return (
-    <div className="education">
+    <section className="education">
       <h1 className="heading">Contacto:</h1>
       <div align="center" className="redes_contacto">
-        <div>
+        <article>
           <a
             href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
             target="blank"
@@ -19,7 +19,7 @@ export const Contacto = () => {
               width="40px"
             ></img>
           </a>
-        </div>
+        </article>
         <a
           href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
           alt="linkedin"
@@ -27,7 +27,7 @@ export const Contacto = () => {
           https://linkedin.com/in/tony-vargas-garcía-122b1424b
         </a>
 
-        <div>
+        {/* <article>
           <a
             href="https://twitter.com/tonaco777"
             alt="tony777."
@@ -43,11 +43,11 @@ export const Contacto = () => {
               width="40px"
             ></img>
           </a>
-        </div>
+        </article>
         <a href="https://twitter.com/tonaco777" alt="twitter">
           https://twitter.com/tonaco777
-        </a>
-        <div>
+        </a> */}
+        {/* <article>
           <a
             href="https://www.instagram.com/tonaco777/"
             alt="instagram"
@@ -63,11 +63,11 @@ export const Contacto = () => {
               width="40px"
             ></img>
           </a>
-        </div>
+        </article>
         <a href="https://www.instagram.com/tonaco777/">
           https://www.instagram.com/tonaco777/
-        </a>
-        <div>
+        </a> */}
+        <article>
           <a
             href="https://github.com/TonyVargas777"
             alt="github"
@@ -83,11 +83,11 @@ export const Contacto = () => {
               width="40px"
             ></img>
           </a>
-        </div>
+        </article>
         <a href="https://github.com/TonyVargas777" alt="github">
           https://github.com/TonyVargas777
         </a>
-        <div>
+        <article>
           <a href="mailto:tonacovargas@hotmail.com" target="blank">
             <img
               className="red"
@@ -98,11 +98,11 @@ export const Contacto = () => {
               width="40"
             ></img>
           </a>
-        </div>
+        </article>
         <a href="mailto:tonacovargas@hotmail.com" target="blank">
-        tonacovargas@hotmail.com
+          tonacovargas@hotmail.com
         </a>
       </div>
-    </div>
+    </section>
   );
 };
