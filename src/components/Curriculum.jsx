@@ -28,8 +28,7 @@ export const Curriculum = () => {
             Certificado de Profesionalidad DESARROLLO DE APLICACIONES CON
             TECNOLOGÍAS WEB
           </h2>
-          <h4>CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)</h4>
-          <h5> FCI - Servicios y tecnologías de la información</h5>
+          <h4>CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)</h4>          
         </article>
         <article className="education1">
           <h2>

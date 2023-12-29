@@ -43,7 +43,7 @@ export const Inicio = () => {
           relevancia en internet.
         </h2>
       </div>
-      <article>
+      <article className="work-item2">
         <h2>
           <Link to="/contacto" align="center">
             Contacta conmigo
