@@ -10,10 +10,10 @@ export const Curriculum = () => {
     <section className="page">
       <article className="education">
         <h1 className="heading">Conocimientos</h1>
+        <h1 className="heading">MERN STACK</h1>
         <div>
           <img className="skills" src={image_html} alt="" />
         </div>
-        <h1 className="heading">MERN STACK</h1>
         <div>
           <img className="skills1" src={image_mongo} alt="MONGO" />
           <img className="skills1" src={image_express} alt="EXPRESS" />
