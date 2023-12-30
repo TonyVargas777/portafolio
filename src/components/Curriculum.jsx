@@ -20,6 +20,19 @@ export const Curriculum = () => {
           <img className="skills1" src={image_react} alt="REACT" />
           <img className="skills1" src={image_node} alt="NODE" />
         </div>
+        <div>
+          <hr/>
+          Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
+          <hr/>
+          <a
+            href="/cv/tony_vargas_cv.pdf" 
+            download="Tony_Vargas_CV.pdf"
+            target="_blank"
+            title="Descargar Currículum Vitae"
+          >
+            Descargar CV
+          </a>
+        </div>
       </article>
       <article className="education">
         <h1>Educación</h1>

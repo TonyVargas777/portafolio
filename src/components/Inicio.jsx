@@ -118,21 +118,17 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-    <a
-      href="https://wa.me/34661871759"
-      target="blank"
-      title="WhatsApp"
-    >
-      <img
-        className="red"
-        align="center"
-        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
-        alt="WhatsApp"
-        height="40px"
-        width="40px"
-      ></img>
-    </a>
-  </div>
+            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp">
+              <img
+                className="red"
+                align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+                alt="WhatsApp"
+                height="40px"
+                width="40px"
+              ></img>
+            </a>
+          </div>
           <div>
             <a href="mailto:tonacovargas@hotmail.com" target="blank">
               <img
@@ -147,16 +143,18 @@ export const Inicio = () => {
           </div>
         </div>
         <div>
-    <a
-      href="/cv/tony_vargas_cv.pdf"  // Reemplaza con la ruta correcta de tu currículum
-      download="Tony_Vargas_CV.pdf"
-      target="_blank"
-      title="Descargar Currículum Vitae"
-    >
-      Descargar CV
-    </a>
-  </div>
-
+          <hr/>
+          Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
+          <hr/>
+          <a
+            href="/cv/tony_vargas_cv.pdf" 
+            download="Tony_Vargas_CV.pdf"
+            target="_blank"
+            title="Descargar Currículum Vitae"
+          >
+            Descargar CV
+          </a>
+        </div>
       </article>
 
       <article className="lasts-works">

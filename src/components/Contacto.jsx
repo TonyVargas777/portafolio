@@ -67,6 +67,21 @@ export const Contacto = () => {
         <a href="https://www.instagram.com/tonaco777/">
           https://www.instagram.com/tonaco777/
         </a> */}
+        <div>
+            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp">
+              <img
+                className="red"
+                align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+                alt="WhatsApp"
+                height="40px"
+                width="40px"
+              ></img>
+            </a>
+          </div>
+          <a href="https://wa.me/34661871759" alt="github">
+          WhatsApp number: +34 661 87 17 59
+        </a>
         <article>
           <a
             href="https://github.com/TonyVargas777"

@@ -73,6 +73,18 @@ export const Footer = () => {
             </a>
           </div>
           <div>
+            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp">
+              <img
+                className="red"
+                align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+                alt="WhatsApp"
+                height="20px"
+                width="20px"
+              ></img>
+            </a>
+          </div>
+          <div>
             <a
               href="mailto:tonacovargas@hotmail.com"
               target="blank"
