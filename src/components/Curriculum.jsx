@@ -9,8 +9,8 @@ export const Curriculum = () => {
   return (
     <section className="page">
       <article className="education">
-        <h1 className="heading">Conocimientos</h1>
-        <h1 className="heading">MERN STACK</h1>
+        <h1 className="datos">Conocimientos</h1>
+        <h1 className="datos">MERN STACK</h1>
         <div>
           <img className="skills" src={image_html} alt="" />
         </div>
