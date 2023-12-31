@@ -221,7 +221,7 @@ nav{
   height: 65px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 1.5s steps(11) 1s 1 normal both, blink 1s steps(1) infinite;
+  animation: typing 2.5s steps(11) 1s 1 normal both, blink 1s steps(1) infinite;
 }
 @keyframes typing {
   from {
