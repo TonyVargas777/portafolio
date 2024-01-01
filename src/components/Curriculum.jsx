@@ -24,14 +24,14 @@ export const Curriculum = () => {
           <hr/>
           Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
           <hr/>
-          <button
-            href="/cv/tony_vbuttonrgas_cv.pdf" 
+          <a
+            href="../../cv/tony_vargas_cv.pdf" 
             download="Tony_Vargas_CV.pdf"
             target="_blank"
             title="Descargar Currículum Vitae"
           >
             Descargar CV
-          </button>
+          </a>
         </div>
       </div>
       <div className="education">
