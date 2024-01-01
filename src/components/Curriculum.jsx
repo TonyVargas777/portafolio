@@ -25,7 +25,7 @@ export const Curriculum = () => {
           Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
           <hr/>
           <a
-            href="/cv/Tony_Vargas_CV.pdf" 
+            href="../../cv/Tony_Vargas_CV.pdf" 
             download="Tony_Vargas_CV.pdf"
             target="_blank"
             title="Descargar Currículum Vitae"
