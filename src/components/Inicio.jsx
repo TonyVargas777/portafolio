@@ -29,7 +29,7 @@ export const Inicio = () => {
       </h2>
       <div>
         <div>
-          <img className="skills" src={image_html} alt="" />
+          <img className="skills" src={image_html} alt="html_css_js" />
         </div>
         <h1>MERN STACK</h1>
         <div>
@@ -54,6 +54,7 @@ export const Inicio = () => {
             <a
               href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
               target="blank"
+              alt="LinkedIn"
             >
               <img
                 className="red"
@@ -118,7 +119,7 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp">
+            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp" alt="WhatsApp">
               <img
                 className="red"
                 align="center"
@@ -130,7 +131,7 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-            <a href="mailto:tonacovargas@hotmail.com" target="blank">
+            <a href="mailto:tonacovargas@hotmail.com" target="blank" alt="email">
               <img
                 className="red"
                 align="center"
@@ -151,6 +152,7 @@ export const Inicio = () => {
             download="Tony_Vargas_CV.pdf"
             target="_blank"
             title="Descargar Currículum Vitae"
+            alt="CV"
           >
             Descargar CV
           </a>
