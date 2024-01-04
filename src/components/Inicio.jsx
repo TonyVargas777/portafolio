@@ -6,7 +6,7 @@ import image_react from "./img/reactjs-ar21.png";
 import image_node from "./img/nodejs-ar21.png";
 import image_mongo from "./img/Mongo-db-logo.png";
 import image_express from "./img/express.png";
-import image_photo from "./img/perfil.jpg";
+import image_photo from "./img/perfil_avatar2.avif";
 
 export const Inicio = () => {
   return (
