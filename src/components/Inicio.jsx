@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ListadoTrabajos } from "./ListadoTrabajos";
-import image_html from "./img/html_css_js1.png";
-import image_react from "./img/reactjs-ar21.png";
-import image_node from "./img/nodejs-ar21.png";
-import image_mongo from "./img/Mongo-db-logo.png";
-import image_express from "./img/express.png";
+import image_html from "./img/html_css_js1.avif";
+import image_react from "./img/reactjs-ar21.avif";
+import image_node from "./img/nodejs-ar21.avif";
+import image_mongo from "./img/Mongo-db-logo.avif";
+import image_express from "./img/express.avif";
 import image_photo from "./img/perfil_avatar2.avif";
 
 export const Inicio = () => {
@@ -28,9 +28,9 @@ export const Inicio = () => {
         en todo tipo de proyectos web.
       </h2>
       <div>
-        <div>
-          <img className="skills" src={image_html} alt="html_css_js" />
-        </div>
+        
+          <img fetchpriority="high" className="skills" src={image_html} alt="html_css_js" />
+        
         <h1>MERN STACK</h1>
         <div>
           <img className="skills1" src={image_mongo} alt="MONGO" />
