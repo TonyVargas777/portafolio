@@ -584,6 +584,9 @@ input[type="submit"]:hover {
     margin-top: 0px;
     padding: 15px;
   }
+  .work-item2{
+    width: 300px;
+  }
   .my_self{
     display: flex;
     flex-direction: row;
