@@ -168,7 +168,7 @@ nav{
   margin-left: 5%;
 }
 .ancho_home{
-  min-width: 320px;
+  min-width: 265px;
   display: flex;
   flex-direction: column;
 }
@@ -572,7 +572,7 @@ input[type="submit"]:hover {
   }
   .home{
     font-size: 0.8em;
-    min-width: 320px;
+    min-width: 265px;
     width: 90%;
     display: flex;
     flex-direction: column;
