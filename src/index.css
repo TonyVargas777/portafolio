@@ -585,7 +585,7 @@ input[type="submit"]:hover {
     padding: 15px;
   }
   .work-item2{
-    width: 300px;
+    max-width: 350px;
   }
   .my_self{
     display: flex;
@@ -677,6 +677,13 @@ input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     margin-left: -15px;
+  }
+  .work-item2{
+    max-width: 250px;
+  }
+  .red{
+    margin: 0px;
+    padding: 0px;
   }
   .my_self{
     display: flex;
