@@ -9,7 +9,7 @@
   width:100%;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: url("./components/img/1kc1.gif");
+  background-image: url("../src/components/img/1kc1.gif");
   background-size:cover;
   background-attachment: fixed;
 }
@@ -76,7 +76,7 @@ button:focus-visible {
   color: blue;
   width: 100%;
 }
-.header .logo span {
+/* .header .logo span {
   display: block;
   font-size: 60px;
   font-weight: bolder;
@@ -88,9 +88,9 @@ button:focus-visible {
   font-weight: lighter;
   text-transform: uppercase;
   text-align: center;
-}
+} */
 .port {
-  margin-left: 25px;
+  margin-left: 5px;
 }
 .header nav {
   flex-grow: 1;
@@ -213,7 +213,7 @@ nav{
 .type {
   display: grid;
   place-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Courier New";
   border-right: 0.1em solid blue;
   animation: blink 1s steps(1) infinite;
@@ -228,7 +228,7 @@ nav{
     width: 0;
   }
   to {
-    width: 315px;
+    width: 265px;
   }
 }
 @keyframes blink {
@@ -284,6 +284,16 @@ nav{
 .red{
   margin: 15px;
   padding: 15px;
+}
+.logo{
+  margin: 10px;
+  padding: 0px;
+  border-radius: 5px;
+}
+.logo_port{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .red:hover {
   -webkit-transform: scale(1.3);
@@ -515,7 +525,7 @@ input[type="submit"]:hover {
 @media (max-width: 1030px) {
   :root{
     width: 100%;
-    background-image: url("./components/img/1kc1.gif");
+    background-image: url("/matrix_azul.avif");
     background-size: cover;
     background-attachment: fixed;
   }
@@ -582,7 +592,7 @@ input[type="submit"]:hover {
     flex-direction: column;
   }
   .ancho_home{
-    min-width: 320px;
+    min-width: 265px;
     display: flex;
     flex-direction: column;
   }
@@ -649,7 +659,7 @@ input[type="submit"]:hover {
 @media (max-width: 600px) {
   :root{
     width: 90%;
-    background-image: url("./components/img/1kc1.gif");
+    background-image: url("/matrix_azul.avif");
   background-size:cover;
   }
   .education {
