@@ -435,6 +435,9 @@ input[type="submit"]:hover {
   background: black;
   box-shadow: 0px 5px 14px #646cff;
 }
+.cv{
+  width:auto;
+}
 .mask { 
   overflow: hidden;
   width: 100%;

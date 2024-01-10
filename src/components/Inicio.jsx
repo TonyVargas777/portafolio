@@ -143,7 +143,7 @@ export const Inicio = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="cv">
           <hr/>
           Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
           <hr/>
