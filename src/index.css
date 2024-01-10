@@ -90,7 +90,7 @@ button:focus-visible {
   text-align: center;
 } */
 .port {
-  margin-left: 5px;
+  margin-left: 25px;
 }
 .header nav {
   flex-grow: 1;
