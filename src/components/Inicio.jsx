@@ -27,21 +27,32 @@ export const Inicio = () => {
         <strong> programación</strong> y <strong>desarrollo </strong>
         en todo tipo de proyectos web.
       </h2>
-      <div>
-        
-          <img fetchpriority="high" className="skills" src={image_html} alt="html_css_js" />
-        
+
+      <article className="last-works">
+        <h2 className="heading">Mi último proyecto:</h2>        
+        <div className="works">
+          <ListadoTrabajos limite="1" />
+        </div>
+      </article>
+
+      <div className="work-item-skills">
         <h1>MERN STACK</h1>
-        <div>
+        <img
+          fetchpriority="high"
+          className="skills"
+          src={image_html}
+          alt="html_css_js"
+        />
+        <div className="skills1_caja">
           <img className="skills1" src={image_mongo} alt="MONGO" />
           <img className="skills1" src={image_express} alt="EXPRESS" />
           <img className="skills1" src={image_react} alt="REACT" />
           <img className="skills1" src={image_node} alt="NODE" />
         </div>
-        <h2 className="texts">
+        <h3 >
           Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y
           relevancia en internet.
-        </h2>
+        </h3>
       </div>
       <article className="work-item2">
         <h2>
@@ -119,7 +130,12 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp" alt="WhatsApp">
+            <a
+              href="https://wa.me/34661871759"
+              target="blank"
+              title="WhatsApp"
+              alt="WhatsApp"
+            >
               <img
                 className="red"
                 align="center"
@@ -131,7 +147,11 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-            <a href="mailto:tonacovargas@hotmail.com" target="blank" alt="email">
+            <a
+              href="mailto:tonacovargas@hotmail.com"
+              target="blank"
+              alt="email"
+            >
               <img
                 className="red"
                 align="center"
@@ -144,11 +164,13 @@ export const Inicio = () => {
           </div>
         </div>
         <div className="cv">
-          <p>Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:</p>
-          
+          <p>
+            Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
+          </p>
+
           <br />
           <a
-            href="/cv/Tony_Vargas_CV.pdf" 
+            href="/cv/Tony_Vargas_CV.pdf"
             download="Tony_Vargas_CV.pdf"
             target="_blank"
             title="Descargar Currículum Vitae"
@@ -156,14 +178,6 @@ export const Inicio = () => {
           >
             Descargar CV
           </a>
-        </div>
-      </article>
-
-      <article className="lasts-works">
-        <h2 className="heading">Mi último proyecto:</h2>
-        <p className="heading2">Miniatura de mi último proyecto:</p>
-        <div className="works">
-          <ListadoTrabajos limite="1" />
         </div>
       </article>
     </div>
