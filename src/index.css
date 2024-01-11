@@ -422,6 +422,7 @@ textarea {
   height: fit-content;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .work-item {
   width: fit-content;
@@ -430,6 +431,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 20px;
   border: 2px solid blue;
   border-radius: 8px;
@@ -504,6 +506,7 @@ textarea {
   display: block;
   color: white;
   max-width: 500px;
+  justify-content: center;
 }
 .work-item a {
   background: blue;
@@ -516,7 +519,8 @@ textarea {
 .datos{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  
+  justify-content: center;
 }
 .texts{
   width: 85%;
@@ -618,6 +622,12 @@ textarea {
     margin-top: 0px;
     padding: 15px;
   }
+  .works {
+    height: fit-content;
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;
+  }
   .work-item2,.cv{
     max-width: 350px;
   }
@@ -711,6 +721,27 @@ textarea {
     justify-content: center;
     align-items: center;
     margin-left: -15px;
+  }
+  .works {
+    height: fit-content;
+    display: flex;
+    flex-wrap: column;
+    justify-content: center;
+  }
+  .work-item {
+    width: fit-content;
+    flex-basis: 60%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    padding: 15px;
+    background: black;
+    box-shadow: 0px 5px 14px #646cff;
   }
   .work-item2,.cv{
     max-width: 250px;

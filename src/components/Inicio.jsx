@@ -43,7 +43,7 @@ export const Inicio = () => {
           src={image_html}
           alt="html_css_js"
         />
-        <div className="skills1_caja">
+        <div className="skills1_zcaja">
           <img className="skills1" src={image_mongo} alt="MONGO" />
           <img className="skills1" src={image_express} alt="EXPRESS" />
           <img className="skills1" src={image_react} alt="REACT" />
@@ -164,9 +164,9 @@ export const Inicio = () => {
           </div>
         </div>
         <div className="cv">
-          <p>
+          <h3>
             Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
-          </p>
+          </h3>
 
           <br />
           <a
