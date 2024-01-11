@@ -144,9 +144,9 @@ export const Inicio = () => {
           </div>
         </div>
         <div className="cv">
-          <hr/>
-          Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
-          <hr/>
+          <p>Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:</p>
+          
+          <br />
           <a
             href="/cv/Tony_Vargas_CV.pdf" 
             download="Tony_Vargas_CV.pdf"
