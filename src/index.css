@@ -149,7 +149,7 @@ nav {
   margin-left: 5%;
 }
 .ancho_home {
-  min-width: 266px;
+  min-width: 268px;
   display: flex;
   flex-direction: column;
 }
@@ -601,7 +601,7 @@ nav {
     flex-direction: column;
   }
   .ancho_home {
-    min-width: 266px;
+    min-width: 268px;
     display: flex;
     flex-direction: column;
   }
