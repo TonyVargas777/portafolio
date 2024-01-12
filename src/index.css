@@ -197,7 +197,7 @@ nav {
 .type {
   display: grid;
   place-items: center;
-  font-size: 2.5rem;
+  font-size: 2.47rem;
   font-family: "Courier New";
   border-right: 0.1em solid blue;
   animation: blink 1s steps(1) infinite;
@@ -212,7 +212,7 @@ nav {
     width: 0;
   }
   to {
-    width: 266px;
+    width: 262px;
   }
 }
 @keyframes blink {
