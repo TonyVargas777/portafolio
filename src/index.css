@@ -143,13 +143,12 @@ nav {
   padding: 5%;
 }
 .my_self_type {
-  padding: 2%;
   display: flex;
   flex-direction: columnn;
   margin-left: 5%;
 }
 .ancho_home {
-  min-width: 268px;
+  min-width: 266px;
   display: flex;
   flex-direction: column;
 }
@@ -213,7 +212,7 @@ nav {
     width: 0;
   }
   to {
-    width: 268px;
+    width: 266px;
   }
 }
 @keyframes blink {
@@ -601,7 +600,7 @@ nav {
     flex-direction: column;
   }
   .ancho_home {
-    min-width: 268px;
+    min-width: 266px;
     display: flex;
     flex-direction: column;
   }
@@ -736,7 +735,7 @@ nav {
     padding: 5%;
   }
   .my_self_type {
-    padding: 5%;
+    padding-bottom: 5%;
     display: flex;
     flex-direction: columnn;
     margin-left: 0%;
