@@ -35,14 +35,15 @@ export const Inicio = () => {
       </article>
 
       <div className="work-item-skills">
-        <h1>MERN STACK</h1>
+        <h2  className="heading">MERN STACK</h2>
+        <br />
         <img
           fetchpriority="high"
           className="skills"
           src={image_html}
           alt="html_css_js"
         />
-        <div className="skills1_zcaja">
+        <div className="skills1_caja">
           <img className="skills1" src={image_mongo} alt="MONGO" />
           <img className="skills1" src={image_express} alt="EXPRESS" />
           <img className="skills1" src={image_react} alt="REACT" />

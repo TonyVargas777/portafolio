@@ -9,8 +9,8 @@ export const Curriculum = () => {
   return (
     <div className="page">
       <div className="education">
-        <h1>Conocimientos</h1>
-        <h1>MERN STACK</h1>
+        <h2>Conocimientos</h2>
+        <h2>MERN STACK</h2>
         <div>
           <img className="skills" src={image_html} alt="" />
         </div>
@@ -35,24 +35,24 @@ export const Curriculum = () => {
         </div>
       </div>
       <div className="education">
-        <h1>Educación</h1>
+        <h2>Educación</h2>
         <div className="education1">
           <h2>
             Certificado de Profesionalidad DESARROLLO DE APLICACIONES CON
             TECNOLOGÍAS WEB
           </h2>
-          <h4>CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)</h4>
+          <h3>CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)</h3>
         </div>
         <div className="education1">
           <h2>
             Programa Especializado - Data Science Fundamentals with Python and
             SQL.
           </h2>
-          <h4>Certificado a cargo de IBM en Coursera</h4>
+          <h3>Certificado a cargo de IBM en Coursera</h3>
         </div>
         <div className="education1">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
-          <h4> EF Standard English Test (EF SET) (2023)</h4>
+          <h3> EF Standard English Test (EF SET) (2023)</h3>
         </div>
       </div>
     </div>
