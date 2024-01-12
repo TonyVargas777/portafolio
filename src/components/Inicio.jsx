@@ -23,13 +23,12 @@ export const Inicio = () => {
         </div>
       </div>
       <h2 className="texts">
-        Vivo en Barcelona, y ofrezco mis servicios de{" "}
-        <strong> programación</strong> y <strong>desarrollo </strong>
+        Vivo en Barcelona, y ofrezco mis servicios de programación y desarrollo
         en todo tipo de proyectos web.
       </h2>
 
       <article className="last-works">
-        <h2 className="heading">Mi último proyecto:</h2>        
+        <h2 className="heading">Mi último proyecto:</h2>
         <div className="works">
           <ListadoTrabajos limite="1" />
         </div>
@@ -49,7 +48,7 @@ export const Inicio = () => {
           <img className="skills1" src={image_react} alt="REACT" />
           <img className="skills1" src={image_node} alt="NODE" />
         </div>
-        <h3 >
+        <h3>
           Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y
           relevancia en internet.
         </h3>
@@ -78,40 +77,6 @@ export const Inicio = () => {
             </a>
           </div>
 
-          {/* <div>
-            <a
-              href="https://twitter.com/tonaco777"
-              alt="tony777."
-              height="40px"
-              width="40px"
-            >
-              <img
-                className="red"
-                align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
-                alt="twitter"
-                height="40px"
-                width="40px"
-              ></img>
-            </a>
-          </div> */}
-          {/* <div>
-            <a
-              href="https://www.instagram.com/tonaco777/"
-              alt="instagram"
-              height="40px"
-              width="40px"
-            >
-              <img
-                className="red"
-                align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-                alt="instagram"
-                height="40px"
-                width="40px"
-              ></img>
-            </a>
-          </div> */}
           <div>
             <a
               href="https://github.com/TonyVargas777"

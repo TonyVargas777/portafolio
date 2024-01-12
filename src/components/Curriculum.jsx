@@ -21,11 +21,11 @@ export const Curriculum = () => {
           <img className="skills1" src={image_node} alt="NODE" />
         </div>
         <div>
-          <hr/>
+          <hr />
           Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
-          <hr/>
+          <hr />
           <a
-            href="/cv/Tony_Vargas_CV.pdf" 
+            href="/cv/Tony_Vargas_CV.pdf"
             download="Tony_Vargas_CV.pdf"
             target="_blank"
             title="Descargar Currículum Vitae"
@@ -41,7 +41,7 @@ export const Curriculum = () => {
             Certificado de Profesionalidad DESARROLLO DE APLICACIONES CON
             TECNOLOGÍAS WEB
           </h2>
-          <h4>CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)</h4>          
+          <h4>CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)</h4>
         </div>
         <div className="education1">
           <h2>

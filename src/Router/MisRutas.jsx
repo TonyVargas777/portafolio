@@ -23,7 +23,7 @@ export const MisRutas = () => {
           <Route path="*" element={<h1 className="home">Error 404</h1>} />
         </Routes>
       </section>
-      
+
       <Footer />
     </BrowserRouter>
   );

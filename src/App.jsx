@@ -1,17 +1,14 @@
-import './App.css'
-import { MisRutas } from './Router/MisRutas'
-import BotonSubir from '../src/components/BotonSubir'
+import "./App.css";
+import { MisRutas } from "./Router/MisRutas";
+import BotonSubir from "../src/components/BotonSubir";
 
-function App() {  
-
+function App() {
   return (
-
-    <div className='layout'>
-           
-      <MisRutas/>
-      <BotonSubir/>
+    <div className="layout">
+      <MisRutas />
+      <BotonSubir />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
