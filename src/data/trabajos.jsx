@@ -30,7 +30,7 @@ export const trabajos = [
   {
     id: "musica",
     nombre: "Compositores",
-    url: "https://github.com/TonyVargas777/portafolio/assets/129131613/fbd95f74-293c-449f-a3df-53c957ee4585",
+    url: "https://musica-maestro.vercel.app/",
     tecnologias: "HTML, CSS, JS",
     categorias: "Desarrollo Web",
   },
