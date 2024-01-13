@@ -20,13 +20,13 @@ export const trabajos = [
     tecnologias: "CRUD PHP",
     categorias: "Desarrollo Web",
   },
-  {
+  /* {
     id: "starwars",
     nombre: "Star Wars",
     url: "https://github.com/TonyVargas777/portafolio/assets/129131613/05dce3f1-3093-4552-b483-ca41fa5bcb39",
     tecnologias: "API, HTML, CSS, JS",
     categorias: "Desarrollo Web",
-  },
+  }, */
   {
     id: "musica",
     nombre: "Compositores",
