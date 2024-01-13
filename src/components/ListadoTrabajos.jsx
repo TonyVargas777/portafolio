@@ -8,9 +8,11 @@ export const ListadoTrabajos = ({ limite }) => {
       {trabajos.slice(0, limite).map((trabajo) => {
         return (
           <article key={trabajo.id} className="work-item">
-            <div className="mask">
-              <img src={"/img/" + trabajo.id + ".avif"} alt={trabajo.id} />
-            </div>
+            <Link to={trabajo.url} target="blank" className="work-item">
+              <div className="mask">
+                <img src={"/img/" + trabajo.id + ".avif"} alt={trabajo.id} />
+              </div>
+            </Link>
             <div className="datos">
               <span>{trabajo.categorias}</span>
               <h2>
