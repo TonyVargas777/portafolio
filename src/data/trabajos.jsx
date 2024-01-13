@@ -4,7 +4,7 @@ export const trabajos = [
     nombre: "Mi Blog de Cine",
     url: "https://proyecto-modulo2-git-main-tonyvargas777.vercel.app/",
     tecnologias: "MongoDB Express React Node",
-    categorias: "MERN SATCK",
+    categorias: "MERN STACK",
   },
   {
     id: "juegos",
