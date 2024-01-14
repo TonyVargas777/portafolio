@@ -1,11 +1,10 @@
-import {React, useEffect} from "react";
+import { React, useEffect } from "react";
 
 export const Contacto = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <section className="education">
       <h2 className="heading">Contacto:</h2>
@@ -14,6 +13,7 @@ export const Contacto = () => {
           <a
             href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
             target="blank"
+            alt="LinkedIn"
           >
             <img
               className="red"
@@ -28,11 +28,13 @@ export const Contacto = () => {
         <a
           href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
           alt="linkedin"
+          target="blank"
+          className="contacto_a"
         >
           https://linkedin.com/in/tony-vargas-garcía-122b1424b
         </a>
 
-        <div>
+        <article>
           <a href="https://wa.me/34661871759" target="blank" title="WhatsApp">
             <img
               className="red"
@@ -43,16 +45,18 @@ export const Contacto = () => {
               width="40px"
             ></img>
           </a>
-        </div>
-        <a href="https://wa.me/34661871759" alt="github">
+        </article>
+        <a href="https://wa.me/34661871759" alt="WhatsApp" target="blank" className="contacto_a">
           WhatsApp number: +34 661 87 17 59
         </a>
+
         <article>
           <a
             href="https://github.com/TonyVargas777"
             alt="github"
             height="40px"
             width="40px"
+            target="blank"
           >
             <img
               className="red"
@@ -64,11 +68,12 @@ export const Contacto = () => {
             ></img>
           </a>
         </article>
-        <a href="https://github.com/TonyVargas777" alt="github">
+        <a href="https://github.com/TonyVargas777" alt="github" target="blank" className="contacto_a">
           https://github.com/TonyVargas777
         </a>
+
         <article>
-          <a href="mailto:tonacovargas@hotmail.com" target="blank">
+          <a href="mailto:tonacovargas@hotmail.com" target="blank" alt="email">
             <img
               className="red"
               align="center"
@@ -79,7 +84,7 @@ export const Contacto = () => {
             ></img>
           </a>
         </article>
-        <a href="mailto:tonacovargas@hotmail.com" target="blank">
+        <a href="mailto:tonacovargas@hotmail.com" target="blank" alt="email" className="contacto_a">
           tonacovargas@hotmail.com
         </a>
       </div>

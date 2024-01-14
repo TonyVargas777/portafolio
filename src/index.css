@@ -261,6 +261,12 @@ nav {
   align-items: center;
   box-shadow: 0px 5px 14px #646cff;
 }
+.contacto_a{
+  color:lightblue;
+}
+.contacto_a:hover{
+  color: blueviolet;
+}
 .redes_footer {
   margin: 15px;
   display: flex;

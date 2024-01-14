@@ -32,6 +32,11 @@ export const Inicio = () => {
         <div className="works">
           <ListadoTrabajos limite="1" />
         </div>
+        <h2>
+        <Link to="/portafolio" align="center">
+          Acceso al Resto de Proyectos
+        </Link>
+        </h2>
       </article>
 
       <div className="work-item-skills">

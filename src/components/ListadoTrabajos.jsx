@@ -1,8 +1,13 @@
-import React from "react";
+import {React, useEffect } from "react";
 import { trabajos } from "../data/trabajos";
 import { Link } from "react-router-dom";
 
 export const ListadoTrabajos = ({ limite }) => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="works">
       {trabajos.slice(0, limite).map((trabajo) => {

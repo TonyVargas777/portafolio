@@ -25,14 +25,14 @@ export const trabajos = [
     nombre: "Welcome Gamers",
     url: "https://github.com/TonyVargas777/portafolio/assets/129131613/be9b80a6-e0dc-4fdc-a07b-1fe284a4160d",
     tecnologias: "CRUD PHP",
-    categorias: "Miniatura de Proyecto PHP",
+    categorias: "Captura de Proyecto PHP",
   },
   {
     id: "starwars",
     nombre: "Star Wars",
     url: "https://github.com/TonyVargas777/portafolio/assets/129131613/05dce3f1-3093-4552-b483-ca41fa5bcb39",
     tecnologias: "API, HTML, CSS, JS",
-    categorias: "Miniatura API Star Wars",
+    categorias: "Captura API Star Wars",
   }
   
 ];
