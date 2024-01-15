@@ -72,6 +72,10 @@ button {
 }
 .port {
   margin-left: 25px;
+  background: linear-gradient(90deg, red, #00ffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .header nav {
   flex-grow: 1;
@@ -261,10 +265,10 @@ nav {
   align-items: center;
   box-shadow: 0px 5px 14px #646cff;
 }
-.contacto_a{
-  color:lightblue;
+.contacto_a {
+  color: lightblue;
 }
-.contacto_a:hover{
+.contacto_a:hover {
   color: blueviolet;
 }
 .redes_footer {
@@ -564,6 +568,10 @@ nav {
   .port {
     margin: 0px;
     height: 30px;
+    background: linear-gradient(90deg, red, #00ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   nav {
     margin-left: -25px;
