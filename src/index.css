@@ -225,15 +225,13 @@ nav {
     border-color: transparent;
   }
 }
-.page .heading,
-.home .heading,
-.content .heading {
+.heading {
   text-align: center;
   align-items: center;
   font-style: italic;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: -10px;
+  margin: -10px;
   color: lightblue;
 }
 .heading2 {

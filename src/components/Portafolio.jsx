@@ -6,9 +6,7 @@ export const Portafolio = () => {
     <section className="page">
       <div className="education">
       <h2 className="heading">Proyectos:</h2>
-      <br />
       </div>
-      <br />
       <ListadoTrabajos />
     </section>
   );

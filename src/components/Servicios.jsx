@@ -5,7 +5,6 @@ export const Servicios = () => {
     <div className="page">
       <div className="education">
       <h2 className="heading">Servicios:</h2>
-      <br />
       </div>
       <section className="services">
         <article className="service">

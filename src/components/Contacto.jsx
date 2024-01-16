@@ -9,7 +9,6 @@ export const Contacto = () => {
     <section>
       <div className="education">
         <h2 className="heading">Contacto:</h2>
-        <br />
       </div>
       
       <br />

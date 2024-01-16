@@ -10,7 +10,6 @@ export const Curriculum = () => {
     <div className="page">
       <div className="education">
         <h2 className="heading">Conocimientos MERN STACK</h2>
-        <h2 className="heading"></h2>
       </div>
       <div className="education">
         
