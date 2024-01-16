@@ -3,6 +3,10 @@ import React from "react";
 export const Servicios = () => {
   return (
     <div className="page">
+      <div className="education">
+      <h2 className="heading">Servicios:</h2>
+      <br />
+      </div>
       <section className="services">
         <article className="service">
           <h2>1. Presentación:</h2>

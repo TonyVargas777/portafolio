@@ -9,8 +9,12 @@ export const Curriculum = () => {
   return (
     <div className="page">
       <div className="education">
-        <h2>Conocimientos</h2>
-        <h2>MERN STACK</h2>
+        <h2 className="heading">Conocimientos MERN STACK</h2>
+        <h2 className="heading"></h2>
+      </div>
+      <div className="education">
+        
+        <br />
         <div>
           <img className="skills" src={image_html} alt="" />
         </div>

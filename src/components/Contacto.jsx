@@ -6,8 +6,13 @@ export const Contacto = () => {
   }, []);
 
   return (
-    <section className="education">
-      <h2 className="heading">Contacto:</h2>
+    <section>
+      <div className="education">
+        <h2 className="heading">Contacto:</h2>
+        <br />
+      </div>
+      
+      <br />
       <div align="center" className="redes_contacto">
         <article>
           <a
@@ -47,7 +52,7 @@ export const Contacto = () => {
           </a>
         </article>
         <a href="https://wa.me/34661871759" alt="WhatsApp" target="blank" className="contacto_a">
-          WhatsApp number: +34 661 87 17 59
+          WhatsApp number: +34 ### ## ## ##
         </a>
 
         <article>
