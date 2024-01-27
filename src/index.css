@@ -68,7 +68,7 @@ button {
 }
 .translator {
   position: fixed;
-  top: 0px; /* Ajusta según sea necesario */
+  top: 2px; /* Ajusta según sea necesario */
   right: 30px; /* Ajusta según sea necesario */
   display: flex;
   gap: 10px;
@@ -705,18 +705,19 @@ nav {
   }
   .translator{
     position: fixed;
-    top: 0px; /* Ajusta según sea necesario */
+    top: 2px; /* Ajusta según sea necesario */
     right: 40px; /* Ajusta según sea necesario */
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     z-index: 999;
   }
   .button_trans{
    background: transparent;
    border-color: transparent; 
-   width: 20px;  
+   width: 30px;  
   }
-
   .education {
     width: 87%;
   }
