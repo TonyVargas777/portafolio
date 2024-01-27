@@ -1,11 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export const HeaderNav = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <header className="header">
       <div>
-        <h1 className="port">PORTAFOLIO</h1>
+        <h1 className="port">{t("HeaderNav.portfolio")}</h1>
       </div>
       <nav>
         <ul>
@@ -14,7 +16,7 @@ export const HeaderNav = () => {
               to="/inicio"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              Inicio
+              {t("HeaderNav.home")}
             </NavLink>
           </li>
           <li>
@@ -22,7 +24,7 @@ export const HeaderNav = () => {
               to="/portafolio"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              Portafolio
+              {t("HeaderNav.portfolio")}
             </NavLink>
           </li>
           <li>
@@ -38,7 +40,7 @@ export const HeaderNav = () => {
               to="/servicios"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              Servicios
+              {t("HeaderNav.services")}
             </NavLink>
           </li>
           <li>
@@ -46,7 +48,7 @@ export const HeaderNav = () => {
               to="/contacto"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              Contacto
+              {t("HeaderNav.contact")}
             </NavLink>
           </li>
         </ul>

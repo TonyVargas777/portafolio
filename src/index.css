@@ -33,6 +33,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.button_trans{
+  background: #000;
+  border: 1px solid white;
+  padding: 10px;
+}
 .botonSubir a {
   border: 4px solid white;
   color: black;
@@ -56,7 +61,18 @@ button {
 }
 .layout {
   width: 100%;
-  place-items: center;
+  place-items: center;  
+}
+.layout2{
+  position: relative;
+}
+.translator {
+  position: fixed;
+  top: 0px; /* Ajusta según sea necesario */
+  right: 30px; /* Ajusta según sea necesario */
+  display: flex;
+  gap: 10px;
+  z-index: 999;
 }
 .header {
   display: flex;
@@ -294,13 +310,20 @@ nav {
   justify-content: center;
 }
 .service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: black;
   width: 27%;
   margin: 10px;
   border: 2px solid blue;
   border-radius: 10px;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+}
+.service p{
+  text-align: justify;
 }
 .service:hover {
   -webkit-transform: scale(1.1);
@@ -680,6 +703,20 @@ nav {
     background-image: url("/matrix_azul.avif");
     background-size: cover;
   }
+  .translator{
+    position: fixed;
+    top: 0px; /* Ajusta según sea necesario */
+    right: 40px; /* Ajusta según sea necesario */
+    display: flex;
+    gap: 10px;
+    z-index: 999;
+  }
+  .button_trans{
+   background: transparent;
+   border-color: transparent; 
+   width: 20px;  
+  }
+
   .education {
     width: 87%;
   }

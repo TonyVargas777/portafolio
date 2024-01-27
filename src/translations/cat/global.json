@@ -1,0 +1,50 @@
+{
+  "HeaderNav": {
+    "portfolio": "PORTAFOLI",
+    "home": "INICI",
+    "services": "SERVEIS",
+    "contact": "CONTACTE"
+  },
+  "Inicio": {
+    "hi1": "Hola, sóc el",
+    "hi2": "i sóc Desenvolupador Web Full Stack",
+    "text": "Sóc de Barcelona i ofereixo els meus serveis de programació i desenvolupament en tot tipus de projectes web.",
+    "last": "El meu darrer projecte:",
+    "button1": "Accés a la Resta de Projectes",
+    "help": "T'ajudo a crear el teu lloc o aplicació web, tenir més visibilitat i rellevància a internet.",
+    "contact": "Contacta amb mi",
+    "know": "Si vols saber més de mi pots descarregar-te el meu Curriculum Vitae:",
+    "download": "Descarregar CV"
+  },
+  "Portafolio": {
+    "title": "Projectes"
+  },
+  "Curriculum": {
+    "title": "Coneixements MERN STACK",
+    "cv": "Si vols saber més de mi pots descarregar-te el meu Curriculum Vitae:",
+    "download": "Descarregar CV",
+    "education": "Educació",
+    "daw": "Certificat de Professionalitat DESENVOLUPAMENT D'APLICACIONS AMB TECNOLOGIES WEB",
+    "consorci": "CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)",
+    "ds": "Programa especialitzat - Data Science Fundamentals with Python and SQL.",
+    "coursera": "Certificat a càrrec d'IBM a Coursera"
+  },
+  "Servicios": {
+    "title": "Serveis",
+    "title1": "1. Presentació:",
+    "text1": "Sóc un apassionat dissenyador i desenvolupador web amb una habilitat única per fusionar la creativitat amb la funcionalitat. El meu objectiu és crear experiències digitals captivadores que no només siguin visualment atractives sinó també intuïtives i efectives en termes d'usabilitat.",
+    "title2": "2. Disseny Centrat a l'Usuari:",
+    "text2": "Cada projecte que abordo comença amb una investigació exhaustiva sobre el públic objectiu. Crec en el disseny centrat en l'usuari, assegurant-me que cada element visual i cada interacció siguin dissenyats per proporcionar una experiència que compleixi les necessitats i les expectatives dels usuaris.",
+    "title3": "3. Desenvolupament Orientat a Resultats:",
+    "text3": "El meu enfocament en el desenvolupament web es basa en lobtenció de resultats tangibles. Faig servir tecnologies d'avantguarda per construir llocs web que no només es veuen bé, sinó que també funcionen a la perfecció en diferents dispositius i navegadors. El meu objectiu és crear solucions duradores i escalables que generin impacte.",
+    "title4": "4. Col·laboració i Comunicació:",
+    "text4": "Crec en una comunicació oberta i fluida amb els meus clients. Comprenc la importància d'escoltar atentament els teus objectius i necessitats, i treballar plegats per convertir la teva visió en una realitat digital impressionant. La col·laboració és clau per aconseguir resultats excepcionals.",
+    "title5": "5. Innovació Contínua:",
+    "text5": "El camp del disseny i desenvolupament web està en constant evolució, i em comprometo a mantenir-me actualitzat amb les darreres tendències i tecnologies. Això em permet oferir solucions fresques i innovadores que mantenen els meus clients a l'avantguarda en línia.",
+    "title6": "6. Experience in Technologies:",
+    "text6": "El meu conjunt d'habilitats inclou experiència a HTML5, CSS3, JavaScript, així com a l'ús de frameworks com TailWindCSS i React. A més, tinc experiència en loptimització de llocs web per al rendiment i laccessibilitat, el que garanteix que cada projecte sigui ràpid i disponible per a tots."
+  },
+  "Contacto": {
+    "title": "Contacte"
+  }
+}

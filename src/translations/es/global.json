@@ -1,0 +1,50 @@
+{
+  "HeaderNav": {
+    "portfolio": "PORTAFOLIO",
+    "home": "INICIO",
+    "services": "SERVICIOS",
+    "contact": "CONTACTO"
+  },
+  "Inicio": {
+    "hi1": "Hola, soy",
+    "hi2": "y soy Desarrollador Web Full Stack",
+    "text": "Soy de Barcelona, y ofrezco mis servicios de programación y desarrollo en todo tipo de proyectos web.",
+    "last": "Mi último proyecto:",
+    "button1": "Acceso al Resto de Proyectos",
+    "help": "Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y relevancia en internet.",
+    "contact": "Contacta conmigo",
+    "know": "Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:",
+    "download": "Descargar CV"
+  },
+  "Portafolio": {
+    "title": "Proyectos"
+  },
+  "Curriculum": {
+    "title": "Conocimientos MERN STACK",
+    "cv": "Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:",
+    "download": "Descargar CV",
+    "education": "Educación",
+    "daw": "Certificado de Profesionalidad DESARROLLO DE APLICACIONES CON TECNOLOGÍAS WEB",
+    "consorci": "CONSORCI PER LA FORMACIÓ CONTINUA DE CATALUNYA (CONFORCAT)",
+    "ds": "Programa Especializado - Data Science Fundamentals with Python and SQL.",
+    "coursera": "Certificado a cargo de IBM en Coursera"
+  },
+  "Servicios": {
+    "title": "Servicios",
+    "title1": "1. Presentación:",
+    "text1": "Soy un apasionado diseñador y desarrollador web con una habilidad única para fusionar la creatividad con la funcionalidad. Mi objetivo es crear experiencias digitales cautivadoras que no solo sean visualmente atractivas, sino también intuitivas y efectivas en términos de usabilidad.",
+    "title2": "2. Diseño Centrado en el Usuario:",
+    "text2": "Cada proyecto que abordo comienza con una investigación exhaustiva sobre el público objetivo. Creo en el diseño centrado en el usuario, asegurándome de que cada elemento visual y cada interacción sean diseñados para proporcionar una experiencia que cumpla con las necesidades y expectativas de los usuarios.",
+    "title3": "3. Desarrollo Orientado a Resultados:",
+    "text3": "Mi enfoque en el desarrollo web se basa en la obtención de resultados tangibles. Utilizo tecnologías de vanguardia para construir sitios web que no solo se ven bien, sino que también funcionan a la perfección en diferentes dispositivos y navegadores. Mi objetivo es crear soluciones duraderas y escalables que generen impacto.",
+    "title4": "4. Colaboración y Comunicación:",
+    "text4": "Creo en una comunicación abierta y fluida con mis clientes. Comprendo la importancia de escuchar atentamente tus objetivos y necesidades, y trabajar juntos para convertir tu visión en una realidad digital impresionante. La colaboración es clave para lograr resultados excepcionales.",
+    "title5": "5. Innovación Continua:",
+    "text5": "El campo del diseño y desarrollo web está en constante evolución, y me comprometo a mantenerme actualizado con las últimas tendencias y tecnologías. Esto me permite ofrecer soluciones frescas e innovadoras que mantienen a mis clientes a la vanguardia en línea.",
+    "title6": "6. Experiencia en Tecnologías:",
+    "text6": "Mi conjunto de habilidades incluye experiencia en HTML5, CSS3, JavaScript, así como en el uso de frameworks como TailWindCSS y React. Además, tengo experiencia en la optimización de sitios web para el rendimiento y la accesibilidad, lo que garantiza que cada proyecto sea rápido y disponible para todos."
+  },
+  "Contacto": {
+    "title": "Contacto"
+  }
+}

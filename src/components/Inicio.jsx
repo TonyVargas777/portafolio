@@ -7,8 +7,11 @@ import image_node from "./img/nodejs-ar21.avif";
 import image_mongo from "./img/Mongo-db-logo.avif";
 import image_express from "./img/express.avif";
 import image_photo from "./img/perfil_avatar2.avif";
+import { useTranslation } from "react-i18next";
+
 
 export const Inicio = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="home">
       <div className="my_self">
@@ -16,25 +19,21 @@ export const Inicio = () => {
           <img className="avatar" src={image_photo} alt="photo" />
         </div>
         <div className="my_self_type">
-          <h1 className="ancho_home">
-            Hola, soy <strong className="type">Tony Vargas</strong> y soy
-            Desarrollador Web Full Stack
+          <h1 className="ancho_home">{t("Inicio.hi1")}<strong className="type">Tony Vargas</strong>{t("Inicio.hi2")}
           </h1>
         </div>
       </div>
-      <h2 className="texts">
-        Vivo en Barcelona, y ofrezco mis servicios de programación y desarrollo
-        en todo tipo de proyectos web.
+      <h2 className="texts">{t("Inicio.text")}
       </h2>
 
       <article className="last-works">
-        <h2 className="heading">Mi último proyecto:</h2>
+        <h2 className="heading">{t("Inicio.last")}</h2>
         <div className="works">
           <ListadoTrabajos limite="1" />
         </div>
         <h2>
         <Link to="/portafolio" align="center">
-          Acceso al Resto de Proyectos
+        {t("Inicio.button1")}
         </Link>
         </h2>
       </article>
@@ -55,14 +54,13 @@ export const Inicio = () => {
           <img className="skills1" src={image_node} alt="NODE" />
         </div>
         <h3>
-          Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y
-          relevancia en internet.
+        {t("Inicio.help")}
         </h3>
       </div>
       <article className="work-item2">
         <h2>
           <Link to="/contacto" align="center">
-            Contacta conmigo
+          {t("Inicio.contact")}
           </Link>
         </h2>
         <div className="redes">
@@ -136,7 +134,7 @@ export const Inicio = () => {
         </div>
         <div className="cv">
           <h3>
-            Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:
+          {t("Inicio.know")}
           </h3>
 
           <br />
@@ -147,7 +145,7 @@ export const Inicio = () => {
             title="Descargar Currículum Vitae"
             alt="CV"
           >
-            Descargar CV
+            {t("Inicio.download")}
           </a>
         </div>
       </article>
