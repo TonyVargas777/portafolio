@@ -10,7 +10,7 @@ export const Contacto = () => {
   return (
     <section>
       <div className="education">
-        <h2 className="heading">{t("Contacto.title")}:</h2>
+        <h2 className="heading">{t("Contacto.title")}</h2>
       </div>
       
       <br />

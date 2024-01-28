@@ -12,7 +12,7 @@ function App() {
     <>
       <div className="layout2">
         
-        <div className="translator">
+        {/* <div className="translator">
           
           <button className="button_trans" onClick={() => i18n.changeLanguage("es")}>
             {" "}
@@ -26,7 +26,7 @@ function App() {
             {" "}
             <img width="24" height="24" src={En_Flag} alt="US Flag" />
           </button>
-        </div>
+        </div> */}
         <div className="layout">
           <MisRutas />
           <BotonSubir />

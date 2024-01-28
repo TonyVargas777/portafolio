@@ -38,6 +38,13 @@ button {
   border: 1px solid white;
   padding: 10px;
 }
+.button_trans2{
+  background: #000;
+  border-radius: 300px;
+  border: 2px solid white;
+  padding: 2px;
+  margin-left: 10px;
+}
 .botonSubir a {
   border: 4px solid white;
   color: black;
@@ -712,7 +719,7 @@ nav {
     align-items: center;
     gap: 10px;
     z-index: 999;
-  }
+  }  
   .button_trans{
    background: transparent;
    border-color: transparent; 
