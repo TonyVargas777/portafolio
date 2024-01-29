@@ -43,7 +43,8 @@ button {
   border-radius: 300px;
   border: 2px solid white;
   padding: 2px;
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
 }
 .button_trans2:hover {
   background: #000;
@@ -76,17 +77,6 @@ button {
 .layout {
   width: 100%;
   place-items: center;  
-}
-.layout2{
-  position: relative;
-}
-.translator {
-  position: fixed;
-  top: 2px; 
-  right: 30px; 
-  display: flex;
-  gap: 10px;
-  z-index: 999;
 }
 .header {
   display: flex;
@@ -716,17 +706,7 @@ nav {
     width: 90%;
     background-image: url("/matrix_azul.avif");
     background-size: cover;
-  }
-  .translator{
-    position: fixed;
-    top: 2px; /* Ajusta según sea necesario */
-    right: 40px; /* Ajusta según sea necesario */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    z-index: 999;
-  }  
+  } 
   .button_trans{
    background: transparent;
    border-color: transparent; 
