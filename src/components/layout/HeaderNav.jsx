@@ -54,21 +54,29 @@ export const HeaderNav = () => {
               {t("HeaderNav.contact")}
             </NavLink>
           </li>
-           <div>
-          
-          <button className="button_trans2" onClick={() => i18n.changeLanguage("es")}>
-            {" "}
-            <img width="24" height="24" src={Es_Flag} alt="Spanish Flag" />
-          </button>
-          <button className="button_trans2" onClick={() => i18n.changeLanguage("cat")}>
-            {" "}
-            <img width="25" height="25" src={Cat_Flag} alt="Catalan Flag" />
-          </button>
-          <button className="button_trans2" onClick={() => i18n.changeLanguage("en")}>
-            {" "}
-            <img width="24" height="24" src={En_Flag} alt="US Flag" />
-          </button>
-        </div>
+          <div>
+            <button
+              className="button_trans"
+              onClick={() => i18n.changeLanguage("es")}
+            >
+              {" "}
+              <img width="24" height="24" src={Es_Flag} alt="Spanish Flag" />
+            </button>
+            <button
+              className="button_trans"
+              onClick={() => i18n.changeLanguage("cat")}
+            >
+              {" "}
+              <img width="25" height="25" src={Cat_Flag} alt="Catalan Flag" />
+            </button>
+            <button
+              className="button_trans"
+              onClick={() => i18n.changeLanguage("en")}
+            >
+              {" "}
+              <img width="24" height="24" src={En_Flag} alt="US Flag" />
+            </button>
+          </div>
         </ul>
       </nav>
     </header>
