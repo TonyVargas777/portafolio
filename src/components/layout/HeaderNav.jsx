@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Es_Flag from "/public/spain_c.png";
 import Cat_Flag from "/public/catalonia_c.png";
@@ -7,6 +7,22 @@ import En_Flag from "/public/usa_c.png";
 
 export const HeaderNav = () => {
   const [t, i18n] = useTranslation("global");
+  const location = useLocation();
+
+  useEffect(() => {
+    // Recuperar el idioma almacenado en localStorage al cargar el componente
+    const savedLanguage = localStorage.getItem("language");
+    if (savedLanguage) {
+      i18n.changeLanguage(savedLanguage);
+    }
+  }, [i18n]);
+
+  const handleLanguageChange = (language) => {
+    // Cambiar el idioma y almacenarlo en localStorage
+    i18n.changeLanguage(language);
+    localStorage.setItem("language", language);
+  };
+
   return (
     <header className="header">
       <div>
@@ -57,21 +73,21 @@ export const HeaderNav = () => {
           <div>
             <button
               className="button_trans"
-              onClick={() => i18n.changeLanguage("es")}
+              onClick={() => handleLanguageChange("es")}
             >
               {" "}
               <img width="24" height="24" src={Es_Flag} alt="Spanish Flag" />
             </button>
             <button
               className="button_trans"
-              onClick={() => i18n.changeLanguage("cat")}
+              onClick={() => handleLanguageChange("cat")}
             >
               {" "}
               <img width="25" height="25" src={Cat_Flag} alt="Catalan Flag" />
             </button>
             <button
               className="button_trans"
-              onClick={() => i18n.changeLanguage("en")}
+              onClick={() => handleLanguageChange("en")}
             >
               {" "}
               <img width="24" height="24" src={En_Flag} alt="US Flag" />
