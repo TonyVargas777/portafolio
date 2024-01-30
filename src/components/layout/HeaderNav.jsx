@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Es_Flag from "/public/spain_c.png";
@@ -8,14 +8,6 @@ import En_Flag from "/public/usa_c.png";
 export const HeaderNav = () => {
   const [t, i18n] = useTranslation("global");
   const location = useLocation();
-
-  useEffect(() => {
-    // Recuperar el idioma almacenado en localStorage al cargar el componente
-    const savedLanguage = localStorage.getItem("language");
-    if (savedLanguage) {
-      i18n.changeLanguage(savedLanguage);
-    }
-  }, [i18n]);
 
   const handleLanguageChange = (language) => {
     // Cambiar el idioma y almacenarlo en localStorage
