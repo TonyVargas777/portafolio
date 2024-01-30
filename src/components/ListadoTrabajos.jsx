@@ -1,28 +1,33 @@
-import {React, useEffect } from "react";
-import { trabajos } from "../data/trabajos";
+import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { trabajos } from "../data/trabajos";
 
 export const ListadoTrabajos = ({ limite }) => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const [t, i18n] = useTranslation("global");
+
   return (
     <section className="works">
       {trabajos.slice(0, limite).map((trabajo) => {
+        const nombre = trabajo[`nombre_${i18n.language}`] || trabajo.nombre;
+        const categorias = trabajo[`categorias_${i18n.language}`] || trabajo.categorias;
+
         return (
           <article key={trabajo.id} className="work-item">
             <Link to={trabajo.url} target="blank" className="work-item">
               <div className="mask">
-                <img src={"/img/" + trabajo.id + ".avif"} alt={trabajo.id} />
+                <img src={`/img/${trabajo.id}.avif`} alt={trabajo.id} />
               </div>
             </Link>
             <div className="datos">
-              <span>{trabajo.categorias}</span>
+              <span>{categorias}</span>
               <h2>
                 <Link to={trabajo.url} target="blank">
-                  {trabajo.nombre}
+                  {nombre}
                 </Link>
               </h2>
               <h3>{trabajo.tecnologias}</h3>
