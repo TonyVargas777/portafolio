@@ -9,7 +9,7 @@ export const trabajos = [
     categorias: "MERN STACK",
     categorias_cat:"MERN STACK",
     categorias_en:"MERN STACK"
-  },
+  },  
   {
     id: "juegos",
     nombre: "Los Juegos de mi Vida",
@@ -22,6 +22,17 @@ export const trabajos = [
     categorias_en:"COMPLETE CRUD"
   },
   {
+    id: "Arkanoid",
+    nombre: "Mi versión de Arkanoid",
+    nombre_cat: "La meva versió d'Arkanoid",
+    nombre_en: "My version of Arkanoid",
+    url: "https://arkanoid-tonyvargas777.vercel.app/",
+    tecnologias: "HTML, CSS, JS",
+    categorias: "jUEGO RETRO",
+    categorias_cat:"JOC RETRO",
+    categorias_en:"RETRO GAME"
+  },
+  /* {
     id: "musica",
     nombre: "Compositores",
     nombre_cat: "Compositors",
@@ -54,5 +65,5 @@ export const trabajos = [
     categorias_cat:"MERN STACK",
     categorias_en:"MERN STACK"
   }
-  
+   */
 ];
