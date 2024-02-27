@@ -23,12 +23,12 @@ export const trabajos = [
   },
   {
     id: "Arkanoid",
-    nombre: "Mi versión de Arkanoid",
-    nombre_cat: "La meva versió d'Arkanoid",
-    nombre_en: "My version of Arkanoid",
+    nombre: "Versión de Arkanoid",
+    nombre_cat: "Versió d'Arkanoid",
+    nombre_en: "Arkanoid Version",
     url: "https://arkanoid-tonyvargas777.vercel.app/",
     tecnologias: "HTML, CSS, JS",
-    categorias: "jUEGO RETRO",
+    categorias: "JUEGO RETRO",
     categorias_cat:"JOC RETRO",
     categorias_en:"RETRO GAME"
   },
