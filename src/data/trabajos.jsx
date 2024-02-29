@@ -27,7 +27,18 @@ export const trabajos = [
     nombre_cat: "Versió d'Arkanoid",
     nombre_en: "Arkanoid Version",
     url: "https://arkanoid-tonyvargas777.vercel.app/",
-    tecnologias: "HTML, CSS, JS",
+    tecnologias: "HTML, CSS, JS, CANVAS",
+    categorias: "JUEGO RETRO",
+    categorias_cat:"JOC RETRO",
+    categorias_en:"RETRO GAME"
+  },
+  {
+    id: "SuperMario",
+    nombre: "Versión de Mario",
+    nombre_cat: "Versió del Mario",
+    nombre_en: "Mario Version",
+    url: "https://super-mario-livid.vercel.app/",
+    tecnologias: "HTML, CSS, JS, CANVAS",
     categorias: "JUEGO RETRO",
     categorias_cat:"JOC RETRO",
     categorias_en:"RETRO GAME"
