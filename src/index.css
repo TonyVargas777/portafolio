@@ -88,11 +88,18 @@ button {
 }
 .port {
   margin-left: 25px;
-  background: linear-gradient(90deg, red, #00ffff);
+  background: linear-gradient(60deg, red,white, #00ffff);
+  background-size: 300% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+  animation: gradient 9s linear infinite; }
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
 .header nav {
   flex-grow: 1;
 }
@@ -585,10 +592,16 @@ nav {
   .port {
     margin: 0px;
     height: 30px;
-    background: linear-gradient(90deg, red, #00ffff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(60deg, red,white, #00ffff);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 9s linear infinite; }
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
   nav {
     margin-left: -25px;

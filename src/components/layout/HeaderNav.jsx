@@ -35,7 +35,7 @@ export const HeaderNav = () => {
               to="/portafolio"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              {t("HeaderNav.portfolio")}
+              {t("Portafolio.title")}
             </NavLink>
           </li>
           <li>
