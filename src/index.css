@@ -88,17 +88,26 @@ button {
 }
 .port {
   margin-left: 25px;
-  background: linear-gradient(60deg, red,white, #00ffff);
-  background-size: 300% auto;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  background: linear-gradient(60deg, red, white, blue);
+  background-size: 1000% auto;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 9s linear infinite; }
-  @keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  animation: gradient 10s linear infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 100%;
   }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
 
 .header nav {
   flex-grow: 1;
@@ -592,16 +601,25 @@ nav {
   .port {
     margin: 0px;
     height: 30px;
-    background: linear-gradient(60deg, red,white, #00ffff);
-  background-size: 300% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient 9s linear infinite; }
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    background: linear-gradient(60deg, red, white, blue);
+    background-size: 1000% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 10s linear infinite;
+  }
   @keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
   }
   nav {
     margin-left: -25px;
