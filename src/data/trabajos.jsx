@@ -22,6 +22,17 @@ export const trabajos = [
     categorias_en:"EXAMPLE OF HOME"
   },
   {
+    id: "Pokemon_Api",
+    nombre: "Pokemon Api",
+    nombre_cat: "Pokemon Api",
+    nombre_en: "Pokemon Api",
+    url: "https://pokeapi-five-sepia.vercel.app/",
+    tecnologias: "REACT Node API",
+    categorias: "Pokemon Api",
+    categorias_cat:"Pokemon Api",
+    categorias_en:"Pokemon Api"
+  },
+  {
     id: "juegos",
     nombre: "Los Juegos de mi Vida",
     nombre_cat: "Els Jocs de la meva Vida",
