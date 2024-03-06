@@ -29,7 +29,7 @@ export const Inicio = () => {
       <article className="last-works">
         <h2 className="heading">{t("Inicio.last")}</h2>
         <div className="works">
-          <ListadoTrabajos limite="1" />
+          <ListadoTrabajos limite="2" />
         </div>
         <h2>
         <Link to="/portafolio" align="center">

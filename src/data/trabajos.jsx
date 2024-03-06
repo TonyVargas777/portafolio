@@ -11,6 +11,17 @@ export const trabajos = [
     categorias_en:"MERN STACK"
   },  
   {
+    id: "Complete_Web",
+    nombre: "Web Completa",
+    nombre_cat: "Web Completa",
+    nombre_en: "Complete Web",
+    url: "https://home-steel-chi.vercel.app/",
+    tecnologias: "HTML, CSS, JS",
+    categorias: "EJEMPLO DE HOME",
+    categorias_cat:"EXEMPLE DE HOME",
+    categorias_en:"EXAMPLE OF HOME"
+  },
+  {
     id: "juegos",
     nombre: "Los Juegos de mi Vida",
     nombre_cat: "Els Jocs de la meva Vida",
