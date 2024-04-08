@@ -14,7 +14,6 @@ export const Curriculum = () => {
         <h2 className="heading">{t("Curriculum.title")}</h2>
       </div>
       <div className="education">
-        
         <br />
         <div>
           <img className="skills" src={image_html} alt="" />
@@ -42,16 +41,33 @@ export const Curriculum = () => {
       <div className="education">
         <h2>{t("Curriculum.education")}</h2>
         <div className="education1">
-          <h2>
-          {t("Curriculum.daw")}
-          </h2>
+          <h2>{t("Curriculum.boot_camp_ds")}</h2>
+          <ul>
+            <li>{t("Curriculum.boot_camp_m1")}</li>
+            <li>{t("Curriculum.boot_camp_m2")}</li>
+            <li>{t("Curriculum.boot_camp_m3")}</li>
+          </ul>
+          <h3>{t("Curriculum.boot_camp_school")}</h3>
+        </div>
+        <div className="education1">
+          <h2>{t("Curriculum.daw")}</h2>
+          <ul>
+            <li>{t("Curriculum.daw_m1")}</li>
+            <li>{t("Curriculum.daw_m2")}</li>
+            <li>{t("Curriculum.daw_m3")}</li>
+          </ul>
           <h3>{t("Curriculum.consorci")}</h3>
         </div>
         <div className="education1">
-          <h2>
-          {t("Curriculum.ds")}
-          </h2>
-          <h3>{t("Curriculum.ds")}</h3>
+          <h2>{t("Curriculum.ds")}</h2>
+          <ul>
+            <li>{t("Curriculum.ds_1")}</li>
+            <li>{t("Curriculum.ds_2")}</li>
+            <li>{t("Curriculum.ds_3")}</li>
+            <li>{t("Curriculum.ds_4")}</li>
+            <li>{t("Curriculum.ds_5")}</li>
+          </ul>
+          <h3>{t("Curriculum.coursera")}</h3>
         </div>
         <div className="education1">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
