@@ -73,11 +73,13 @@ export const Curriculum = () => {
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
           <h3> EF Standard English Test (EF SET) (2023)</h3>
         </div>
-        <div className="education">
+        <div className="work-item">
         <div>
+          <h2 className="port">Curriculum Vitae</h2>
           <hr />
           {t("Curriculum.cv")}
           <hr />
+          <br />
           <a
             href="/cv/Tony_Vargas_CV.pdf"
             download="Tony_Vargas_CV.pdf"
