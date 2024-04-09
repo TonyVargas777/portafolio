@@ -410,6 +410,9 @@ nav {
   padding: 25px;
   text-align: center;
 }
+.education li{
+  list-style: none;
+}
 .education li:hover {
   background: lightblue;
   border-radius: 20px;
@@ -702,7 +705,7 @@ nav {
     align-items: center;
   }
   .education {
-    font-size: 0.7em;
+    font-size: 0.9em;
     width: 95%;
   }
   .content {

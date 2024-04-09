@@ -7,6 +7,16 @@ import image_node from "./img/nodejs-ar21.avif";
 import image_mongo from "./img/Mongo-db-logo.avif";
 import image_express from "./img/express.avif";
 import image_photo from "./img/perfil_avatar2.avif";
+import image_python from "./img/Python.svg.png";
+import image_numpy from "./img/numpy.png";
+import image_pandas from "./img/pandas.jpeg";
+import image_sql from "./img/sql.png";
+import image_docker from "./img/docker.webp";
+import image_cassandra from "./img/cassandra.svg";
+import image_apache from "./img/apache.jpg";
+import image_matplotlib from "./img/matplotlib.PNG";
+import image_plotly from "./img/plotly.png";
+import image_seaborn from "./img/seaborn.svg";
 import { useTranslation } from "react-i18next";
 
 
@@ -26,7 +36,7 @@ export const Inicio = () => {
       <h2 className="texts">{t("Inicio.text")}
       </h2>
 
-      <article className="last-works">
+      {/* <article className="last-works">
         <h2 className="heading">{t("Inicio.last")}</h2>
         <div className="works">
           <ListadoTrabajos limite="2" />
@@ -36,8 +46,37 @@ export const Inicio = () => {
         {t("Inicio.button1")}
         </Link>
         </h2>
-      </article>
+      </article> */}
 
+      <div className="work-item-skills">
+        <h2  className="heading">DATA SCIENCE</h2>
+        <br />
+        <img
+          fetchpriority="high"
+          className="skills"
+          src={image_python}
+          alt="html_css_js"
+        />
+        <div className="skills1_caja">
+          <img className="skills1" src={image_numpy} alt="NUMPY" />
+          <img className="skills1" src={image_pandas} alt="PANDAS" />
+          <img className="skills1" src={image_docker} alt="DOCKER" />
+        </div>
+        <div className="skills1_caja">
+          <img className="skills1" src={image_sql} alt="SQL" />
+          <img className="skills1" src={image_cassandra} alt="CASSANDRA" />
+          <img className="skills1" src={image_apache} alt="APACHE" />
+        </div>
+        <div className="skills1_caja">
+          <img className="skills1" src={image_plotly} alt="PLOTLY" />
+          <img className="skills1" src={image_matplotlib} alt="MATPLOTLIB" />
+          
+          <img className="skills1" src={image_seaborn} alt="SEABORN" />
+        </div>
+        <h3>
+        {t("Inicio.phrase")}
+        </h3>
+      </div>
       <div className="work-item-skills">
         <h2  className="heading">MERN STACK</h2>
         <br />

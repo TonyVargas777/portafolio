@@ -7,17 +7,18 @@
   },
   "Inicio": {
     "hi1": "Hello there, I'm",
-    "hi2": "and I am a Full Stack Web Developer",
-    "text": "I'm from Barcelona, and I offer my programming and development services for all kinds of web projects.",
+    "hi2": "and I am a Data Scientist and Full Stack Web Developer",
+    "text": "I'm from Barcelona, and I offer my programming and development services for all kinds of projects.",
     "last": "My last projects:",
     "button1": "Access to the Rest of the Projects",
+    "phrase": "''We are no longer in the age of information. We are in the era of information management.'' Chris Hardwich",
     "help": "I help you create your site or web application, have more visibility and relevance on the internet.",
     "contact": "Contact Me",
     "know": "If you want to know more about me you can download my Curriculum Vitae:",
     "download": "Download CV"
   },
   "Portafolio": {
-    "title": "Projects"
+    "title": "Web-Projects"
   },
   "Curriculum": {
     "title": "MERN STACK Knowledge",
@@ -45,17 +46,17 @@
   "Servicios": {
     "title": "Services",
     "title1": "1. Presentation:",
-    "text1": "I am a passionate web designer and developer with a unique ability to merge creativity with functionality. My goal is to create captivating digital experiences that are not only visually appealing, but also intuitive and effective in terms of usability.",
+    "text1": "I am a passionate designer, web developer and data scientist with a unique ability to merge creativity with functionality. My goal is to create engaging digital experiences that are not only visually appealing, but also intuitive, effective and data-driven.",
     "title2": "2. User-Centered Design:",
-    "text2": "Every project I take on begins with extensive research on the target audience. I believe in user-centered design, ensuring that every visual element and every interaction is designed to provide an experience that meets the needs and expectations of users.",
+    "text2": "Every project I take on begins with extensive research on the target audience. I believe in user-centered design, ensuring that every visual element and every interaction is designed to provide an experience that meets the needs and expectations of users, supported by data analysis.",
     "title3": "3. Results Oriented Development:",
-    "text3": "My approach in web development is based on obtaining tangible results. I use cutting-edge technologies to build websites that not only look good but also work seamlessly on different devices and browsers. My goal is to create lasting and scalable solutions that generate impact.",
+    "text3": "My approach in web development is based on obtaining tangible results, both in terms of user experience and data generated. I use cutting-edge technologies to build websites that not only look good, but also work seamlessly across different devices and browsers, optimized through data analytics to improve their performance and effectiveness.",
     "title4": "4. Collaboration and Communication:",
-    "text4": "I believe in open and fluid communication with my clients. I understand the importance of listening carefully to your goals and needs, and working together to turn your vision into a stunning digital reality. Collaboration is key to achieving exceptional results.",
+    "text4": "I believe in open and fluid communication with my clients, understanding their goals and needs, and working together to turn their vision into a stunning digital reality, backed by data. Collaboration is key to achieving exceptional results, both in web development and data science.",
     "title5": "5. Continuous Innovation:",
-    "text5": "The field of web design and development is constantly evolving, and I am committed to staying up to date with the latest trends and technologies. This allows me to offer fresh and innovative solutions that keep my clients ahead of the curve online.",
+    "text5": "The field of design, web development and data science is constantly evolving, and I am committed to staying up to date with the latest trends and technologies. This allows me to offer fresh and innovative solutions that keep my clients at the forefront of online and data analytics.",
     "title6": "6. Experience in Technologies:",
-    "text6": "My skill set includes experience in HTML5, CSS3, JavaScript, as well as using frameworks such as TailWindCSS and React. Additionally, I have experience optimizing websites for performance and accessibility, ensuring each project is fast and available to everyone."
+    "text6": "My skill set includes experience in HTML5, CSS3, JavaScript, as well as using frameworks such as TailWindCSS and React for web development, and Python, R, and machine learning tools for data analysis. Additionally, I have experience optimizing websites for performance and accessibility, backed by data analytics to ensure each project is fast, accessible, and supported by valuable insights."
   },
   "Contacto": {
     "title": "Contact"

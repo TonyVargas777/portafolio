@@ -11,19 +11,19 @@ export const Curriculum = () => {
   return (
     <div className="page">
       <div className="education">
-        <h2 className="heading">{t("Curriculum.title")}</h2>
+        <h2 className="heading">{t("Curriculum.education")}</h2>
       </div>
-      <div className="education">
+      {/* <div className="education">
         <br />
         <div>
           <img className="skills" src={image_html} alt="" />
         </div>
-        <div>
+        {<div>
           <img className="skills1" src={image_mongo} alt="MONGO" />
           <img className="skills1" src={image_express} alt="EXPRESS" />
           <img className="skills1" src={image_react} alt="REACT" />
           <img className="skills1" src={image_node} alt="NODE" />
-        </div>
+        </div>}
         <div>
           <hr />
           {t("Curriculum.cv")}
@@ -37,12 +37,12 @@ export const Curriculum = () => {
             {t("Curriculum.download")}
           </a>
         </div>
-      </div>
+      </div> */}
       <div className="education">
-        <h2>{t("Curriculum.education")}</h2>
+        {/* <h2>{t("Curriculum.education")}</h2> */}
         <div className="education1">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
-          <ul>
+          <ul >
             <li>{t("Curriculum.boot_camp_m1")}</li>
             <li>{t("Curriculum.boot_camp_m2")}</li>
             <li>{t("Curriculum.boot_camp_m3")}</li>
@@ -73,7 +73,23 @@ export const Curriculum = () => {
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
           <h3> EF Standard English Test (EF SET) (2023)</h3>
         </div>
+        <div className="education">
+        <div>
+          <hr />
+          {t("Curriculum.cv")}
+          <hr />
+          <a
+            href="/cv/Tony_Vargas_CV.pdf"
+            download="Tony_Vargas_CV.pdf"
+            target="_blank"
+            title="Descargar Currículum Vitae"
+          >
+            {t("Curriculum.download")}
+          </a>
+        </div>
+        </div>
       </div>
+      
     </div>
   );
 };

@@ -7,24 +7,25 @@
   },
   "Inicio": {
     "hi1": "Hola, sóc el",
-    "hi2": "i sóc Desenvolupador Web Full Stack",
-    "text": "Sóc de Barcelona i ofereixo els meus serveis de programació i desenvolupament en tot tipus de projectes web.",
+    "hi2": "i sóc Científic de Dades i Desenvolupador Web Full Stack",
+    "text": "Sóc de Barcelona i ofereixo els meus serveis de programació i desenvolupament en tot tipus de projectes.",
     "last": "Els meus darrers projectes:",
     "button1": "Accés a la Resta de Projectes",
+    "phrase": "''Ja no estem en l'era de la informació. Estem en l'era de la gestió de la informació.'' Chris Hardwich",
     "help": "T'ajudo a crear el teu lloc o aplicació web, tenir més visibilitat i rellevància a internet.",
     "contact": "Contacta amb mi",
     "know": "Si vols saber més de mi pots descarregar-te el meu Curriculum Vitae:",
     "download": "Descarregar CV"
   },
   "Portafolio": {
-    "title": "Projectes"
+    "title": "Projectes-Web"
   },
   "Curriculum": {
     "title": "Coneixements MERN STACK",
     "cv": "Si vols saber més de mi pots descarregar-te el meu Curriculum Vitae:",
     "download": "Descarregar CV",
     "education": "Educació",
-    "boot_camp_ds":"Bootcamp Data Scientist (IFCD66)",
+    "boot_camp_ds":"Bootcamp Científic de Dades (IFCD66)",
     "boot_camp_m1":"Sistemes de suport a la presa de decisions i gestió de dades",
     "boot_camp_m2":"Gestió i processament de dades",
     "boot_camp_m3":"Aprenentatge automàtic i visualització",
@@ -45,17 +46,17 @@
   "Servicios": {
     "title": "Serveis",
     "title1": "1. Presentació:",
-    "text1": "Sóc un apassionat dissenyador i desenvolupador web amb una habilitat única per fusionar la creativitat amb la funcionalitat. El meu objectiu és crear experiències digitals captivadores que no només siguin visualment atractives sinó també intuïtives i efectives en termes d'usabilitat.",
+    "text1": "Sóc un dissenyador apassionat, desenvolupador web i científic de dades amb una habilitat única per fusionar la creativitat amb la funcionalitat. El meu objectiu és crear experiències digitals captivadores que no només siguin visualment atractives, sinó també intuïtives, efectives i basades en dades.",
     "title2": "2. Disseny Centrat a l'Usuari:",
-    "text2": "Cada projecte que abordo comença amb una investigació exhaustiva sobre el públic objectiu. Crec en el disseny centrat en l'usuari, assegurant-me que cada element visual i cada interacció siguin dissenyats per proporcionar una experiència que compleixi les necessitats i les expectatives dels usuaris.",
+    "text2": "Cada projecte que abordo comença amb una investigació exhaustiva sobre el públic objectiu. Crec en el disseny centrat en l'usuari, assegurant-me que cada element visual i cada interacció siguin dissenyats per proporcionar una experiència que compleixi les necessitats i expectatives dels usuaris, recolzada per anàlisi de dades.",
     "title3": "3. Desenvolupament Orientat a Resultats:",
-    "text3": "El meu enfocament en el desenvolupament web es basa en lobtenció de resultats tangibles. Faig servir tecnologies d'avantguarda per construir llocs web que no només es veuen bé, sinó que també funcionen a la perfecció en diferents dispositius i navegadors. El meu objectiu és crear solucions duradores i escalables que generin impacte.",
+    "text3": "El meu enfocament en el desenvolupament web es basa en obtenir resultats tangibles, tant en termes d'experiència d'usuari com en dades generades. Utilitzo tecnologies d'avantguarda per construir llocs web que no només es veuen bé, sinó que també funcionen a la perfecció en diferents dispositius i navegadors, optimitzats mitjançant anàlisis de dades per millorar-ne el rendiment i l'eficàcia.",
     "title4": "4. Col·laboració i Comunicació:",
-    "text4": "Crec en una comunicació oberta i fluida amb els meus clients. Comprenc la importància d'escoltar atentament els teus objectius i necessitats, i treballar plegats per convertir la teva visió en una realitat digital impressionant. La col·laboració és clau per aconseguir resultats excepcionals.",
+    "text4": "Crec en una comunicació oberta i fluida amb els meus clients, comprenent els seus objectius i necessitats, i treballant plegats per convertir la seva visió en una realitat digital impressionant, recolzada per dades. La col·laboració és clau per aconseguir resultats excepcionals, tant pel que fa al desenvolupament web com a la ciència de dades.",
     "title5": "5. Innovació Contínua:",
-    "text5": "El camp del disseny i desenvolupament web està en constant evolució, i em comprometo a mantenir-me actualitzat amb les darreres tendències i tecnologies. Això em permet oferir solucions fresques i innovadores que mantenen els meus clients a l'avantguarda en línia.",
+    "text5": "El camp del disseny, desenvolupament web i ciència de dades està en constant evolució, i em comprometo a mantenir-me actualitzat amb les darreres tendències i tecnologies. Això em permet oferir solucions fresques i innovadores que mantenen els meus clients a l'avantguarda en línia i en anàlisi de dades.",
     "title6": "6. Experiència en tecnologies:",
-    "text6": "El meu conjunt d'habilitats inclou experiència a HTML5, CSS3, JavaScript, així com a l'ús de frameworks com TailWindCSS i React. A més, tinc experiència en loptimització de llocs web per al rendiment i laccessibilitat, el que garanteix que cada projecte sigui ràpid i disponible per a tots."
+    "text6": "El meu conjunt d'habilitats inclou experiència en HTML5, CSS3, JavaScript, així com en l'ús de frameworks com TailWindCSS i React per al desenvolupament web, i Python, R i eines de machine learning per a anàlisi de dades. A més, tinc experiència en loptimització de llocs web per al rendiment i laccessibilitat, recolzada per anàlisi de dades per garantir que cada projecte sigui ràpid, accessible i recolzat per informació valuosa."
   },
   "Contacto": {
     "title": "Contacte"
