@@ -14,7 +14,7 @@ import image_sql from "./img/sql.png";
 import image_docker from "./img/docker.webp";
 import image_cassandra from "./img/cassandra.svg";
 import image_apache from "./img/apache.jpg";
-import image_matplotlib from "./img/MATPLOTLIB1.png";
+import image_matplotlib from "./img/matplot.png";
 import image_plotly from "./img/plotly.png";
 import image_seaborn from "./img/seaborn.svg";
 import { useTranslation } from "react-i18next";
