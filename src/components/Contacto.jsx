@@ -37,7 +37,7 @@ export const Contacto = () => {
           target="blank"
           className="contacto_a"
         >
-          https://linkedin.com/in/tony-vargas-garcía-122b1424b
+          Linkedin.com Tony_Vargas_García
         </a>
 
         <article>
@@ -53,7 +53,7 @@ export const Contacto = () => {
           </a>
         </article>
         <a href="https://wa.me/34661871759" alt="WhatsApp" target="blank" className="contacto_a">
-          WhatsApp number: +34 ### ## ## ##
+          WhatsApp
         </a>
 
         <article>
@@ -75,7 +75,7 @@ export const Contacto = () => {
           </a>
         </article>
         <a href="https://github.com/TonyVargas777" alt="github" target="blank" className="contacto_a">
-          https://github.com/TonyVargas777
+          Github TonyVargas777
         </a>
 
         <article>

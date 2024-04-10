@@ -17,20 +17,9 @@ export const trabajos = [
     nombre_en: "Complete Web",
     url: "https://home-steel-chi.vercel.app/",
     tecnologias: "HTML, CSS, JS",
-    categorias: "EJEMPLO DE HOME",
-    categorias_cat:"EXEMPLE DE HOME",
-    categorias_en:"EXAMPLE OF HOME"
-  },
-  {
-    id: "Pokemon_Api",
-    nombre: "Pokemon Api",
-    nombre_cat: "Pokemon Api",
-    nombre_en: "Pokemon Api",
-    url: "https://pokeapi-five-sepia.vercel.app/",
-    tecnologias: "REACT Node API",
-    categorias: "Pokemon Api",
-    categorias_cat:"Pokemon Api",
-    categorias_en:"Pokemon Api"
+    categorias: "HOME PERFECTO",
+    categorias_cat:"HOME PERFECTE",
+    categorias_en:"PERFECT HOME"
   },
   {
     id: "juegos",
@@ -42,6 +31,17 @@ export const trabajos = [
     categorias: "CRUD COMPLETO",
     categorias_cat:"CRUT COMPLET",
     categorias_en:"COMPLETE CRUD"
+  },
+  {
+    id: "Pokemon_Api",
+    nombre: "Pokemon Api",
+    nombre_cat: "Pokemon Api",
+    nombre_en: "Pokemon Api",
+    url: "https://pokeapi-five-sepia.vercel.app/",
+    tecnologias: "REACT Node API",
+    categorias: "Pokemon Api",
+    categorias_cat:"Pokemon Api",
+    categorias_en:"Pokemon Api"
   },
   {
     id: "Arkanoid",

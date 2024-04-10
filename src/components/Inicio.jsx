@@ -82,7 +82,7 @@ export const Inicio = () => {
         <br />
         <img
           fetchpriority="high"
-          className="skills"
+          className="skills2"
           src={image_html}
           alt="html_css_js"
         />

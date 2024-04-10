@@ -47,7 +47,7 @@ export const Curriculum = () => {
             <li>{t("Curriculum.boot_camp_m2")}</li>
             <li>{t("Curriculum.boot_camp_m3")}</li>
           </ul>
-          <h3>{t("Curriculum.boot_camp_school")}</h3>
+          <h2>{t("Curriculum.boot_camp_school")}</h2>
         </div>
         <div className="education1">
           <h2>{t("Curriculum.daw")}</h2>
@@ -56,7 +56,7 @@ export const Curriculum = () => {
             <li>{t("Curriculum.daw_m2")}</li>
             <li>{t("Curriculum.daw_m3")}</li>
           </ul>
-          <h3>{t("Curriculum.consorci")}</h3>
+          <h2>{t("Curriculum.consorci")}</h2>
         </div>
         <div className="education1">
           <h2>{t("Curriculum.ds")}</h2>
@@ -67,15 +67,15 @@ export const Curriculum = () => {
             <li>{t("Curriculum.ds_4")}</li>
             <li>{t("Curriculum.ds_5")}</li>
           </ul>
-          <h3>{t("Curriculum.coursera")}</h3>
+          <h2>{t("Curriculum.coursera")}</h2>
         </div>
         <div className="education1">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
-          <h3> EF Standard English Test (EF SET) (2023)</h3>
+          <h2> EF Standard English Test (EF SET) (2023)</h2>
         </div>
         <div className="work-item">
         <div>
-          <h2 className="port">Curriculum Vitae</h2>
+          <h2 className="cv">Curriculum Vitae</h2>
           <hr />
           {t("Curriculum.cv")}
           <hr />

@@ -43,7 +43,7 @@ export const HeaderNav = () => {
               to="/curriculum"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              Curriculum
+              {t("Curriculum.education")}
             </NavLink>
           </li>
           <li>
