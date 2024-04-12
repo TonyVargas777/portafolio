@@ -42,6 +42,7 @@ export const Curriculum = () => {
         {/* <h2>{t("Curriculum.education")}</h2> */}
         <div className="education1">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
+          <h2>(IFCD66)</h2>
           <ul >
             <li>{t("Curriculum.boot_camp_m1")}</li>
             <li>{t("Curriculum.boot_camp_m2")}</li>
@@ -51,6 +52,7 @@ export const Curriculum = () => {
         </div>
         <div className="education1">
           <h2>{t("Curriculum.daw")}</h2>
+          <h2>(IFCD0210)</h2>
           <ul>
             <li>{t("Curriculum.daw_m1")}</li>
             <li>{t("Curriculum.daw_m2")}</li>
