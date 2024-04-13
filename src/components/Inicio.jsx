@@ -22,15 +22,19 @@ import { useTranslation } from "react-i18next";
 
 export const Inicio = () => {
   const [t, i18n] = useTranslation("global");
-  const [randomIndex, setRandomIndex] = useState(0);
+  const [randomIndexDS, setRandomIndexDS] = useState(0);
+  const [randomIndexDAW, setRandomIndexDAW] = useState(0);
 
   // Obtiene las frases del archivo de traducción global según el idioma actual seleccionado
-  const phrases = t("Inicio.phrases", { returnObjects: true });
+  const phrases_ds = t("Inicio.phrases_ds", { returnObjects: true });
+  const phrases_daw = t("Inicio.phrases_daw", { returnObjects: true });
 
   useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * phrases.length);
-    setRandomIndex(randomIndex);
-  }, [phrases]);
+    const randomIndexDS = Math.floor(Math.random() * phrases_ds.length);
+    const randomIndexDAW = Math.floor(Math.random() * phrases_daw.length);
+    setRandomIndexDS(randomIndexDS);
+    setRandomIndexDAW(randomIndexDAW);
+  }, [phrases_ds, phrases_daw]);
 
   return (
     <div className="home">
@@ -83,7 +87,7 @@ export const Inicio = () => {
           
           <img className="skills1" src={image_seaborn} alt="SEABORN" />
         </div>
-        <h3>{phrases[randomIndex]}</h3>
+        <h3>{phrases_ds[randomIndexDS]}</h3>
       </div>
       <div className="work-item-skills">
         <h2  className="heading">MERN STACK</h2>
@@ -101,7 +105,7 @@ export const Inicio = () => {
           <img className="skills1" src={image_node} alt="NODE" />
         </div>
         <h3>
-        {t("Inicio.help")}
+        {phrases_daw[randomIndexDAW]}
         </h3>
       </div>
       <article className="work-item2">

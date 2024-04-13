@@ -12,7 +12,7 @@
     "last": "Els meus darrers projectes:",
     "button1": "Accés a la Resta de Projectes",
     "phrase": "''Ja no estem en l'era de la informació. Estem en l'era de la gestió de la informació.'' Chris Hardwich",
-    "phrases": [
+    "phrases_ds": [
       "''Ja no estem en l'era de la informació. Estem en l'era de la gestió de la informació.'' Chris Hardwich",
       "''És fàcil mentir amb estadístiques. És difícil dir la veritat sense estadístiques.'' Andrejs Dunkels",
       "''En Déu confiem; tots els altres han de portar dades.'' William Edwards Deming",
@@ -28,6 +28,24 @@
       "''Apunta a la simplicitat en la ciència de dades. La veritable creativitat no farà les coses més complexes. En canvi, les simplificarà.'' Damian Duffy Mingle",
       "''Científic de dades (n.): Persona que és millor en estadístiques que qualsevol enginyer de programari i millor en enginyeria de programari que qualsevol estadístic.'' Josh Wills",
       "''Si tenim dades, mirem dades. Si tot el que tenim són opinions, anem amb la meva.'' Jim L. Barksdale"
+    ],
+    "phrases_daw": [
+      "''No et preocupis si no funciona bé. Si tot estigués correcte, series acomiadat del teu treball.'' Llei de Mosher de la Enginyeria del Software",
+      "''Només hi ha dues classes de llenguatges de programació: aquells dels quals la gent sempre s'està queixant i aquells que ningú utilitza.'' Bjarne Stroustrup",
+      "''PHP és un mal menor perpetrat i creat per amateurs incompetents, mentre que Perl és un gran i insidios mal perpetrart per hàbils però pervertits professionals.'' Jon Ribbens",
+      "''L'ús de COBOL dany la ment. La seva ensenyança hauria de ser considerada com un atac criminal.'' E. W. Dijkstra",
+      "''Primer aprèn informàtica i tota la teoria. Després desenvolupa un estil de programació. Llavors, oblida-ho tot i hackeja.'' George Carrette",
+      "''Iterar és humà, 'recursivar' és diví'' L. Peter Deutsch",
+      "''El millor dels booleans és que si t'equivocas estàs a un sol bit de la solució correcta'' Anònim",
+      "''Els índexs dels arrays haurien de començar en 0 o en 1? La meva proposta neutral d'usar 0.5 va ser rebutjada, en la meva opinió, sense la deguda consideració.''",
+      "''Programa sempre el teu codi com si el tipus que haurà de mantenir-lo en el futur fos un violent psicòpata que sap on vius.'' Martin Golding",
+      "''Sempre he desitjat que el meu ordinador fos tan fàcil d'usar com el meu telèfon; el meu desig s'ha complert perquè ja no puc entendre com usar el meu telèfon.'' Bjarne Stroustrup",
+      "''La versió orientada a objectes del 'codi espagueti' és, per descomptat, el 'codi lasanya'. (Massa capes).'' Roberto Waltman",
+      "''Quan algú diu: 'Vull un llenguatge de programació en el qual només hagi de dir el que desitjo que es faci', dóna-li un xumet.'' Alan J. Perlis",
+      "''Un bon disseny afegeix valor més ràpidament del que afegeix cost.'' Thomas C. Gale",
+      "''Les paraules són barates. Mostra'm el codi.'' Linus Torvalds",
+      "''En teoria, la teoria i la pràctica són iguals. En la pràctica, no ho són.'' Yoggi Berra",
+      "''Vaig inventar el terme 'Orientat a objectes', i puc dir-te que no tenia en ment a C++.'' Alan Kay"
     ],
     "help": "T'ajudo a crear el teu lloc o aplicació web, tenir més visibilitat i rellevància a internet.",
     "contact": "Contacta amb mi",

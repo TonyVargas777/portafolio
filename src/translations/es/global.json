@@ -12,7 +12,7 @@
     "last": "Mis últimos proyectos:",
     "button1": "Acceso al Resto de Proyectos",
     "phrase": "''Ya no estamos en la era de la información. Estamos en la era de la gestión de la información.'' Chris Hardwich",
-    "phrases": [
+    "phrases_ds": [
       "''Ya no estamos en la era de la información. Estamos en la era de la gestión de la información.'' Chris Hardwich",
       "''Es fácil mentir con estadísticas. Es difícil decir la verdad sin estadísticas.'' Andrejs Dunkels",
       "''En Dios confiamos; todos los demás deben aportar datos.'' William Edwards Deming",
@@ -28,7 +28,26 @@
       "''Apunta a la simplicidad en la ciencia de datos. La verdadera creatividad no hará las cosas más complejas. En cambio, las simplificará.'' Damian Duffy Mingle",
       "''Científico de datos (n.): Persona que es mejor en estadísticas que cualquier ingeniero de software y mejor en ingeniería de software que cualquier estadístico.'' Josh Wills",
       "''Si tenemos datos, veamos datos. Si todo lo que tenemos son opiniones, vayamos con la mía.'' Jim L. Barksdale"
-    ],    
+    ],
+    "phrases_daw": [
+      "''No te preocupes si no funciona bien. Si todo estuviera correcto, serías despedido de tu trabajo.'' Ley de Mosher de la Ingeniería del Software",
+      "''Hay sólo dos clases de lenguajes de programación: aquellos de los que la gente está siempre quejándose y aquellos que nadie usa.'' Bjarne Stroustrup",
+      "''PHP es un mal menor perpetrado y creado por amateurs incompetentes, mientras que Perl es un gran e insidioso mal perpetrado por hábiles pero pervertidos profesionales.'' Jon Ribbens",
+      "''El uso de COBOL daña la mente. Su enseñanza debería ser considerada como un ataque criminal.'' E. W. Dijkstra",
+      "''Primero aprende informática y toda la teoría. Después desarrolla un estilo de programación. Entonces, olvídalo todo y hackea.'' George Carrette",
+      "''Iterar es humano, 'recursivar' es divino'' L. Peter Deutsch",
+      "''Lo mejor de los booleanos es que si te equivocas estás a un sólo bit de la solución correcta'' Anónimo",
+      "''¿Los índices de los arrays deberían comenzar en 0 o en 1? Mi propuesta neutral de usar 0.5 fue rechazada, en mi opinión, sin la debida consideración.''",
+      "''Programa siempre tu código como si el tipo que va a tener que mantenerlo en el futuro fuera un violento psicópata que sabe donde vives.'' Martin Golding",
+      "''Siempre he deseado que mi ordenador fuera tan fácil de usar como mi teléfono; mi deseo se ha cumplido porque ya no puedo averiguar cómo usar mi teléfono.'' Bjarne Stroustrup",
+      "''La versión orientada a objetos del 'código espagueti' es, por supuesto, el 'código lasaña'. (Demasiadas capas).'' Roberto Waltman",
+      "''Cuando alguien dice: 'Quiero un lenguaje de programación en el que solo tenga que decir lo que deseo que se haga', dale un chupete.'' Alan J. Perlis",
+      "''Un buen diseño añade valor más rápido de lo que añade coste.'' Thomas C. Gale",
+      "''Las palabras son baratas. Muéstrame el código.'' Linus Torvalds",
+      "''En teoría, la teoría y la práctica son iguales. En la práctica, no lo son.'' Yoggi Berra",
+      "''Inventé el término 'Orientado a objetos', y puedo decirte que no tenía en mente a C++.'' Alan Kay"
+    ]
+    ,  
     "help": "Te ayudo a crear tu sitio o aplicación web, tener más visibilidad y relevancia en internet.",
     "contact": "Contacta conmigo",
     "know": "Si quieres saber más de mi puedes descargarte mi Curriculum Vitae:",
