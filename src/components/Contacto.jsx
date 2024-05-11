@@ -37,7 +37,7 @@ export const Contacto = () => {
           target="blank"
           className="contacto_a"
         >
-          Linkedin.com Tony_Vargas_García
+          Linkedin Tony_Vargas_García
         </a>
 
         <article>
