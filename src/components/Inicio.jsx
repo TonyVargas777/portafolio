@@ -90,7 +90,8 @@ export const Inicio = () => {
         <h3>{phrases_ds[randomIndexDS]}</h3>
       </div>
       <div className="work-item-skills">
-        <h2  className="heading">MERN STACK</h2>
+        <h2  className="heading">WEB DEVELOPMENT</h2>
+        <h2  className="heading">(MERN STACK)</h2>
         <br />
         <img
           fetchpriority="high"
