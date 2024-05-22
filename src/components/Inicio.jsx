@@ -63,7 +63,7 @@ export const Inicio = () => {
       </article> */}
 
       <div className="work-item-skills">
-        <h2  className="heading">DATA SCIENCE</h2>
+        <h4  className="heading">DATA SCIENCE</h4>
         <br />
         <img
           fetchpriority="high"
