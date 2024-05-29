@@ -61,7 +61,7 @@ export const Inicio = () => {
         </Link>
         </h2>
       </article> */}
-
+      <div className="cajas">
       <div className="work-item-skills">
         <h4  className="heading">DATA SCIENCE</h4>
         <br />
@@ -92,7 +92,7 @@ export const Inicio = () => {
       <div className="work-item-skills">
         <h4  className="heading">WEB DEVELOPMENT</h4>
          <br />
-         <h2  className="heading">(MERN STACK)</h2>
+         {<h2  className="heading">(MERN STACK)</h2>}
         <br />
        
         <img
@@ -110,6 +110,7 @@ export const Inicio = () => {
         <h3>
         {phrases_daw[randomIndexDAW]}
         </h3>
+      </div>
       </div>
       <article className="work-item2">
         <h2>
