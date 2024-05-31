@@ -54,7 +54,16 @@
     "download": "Descargar CV"
   },
   "Portafolio": {
-    "title": "Proyectos-Web"
+    "title": "Web Dev"
+  },
+  "Portafolio_DS": {
+    "title": "Data Science",
+    "python_text":"Tratamiento de imágenes con Python",
+    "mysql_text":"Gestión de BBDD relacionales",
+    "mongoDB_text":"Gestión de BBDD NO relacionales",
+    "spark_text":"Procesamiento de datos a gran escala",
+    "airflow_text": "Creación, planificación y seguimiento de flujos de trabajo",
+    "docker_text": "Despliegue de aplicaciones dentro de Contenedores virtuales"
   },
   "Curriculum": {
     "title": "Conocimientos MERN STACK",

@@ -53,7 +53,16 @@
     "download": "Descarregar CV"
   },
   "Portafolio": {
-    "title": "Projectes-Web"
+    "title": "Web Dev"
+  },
+  "Portafolio_DS": {
+    "title": "Ciència de Dades",
+    "python_text": "Tractament d'imatges amb Python",
+    "mysql_text": "Gestió de bases de dades relacionals",
+    "mongoDB_text": "Gestió de bases de dades no relacionals",
+    "spark_text": "Processament de dades a gran escala",
+    "airflow_text": "Creació, planificació i seguiment de fluxos de treball",
+    "docker_text": "Desplegament d'aplicacions dins de contenidors virtuals"
   },
   "Curriculum": {
     "title": "Coneixements MERN STACK",

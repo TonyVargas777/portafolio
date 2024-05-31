@@ -53,7 +53,16 @@
     "download": "Download CV"
   },
   "Portafolio": {
-    "title": "Web-Projects"
+    "title": "Web Dev"
+  },
+  "Portafolio_DS": {
+    "title": "Data Science",
+    "python_text": "Image processing with Python",
+    "mysql_text": "Relational database management",
+    "mongoDB_text": "Non-relational database management",
+    "spark_text": "Large-scale data processing",
+    "airflow_text": "Creation, scheduling, and monitoring of workflows",
+    "docker_text": "Application deployment within virtual containers"
   },
   "Curriculum": {
     "title": "MERN STACK Knowledge",

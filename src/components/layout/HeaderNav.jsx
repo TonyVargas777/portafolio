@@ -32,6 +32,14 @@ export const HeaderNav = () => {
           </li>
           <li>
             <NavLink
+              to="/portafolio_dS"
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              {t("Portafolio_DS.title")}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/portafolio"
               className={({ isActive }) => (isActive ? "active" : "")}
             >

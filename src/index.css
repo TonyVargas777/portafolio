@@ -504,6 +504,21 @@ nav {
   border: 1px solid black;
   box-shadow: 0px 5px 14px gray;
 }
+.mask2 {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* Esto crea un cuadro con proporción 4:3. Ajusta según sea necesario */
+  overflow: hidden;
+}
+
+.mask2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Esto asegura que la imagen cubra completamente el cuadro */
+}
 .work-item img:hover {
   transition: all 300ms;
   width: 130%;
