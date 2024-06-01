@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
-import { trabajos } from "../data/trabajos";
 
 
     export const Portafolio_ds = () => {
@@ -19,7 +17,9 @@ import { trabajos } from "../data/trabajos";
             <div className="services">
                 <div className="service">
                     <div className="mask2">
-                    <img src={`/img/animales/fusion.png`} alt="" />
+                    <a href="/img/animales/TRATAMIENTO DE IMÁGENES.mp4" target="_blank">
+                    <img src={`/img/animales/python.jpg`} alt="PYTHON" />
+                    </a>
                     </div>
                     <div className="datos">
                         <h2 className="">PYTHON</h2>
