@@ -58,7 +58,9 @@
   },
   "Portafolio_DS": {
     "title": "Data Science",
-    "python_text":"Tratamiento de imágenes con Python",
+    "python_text": "Programación con Python",
+    "python_image_title": "TRATAMIENTO DE IMÁGENES",
+    "python_image_text": "Procesamiento de imágenes con Python",
     "mysql_text":"Gestión de BBDD relacionales",
     "mongoDB_text":"Gestión de BBDD NO relacionales",
     "spark_text":"Procesamiento de datos a gran escala",

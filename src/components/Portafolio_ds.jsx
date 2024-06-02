@@ -1,78 +1,107 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
+export const Portafolio_ds = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    export const Portafolio_ds = () => {
-        useEffect(() => {
-          window.scrollTo(0, 0);
-        }, []);
-      
-        const [t, i18n] = useTranslation("global");
-      
-        return (
-            <div className="page">
-                <div className="education">
-                    <h1 className="heading">Data Science</h1>
-                </div> 
-            <div className="services">
-                <div className="service">
-                    <div className="mask2">
-                    <a href="/img/animales/TRATAMIENTO DE IMÁGENES.mp4" target="_blank">
-                    <img src={`/img/animales/python.jpg`} alt="PYTHON" />
-                    </a>
-                    </div>
-                    <div className="datos">
-                        <h2 className="">PYTHON</h2>
-                        <p className="">{t("Portafolio_DS.python_text")}</p>
-                    </div>
-                </div>
-                <div className="service">
-                    <div className="mask2">
-                    <img src={`/img/MySQL/mysql_inicio.jpg`} alt="" />
-                    </div>
-                    <div className="datos">
-                        <h2 className="">MY_SQL</h2>
-                        <p className="">{t("Portafolio_DS.mysql_text")}</p>
-                    </div>
-                </div>
-                <div className="service">
-                    <div className="mask2">
-                    <img src={`/img/MongoDB/MongoDB.png`} alt="" />
-                    </div>
-                    <div className="datos">
-                        <h2 className="">MONGODB</h2>
-                        <p className="">{t("Portafolio_DS.mongoDB_text")}</p>
-                    </div>
-                </div>
-                <div className="service">
-                    <div className="mask2">
-                    <img src={`/img/Spark/spark_inicio.jpg`} alt="" />
-                    </div>
-                    <div className="datos">
-                        <h2 className="">SPARK</h2>
-                        <p className="">{t("Portafolio_DS.spark_text")}</p>
-                    </div>
-                </div>
-                <div className="service">
-                    <div className="mask2">
-                    <img src={`/img/Airflow/Airflow_inicio.jpg`} alt="" />
-                    </div>
-                    <div className="datos">
-                        <h2 className="">AIRFLOW</h2>
-                        <p className="">{t("Portafolio_DS.airflow_text")}</p>
-                    </div>
-                </div>
-                <div className="service">
-                    <div className="mask2">
-                    <img src={`/img/Docker/docker_inicio.png`} alt="" />
-                    </div>
-                    <div className="datos">
-                        <h2 className="">DOCKER</h2>
-                        <p className="">{t("Portafolio_DS.docker_text")}</p>
-                    </div>
-                </div>
-            </div>
-            
-            </div>
-          )
-        }
+  const [t, i18n] = useTranslation("global");
+
+  const openVideoWindow = (videoSrc) => {
+    window.open(videoSrc, "VideoWindow", "width=800,height=600");
+  };
+
+  return (
+    <div className="page">
+      <div className="education">
+        <h1 className="heading">Data Science</h1>
+      </div>
+      <div className="services">
+        <div className="service">
+          <div className="mask2">
+            <img
+              src={`/img/animales/python.jpg`}
+              alt="PYTHON"
+              onClick={() => openVideoWindow("/img/animales/Python.mp4")}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="datos">
+            <h2 className="">PYTHON</h2>
+            <p className="">{t("Portafolio_DS.python_text")}</p>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+          <img
+              src={`/img/animales/fusion.png`}
+              alt="PYTHON"
+              onClick={() => openVideoWindow("/img/animales/Imágenes.mp4")}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="datos">
+            <h2 className="">{t("Portafolio_DS.python_image_title")}</h2>
+            <p className="">{t("Portafolio_DS.python_image_text")}</p>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <img
+              src={`/img/MySQL/mysql_inicio.jpg`}
+              alt="mysql"
+              onClick={() => openVideoWindow("/img/MySQL/My_SQL.mp4")}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="datos">
+            <h2 className="">MY_SQL</h2>
+            <p className="">{t("Portafolio_DS.mysql_text")}</p>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+          <img
+              src={`/img/MongoDB/MongoDB.png`}
+              alt="mongodb"
+              onClick={() => openVideoWindow("/img/MongoDB/MongoDB.mp4")}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="datos">
+            <h2 className="">MONGODB</h2>
+            <p className="">{t("Portafolio_DS.mongoDB_text")}</p>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <img src={`/img/Spark/spark_inicio.jpg`} alt="" />
+          </div>
+          <div className="datos">
+            <h2 className="">SPARK</h2>
+            <p className="">{t("Portafolio_DS.spark_text")}</p>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <img src={`/img/Airflow/Airflow_inicio.jpg`} alt="" />
+          </div>
+          <div className="datos">
+            <h2 className="">AIRFLOW</h2>
+            <p className="">{t("Portafolio_DS.airflow_text")}</p>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <img src={`/img/Docker/docker_inicio.png`} alt="" />
+          </div>
+          <div className="datos">
+            <h2 className="">DOCKER</h2>
+            <p className="">{t("Portafolio_DS.docker_text")}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

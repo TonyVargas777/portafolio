@@ -57,7 +57,9 @@
   },
   "Portafolio_DS": {
     "title": "Data Science",
-    "python_text": "Tractament d'imatges amb Python",
+    "python_text": "Programació amb Python",
+    "python_image_title": "TRACTAMENT D'IMATGES",
+    "python_image_text": "Processament d'imatges amb Python",
     "mysql_text": "Gestió de bases de dades relacionals",
     "mongoDB_text": "Gestió de bases de dades no relacionals",
     "spark_text": "Processament de dades a gran escala",

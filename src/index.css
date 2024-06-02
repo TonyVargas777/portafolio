@@ -731,7 +731,7 @@ nav {
   }
   .service {
     background: black;
-    width: 85%;
+    width: 40%;
     margin: 10px;
     border: 2px solid blue;
     border-radius: 10px;
@@ -741,7 +741,7 @@ nav {
   }
   .services {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .education {
@@ -862,6 +862,21 @@ nav {
       width: 100%;
       height: auto;
     }
+  }
+  .service {
+    background: black;
+    width: 85%;
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
 

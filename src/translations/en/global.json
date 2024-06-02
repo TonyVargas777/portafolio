@@ -56,8 +56,10 @@
     "title": "Web Dev"
   },
   "Portafolio_DS": {
-    "title": "Data Science",
-    "python_text": "Image processing with Python",
+    "title": "Data Science",    
+    "python_text": "Programming with Python",
+    "python_image_title": "IMAGE PROCESSING",
+    "python_image_text": "Image processing with Python",
     "mysql_text": "Relational database management",
     "mongoDB_text": "Non-relational database management",
     "spark_text": "Large-scale data processing",
