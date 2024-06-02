@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ListadoTrabajos } from "./ListadoTrabajos";
 import image_html from "./img/html_css_js1.avif";
 import image_react from "./img/reactjs-ar21.avif";
 import image_node from "./img/nodejs-ar21.avif";
@@ -18,7 +17,6 @@ import image_matplotlib from "./img/matplot.png";
 import image_plotly from "./img/plotly.png";
 import image_seaborn from "./img/seaborn.svg";
 import { useTranslation } from "react-i18next";
-
 
 export const Inicio = () => {
   const [t, i18n] = useTranslation("global");
@@ -43,12 +41,14 @@ export const Inicio = () => {
           <img className="avatar" src={image_photo} alt="photo" />
         </div>
         <div className="my_self_type">
-          <h1 className="ancho_home">{t("Inicio.hi1")}<strong className="type">Tony Vargas</strong>{t("Inicio.hi2")}
+          <h1 className="ancho_home">
+            {t("Inicio.hi1")}
+            <strong className="type">Tony Vargas</strong>
+            {t("Inicio.hi2")}
           </h1>
         </div>
       </div>
-      <h2 className="texts">{t("Inicio.text")}
-      </h2>
+      <h2 className="texts">{t("Inicio.text")}</h2>
 
       {/* <article className="last-works">
         <h2 className="heading">{t("Inicio.last")}</h2>
@@ -62,60 +62,66 @@ export const Inicio = () => {
         </h2>
       </article> */}
       <div className="cajas">
-      <div className="work-item-skills">
-        <h4  className="heading">DATA SCIENCE</h4>
-        <br />
-        <img
-          fetchpriority="high"
-          className="skills"
-          src={image_python}
-          alt="html_css_js"
-        />
-        <div className="skills1_caja">
-          <img className="skills1" src={image_numpy} alt="NUMPY" />
-          <img className="skills1" src={image_pandas} alt="PANDAS" />
-          <img className="skills1" src={image_docker} alt="DOCKER" />
-        </div>
-        <div className="skills1_caja">
-          <img className="skills1" src={image_sql} alt="SQL" />
-          <img className="skills1" src={image_cassandra} alt="CASSANDRA" />
-          <img className="skills1" src={image_apache} alt="APACHE" />
-        </div>
-        <div className="skills1_caja">
-          <img className="skills1" src={image_plotly} alt="PLOTLY" />
-          <img className="skills1" src={image_matplotlib} alt="MATPLOTLIB" />
-          
-          <img className="skills1" src={image_seaborn} alt="SEABORN" />
-        </div>
-        <h3>{phrases_ds[randomIndexDS]}</h3>
-      </div>
-      <div className="work-item-skills">
-        <h4  className="heading">WEB DEVELOPMENT</h4>
-         <br />
-         {<h2  className="heading">(MERN STACK)</h2>}
-        <br />
-       
-        <img
-          fetchpriority="high"
-          className="skills2"
-          src={image_html}
-          alt="html_css_js"
-        />
-        <div className="skills1_caja">
-          <img className="skills1" src={image_mongo} alt="MONGO" />
-          <img className="skills1" src={image_express} alt="EXPRESS" />
-          <img className="skills1" src={image_react} alt="REACT" />
-          <img className="skills1" src={image_node} alt="NODE" />
-        </div>
-        <h3>
-        {phrases_daw[randomIndexDAW]}
-        </h3>
-      </div>
+        <Link to="/portafolio_dS">
+          <div className="work-item-skills">
+            <h4 className="heading">DATA SCIENCE</h4>
+            <br />
+            <img
+              fetchpriority="high"
+              className="skills"
+              src={image_python}
+              alt="html_css_js"
+            />
+            <div className="skills1_caja">
+              <img className="skills1" src={image_numpy} alt="NUMPY" />
+              <img className="skills1" src={image_pandas} alt="PANDAS" />
+              <img className="skills1" src={image_docker} alt="DOCKER" />
+            </div>
+            <div className="skills1_caja">
+              <img className="skills1" src={image_sql} alt="SQL" />
+              <img className="skills1" src={image_cassandra} alt="CASSANDRA" />
+              <img className="skills1" src={image_apache} alt="APACHE" />
+            </div>
+            <div className="skills1_caja">
+              <img className="skills1" src={image_plotly} alt="PLOTLY" />
+              <img
+                className="skills1"
+                src={image_matplotlib}
+                alt="MATPLOTLIB"
+              />
+
+              <img className="skills1" src={image_seaborn} alt="SEABORN" />
+            </div>
+            <h3>{phrases_ds[randomIndexDS]}</h3>
+          </div>
+        </Link>
+        <Link to="/portafolio">
+          <div className="work-item-skills">
+            <h4 className="heading">WEB DEVELOPMENT</h4>
+            <br />
+            {<h2 className="heading">(MERN STACK)</h2>}
+            <br />
+
+            <img
+              fetchpriority="high"
+              className="skills2"
+              src={image_html}
+              alt="html_css_js"
+            />
+            <div className="skills1_caja">
+              <img className="skills1" src={image_mongo} alt="MONGO" />
+              <img className="skills1" src={image_express} alt="EXPRESS" />
+              <img className="skills1" src={image_react} alt="REACT" />
+              <img className="skills1" src={image_node} alt="NODE" />
+            </div>
+            <h3>{phrases_daw[randomIndexDAW]}</h3>
+          </div>
+        </Link>
       </div>
       <article className="work-item2">
         <h2>
           <Link to="/contacto" align="center">
-          {t("Inicio.contact")}
+            {t("Inicio.contact")}
           </Link>
         </h2>
         <div className="redes">
@@ -188,9 +194,7 @@ export const Inicio = () => {
           </div>
         </div>
         <div className="cv">
-          <h3>
-          {t("Inicio.know")}
-          </h3>
+          <h3>{t("Inicio.know")}</h3>
 
           <br />
           <a
