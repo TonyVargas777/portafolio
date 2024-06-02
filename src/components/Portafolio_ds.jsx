@@ -77,6 +77,12 @@ export const Portafolio_ds = () => {
         <div className="service">
           <div className="mask2">
             <img src={`/img/Spark/spark_inicio.jpg`} alt="" />
+            <img
+              src={`/img/Spark/spark_inicio.jpg`}
+              alt="mongodb"
+              onClick={() => openVideoWindow("/img/Spark/PySpark.mp4")}
+              style={{ cursor: "pointer" }}
+            />
           </div>
           <div className="datos">
             <h2 className="">SPARK</h2>
@@ -85,7 +91,12 @@ export const Portafolio_ds = () => {
         </div>
         <div className="service">
           <div className="mask2">
-            <img src={`/img/Airflow/Airflow_inicio.jpg`} alt="" />
+            <img
+              src={`/img/Airflow/Airflow_inicio.jpg`}
+              alt="airflow"
+              onClick={() => openVideoWindow("/img/Airflow/Airflow.mp4")}
+              style={{ cursor: "pointer" }}
+            />
           </div>
           <div className="datos">
             <h2 className="">AIRFLOW</h2>
@@ -95,6 +106,12 @@ export const Portafolio_ds = () => {
         <div className="service">
           <div className="mask2">
             <img src={`/img/Docker/docker_inicio.png`} alt="" />
+            <img
+              src={`/img/Docker/docker_inicio.png`}
+              alt="airflow"
+              onClick={() => openVideoWindow("/img/Docker/Docker.mp4")}
+              style={{ cursor: "pointer" }}
+            />
           </div>
           <div className="datos">
             <h2 className="">DOCKER</h2>
