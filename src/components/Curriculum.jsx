@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import image_html from "./img/html_css_js1.png";
 import image_react from "./img/reactjs-ar21.png";
 import image_node from "./img/nodejs-ar21.png";
@@ -7,6 +7,9 @@ import image_express from "./img/express.png";
 import { useTranslation } from "react-i18next";
 
 export const Curriculum = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [t, i18n] = useTranslation("global");
   return (
     <div className="page">

@@ -19,6 +19,9 @@ import image_seaborn from "./img/seaborn.svg";
 import { useTranslation } from "react-i18next";
 
 export const Inicio = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [t, i18n] = useTranslation("global");
   const [randomIndexDS, setRandomIndexDS] = useState(0);
   const [randomIndexDAW, setRandomIndexDAW] = useState(0);
