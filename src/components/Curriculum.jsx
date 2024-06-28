@@ -41,9 +41,9 @@ export const Curriculum = () => {
           </a>
         </div>
       </div> */}
-      <div className="education">
+      <div className="services">
         {/* <h2>{t("Curriculum.education")}</h2> */}
-        <div className="education1">
+        <div className="service">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
           <h2>(IFCD66)</h2>
           <ul >
@@ -53,7 +53,7 @@ export const Curriculum = () => {
           </ul>
           <h2>{t("Curriculum.boot_camp_school")}</h2>
         </div>
-        <div className="education1">
+        <div className="service">
           <h2>{t("Curriculum.dam")}</h2>
           <ul>
             <li>{t("Curriculum.dam_m1")}</li>
@@ -67,7 +67,7 @@ export const Curriculum = () => {
           </ul>
           <h2>{t("Curriculum.unicas")}</h2>
         </div>
-        <div className="education1">
+        <div className="service">
           <h2>{t("Curriculum.daw")}</h2>
           <h2>(IFCD0210)</h2>
           <ul>
@@ -77,7 +77,7 @@ export const Curriculum = () => {
           </ul>
           <h2>{t("Curriculum.consorci")}</h2>
         </div>        
-        <div className="education1">
+        <div className="service">
           <h2>{t("Curriculum.ds")}</h2>
           <ul>
             <li>{t("Curriculum.ds_1")}</li>
@@ -88,11 +88,11 @@ export const Curriculum = () => {
           </ul>
           <h2>{t("Curriculum.coursera")}</h2>
         </div>
-        <div className="education1">
+        <div className="service">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
           <h2> EF Standard English Test (EF SET) (2023)</h2>
         </div>
-        <div className="education1">
+        <div className="service">
         <h2>{t("Curriculum.bd2")}</h2>
           <ul>
             <li>{t("Curriculum.bd2_1")}</li>
@@ -103,7 +103,7 @@ export const Curriculum = () => {
           </ul>
           <h2>{t("Curriculum.ioe")}</h2>
         </div>
-        <div className="education1">
+        <div className="service">
           <h2>{t("Curriculum.bd1")}</h2>
           <ul>
             <li>{t("Curriculum.bd1_1")}</li>
@@ -114,8 +114,9 @@ export const Curriculum = () => {
             <li>{t("Curriculum.bd1_6")}</li>
           </ul>
           <h2>{t("Curriculum.ioe")}</h2>
-        </div>
-        <div className="work-item">
+          </div>
+          </div>
+        <div  className="education">
         <div>
           <h2 className="cv">Curriculum Vitae</h2>
           <hr />
@@ -130,7 +131,7 @@ export const Curriculum = () => {
           >
             {t("Curriculum.download")}
           </a>
-        </div>
+        
         </div>
       </div>
       

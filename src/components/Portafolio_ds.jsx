@@ -44,6 +44,9 @@ export const Portafolio_ds = () => {
           <div className="datos">
             <h2 className="">{t("Portafolio_DS.python_image_title")}</h2>
             <p className="">{t("Portafolio_DS.python_image_text")}</p>
+            <a href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/fusion.ipynb" target="_blank" className="no-format-link">{t("Portafolio_DS.python_ipynb_link")}</a>
+            <a href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/dog_green.ipynb" target="_blank" className="no-format-link">{t("Portafolio_DS.python_ipynb_link2")}</a>
+
           </div>
         </div>
         <div className="service">
