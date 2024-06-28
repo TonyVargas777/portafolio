@@ -741,22 +741,7 @@ nav {
   }
   .footer {
     width: 100%;
-  }
-  .service {
-    background: black;
-    width: 40%;
-    margin: 10px;
-    border: 2px solid blue;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: space-between;
-    padding: 15px;
-  }
-  .services {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+  }  
   .education {
     font-size: 0.9em;
     width: 95%;
