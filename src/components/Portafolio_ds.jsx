@@ -100,6 +100,20 @@ export const Portafolio_ds = () => {
           <div className="datos">
             <h2 className="">MONGODB</h2>
             <p className="">{t("Portafolio_DS.mongoDB_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/compass1.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              🔗MongoDb Compass
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/atlas1.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              🔗MongoDB Atlas
+            </a>
           </div>
         </div>
         <div className="service">
