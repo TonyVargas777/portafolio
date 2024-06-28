@@ -72,6 +72,20 @@ export const Portafolio_ds = () => {
           <div className="datos">
             <h2 className="">MY_SQL</h2>
             <p className="">{t("Portafolio_DS.mysql_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/tables.ipynb"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.python_mysql_link")}
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/estrella.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.python_mysql_link2")}
+            </a>
           </div>
         </div>
         <div className="service">

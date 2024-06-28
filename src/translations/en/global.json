@@ -62,6 +62,8 @@
     "python_image_text": "Image Processing with Python",
     "python_ipynb_link": "🔗Image Fusion Code",
     "python_ipynb_link2": "🔗Image Decomposition Code",
+    "python_mysql_link": "🔗Database Code",
+    "python_mysql_link2": "🔗BBDD Star Diagram",
     "mysql_text": "Relational database management",
     "mongoDB_text": "Non-relational database management",
     "spark_text": "Large-scale data processing",

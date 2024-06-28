@@ -62,6 +62,8 @@
     "python_image_text": "Processament d'Imatges amb Python",
     "python_ipynb_link": "🔗Codi Fusió d'Imatges",
     "python_ipynb_link2": "🔗Codi Descomposició d'Imatges",
+    "python_mysql_link": "🔗Codi Base de Dades",
+    "python_mysql_link2": "🔗Diagrama Estrella BBDD",
     "mysql_text": "Gestió de bases de dades relacionals",
     "mongoDB_text": "Gestió de bases de dades no relacionals",
     "spark_text": "Processament de dades a gran escala",
