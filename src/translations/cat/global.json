@@ -72,6 +72,7 @@
     "mysql_text": "Gestió de bases de dades relacionals",
     "mongoDB_text": "Gestió de bases de dades no relacionals",
     "spark_text": "Processament de dades a gran escala",
+    "spark_link":"🔗Codi pySpark",
     "airflow_text": "Creació, planificació i seguiment de fluxos de treball",
     "docker_text": "Desplegament d'aplicacions dins de contenidors virtuals"
   },

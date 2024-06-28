@@ -115,6 +115,13 @@ export const Portafolio_ds = () => {
           <div className="datos">
             <h2 className="">SPARK</h2>
             <p className="">{t("Portafolio_DS.spark_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/PySpark.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.spark_link")}
+            </a>
           </div>
         </div>
         <div className="service">
