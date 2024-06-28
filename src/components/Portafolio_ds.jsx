@@ -77,14 +77,14 @@ export const Portafolio_ds = () => {
               target="_blank"
               className="no-format-link"
             >
-              {t("Portafolio_DS.python_mysql_link")}
+              {t("Portafolio_DS.mysql_link")}
             </a>
             <a
               href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/estrella.png"
               target="_blank"
               className="no-format-link"
             >
-              {t("Portafolio_DS.python_mysql_link2")}
+              {t("Portafolio_DS.mysql_link2")}
             </a>
           </div>
         </div>
@@ -129,6 +129,27 @@ export const Portafolio_ds = () => {
           <div className="datos">
             <h2 className="">AIRFLOW</h2>
             <p className="">{t("Portafolio_DS.airflow_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Airflow_graph.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.airflow_link")}
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Airflow_inicio.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.airflow_link2")}
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Airflow_log.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.airflow_link3")}
+            </a>            
           </div>
         </div>
         <div className="service">
