@@ -67,6 +67,8 @@
     "airflow_link": "🔗Airflow Graph",
     "airflow_link2": "🔗Airflow DAGs",
     "airflow_link3": "🔗Airflow Logs",
+    "docker_link": "🔗Contenidors de Docker",
+    "docker_link2": "🔗Imatges de Docker",
     "mysql_text": "Gestió de bases de dades relacionals",
     "mongoDB_text": "Gestió de bases de dades no relacionals",
     "spark_text": "Processament de dades a gran escala",

@@ -165,6 +165,20 @@ export const Portafolio_ds = () => {
           <div className="datos">
             <h2 className="">DOCKER</h2>
             <p className="">{t("Portafolio_DS.docker_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Docker_containers.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.docker_link")}
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Docker_imagenes.png"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.docker_link2")}
+            </a>
           </div>
         </div>
       </div>
