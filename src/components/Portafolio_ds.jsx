@@ -36,9 +36,9 @@ export const Portafolio_ds = () => {
           <div className="mask2">
             <img
               src={`/public/img/ML/machine_learning.jpg`}
-              alt="PYTHON"
+              alt="Machine Learning"
               // onClick={() => openVideoWindow("/img/animales/Imágenes.mp4")}
-              style={{ cursor: "pointer" }}
+              // style={{ cursor: "pointer" }}
             />
           </div>
           <div className="datos">
