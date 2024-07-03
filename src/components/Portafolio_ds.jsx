@@ -35,7 +35,7 @@ export const Portafolio_ds = () => {
         <div className="service">
           <div className="mask2">
             <img
-              src={`/public/img/ML/machine_learning.jpg`}
+              src={`/public/img/ML/machine_learning.png`}
               alt="Machine Learning"
               // onClick={() => openVideoWindow("/img/animales/Imágenes.mp4")}
               // style={{ cursor: "pointer" }}
