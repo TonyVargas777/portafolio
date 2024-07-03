@@ -35,6 +35,27 @@ export const Portafolio_ds = () => {
         <div className="service">
           <div className="mask2">
             <img
+              src={`/public/img/ML/machine_learning.jpg`}
+              alt="PYTHON"
+              // onClick={() => openVideoWindow("/img/animales/Imágenes.mp4")}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="datos">
+            <h2 className="">MACHINE LEARNING</h2>
+            <p className="">{t("Portafolio_DS.ML_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Unsupervised Learning.ipynb"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.ML_link")}
+            </a>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <img
               src={`/img/animales/fusion.png`}
               alt="PYTHON"
               onClick={() => openVideoWindow("/img/animales/Imágenes.mp4")}

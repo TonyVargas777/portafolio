@@ -62,6 +62,8 @@
     "python_image_text": "Processament d'Imatges amb Python",
     "python_ipynb_link": "🔗Codi Fusió d'Imatges",
     "python_ipynb_link2": "🔗Codi Descomposició d'Imatges",
+    "ML_text": "Aprenentatge supervisat, aprenentatge no supervisat i aprenentatge de reforç",
+    "ML_link": "🔗Codi Aprenentatge no supervisat",
     "mysql_text": "Gestió de bases de dades relacionals",
     "mysql_link": "🔗Codi Base de Dades",
     "mysql_link2": "🔗Diagrama Estrella BBDD",
