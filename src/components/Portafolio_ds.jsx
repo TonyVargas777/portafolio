@@ -49,7 +49,21 @@ export const Portafolio_ds = () => {
               target="_blank"
               className="no-format-link"
             >
-              {t("Portafolio_DS.ML_link")}
+              {t("Portafolio_DS.ML_link1")}
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/DeepLearning.ipynb"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.ML_link2")}
+            </a>
+            <a
+              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/NLP.ipynb"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.ML_link3")}
             </a>
           </div>
         </div>
