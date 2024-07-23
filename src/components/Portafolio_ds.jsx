@@ -23,7 +23,7 @@ export const Portafolio_ds = () => {
             <img
               src={`/img/animales/python.jpg`}
               alt="PYTHON"
-              onClick={() => openVideoWindow("/img/animales/python.mp4")}
+              onClick={() => openVideoWindow("/img/animales/Python.mp4")}
               style={{ cursor: "pointer" }}
             />
           </div>
