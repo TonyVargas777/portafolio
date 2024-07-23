@@ -23,7 +23,7 @@ export const Portafolio_ds = () => {
             <img
               src={`/img/animales/python.jpg`}
               alt="PYTHON"
-              onClick={() => openVideoWindow("/img/animales/Python.mp4")}
+              onClick={() => openVideoWindow("/img/animales/python.mp4")}
               style={{ cursor: "pointer" }}
             />
           </div>
@@ -45,21 +45,21 @@ export const Portafolio_ds = () => {
             <h2 className="">MACHINE LEARNING</h2>
             <p className="">{t("Portafolio_DS.ML_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Unsupervised Learning.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Unsupervised%20Learning.ipynb"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.ML_link1")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/DeepLearning.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/DeepLearning.ipynb"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.ML_link2")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/NLP.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/NLP.ipynb"
               target="_blank"
               className="no-format-link"
             >
@@ -80,14 +80,14 @@ export const Portafolio_ds = () => {
             <h2 className="">{t("Portafolio_DS.python_image_title")}</h2>
             <p className="">{t("Portafolio_DS.python_image_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/fusion.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/fusion.ipynb"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.python_ipynb_link")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/dog_green.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/dog_green.ipynb"
               target="_blank"
               className="no-format-link"
             >
@@ -108,14 +108,14 @@ export const Portafolio_ds = () => {
             <h2 className="">MY_SQL</h2>
             <p className="">{t("Portafolio_DS.mysql_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/tables.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/tables.ipynb"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.mysql_link")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/estrella.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/estrella.png"
               target="_blank"
               className="no-format-link"
             >
@@ -136,14 +136,14 @@ export const Portafolio_ds = () => {
             <h2 className="">MONGODB</h2>
             <p className="">{t("Portafolio_DS.mongoDB_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/compass1.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/compass1.png"
               target="_blank"
               className="no-format-link"
             >
               🔗MongoDb Compass
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/atlas1.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/atlas1.png"
               target="_blank"
               className="no-format-link"
             >
@@ -165,7 +165,7 @@ export const Portafolio_ds = () => {
             <h2 className="">SPARK</h2>
             <p className="">{t("Portafolio_DS.spark_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/PySpark.ipynb"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/PySpark.ipynb"
               target="_blank"
               className="no-format-link"
             >
@@ -186,21 +186,21 @@ export const Portafolio_ds = () => {
             <h2 className="">AIRFLOW</h2>
             <p className="">{t("Portafolio_DS.airflow_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Airflow_graph.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Airflow_graph.png"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.airflow_link")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Airflow_inicio.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Airflow_inicio.png"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.airflow_link2")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Airflow_log.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Airflow_log.png"
               target="_blank"
               className="no-format-link"
             >
@@ -222,14 +222,14 @@ export const Portafolio_ds = () => {
             <h2 className="">DOCKER</h2>
             <p className="">{t("Portafolio_DS.docker_text")}</p>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Docker_containers.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Docker_containers.png"
               target="_blank"
               className="no-format-link"
             >
               {t("Portafolio_DS.docker_link")}
             </a>
             <a
-              href="https://github.com/TonyVargas777/portafolio/blob/main/public/ipynb/Docker_imagenes.png"
+              href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Docker_imagenes.png"
               target="_blank"
               className="no-format-link"
             >
