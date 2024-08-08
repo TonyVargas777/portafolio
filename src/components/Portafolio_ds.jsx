@@ -35,6 +35,27 @@ export const Portafolio_ds = () => {
         <div className="service">
           <div className="mask2">
             <img
+              src={`/img/TFM/escudo_bpd.png`}
+              alt="PYTHON"
+              onClick={() => openVideoWindow("/img/TFM/TFM_BPD.mp4")}
+              style={{ cursor: "pointer" }}
+            />
+          </div>
+          <div className="datos">
+          <h2 className="">{t("Portafolio_DS.TFM_title")}</h2>
+            <p className="">{t("Portafolio_DS.TFM_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/Baltimore_Police_Department"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.TFM_link1")}
+            </a>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <img
               src={`/img/ML/machine_learning.jpg`}
               alt="Machine Learning"
               onClick={() => openVideoWindow("/img/ML/Deep_Learning.mp4")}
