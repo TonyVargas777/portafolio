@@ -57,13 +57,13 @@ export const Curriculum = () => {
           <h2>{t("Curriculum.dam")}</h2>
           <ul>
             <li>{t("Curriculum.dam_m1")}</li>
-            <li>{t("Curriculum.dam_m2")}</li>
-            <li>{t("Curriculum.dam_m3")}</li>
+            {/* <li>{t("Curriculum.dam_m2")}</li> */}
+            {/* <li>{t("Curriculum.dam_m3")}</li> */}
             <li>{t("Curriculum.dam_m4")}</li>
             <li>{t("Curriculum.dam_m5")}</li>
             <li>{t("Curriculum.dam_m6")}</li>
             <li>{t("Curriculum.dam_m7")}</li>
-            <li>{t("Curriculum.dam_m8")}</li>
+            {/* <li>{t("Curriculum.dam_m8")}</li> */}
           </ul>
           <h2>{t("Curriculum.unicas")}</h2>
         </div>
