@@ -22,6 +22,7 @@ export const Inicio = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   const [t, i18n] = useTranslation("global");
   const [randomIndexDS, setRandomIndexDS] = useState(0);
   const [randomIndexDAW, setRandomIndexDAW] = useState(0);
@@ -37,6 +38,20 @@ export const Inicio = () => {
     setRandomIndexDAW(randomIndexDAW);
   }, [phrases_ds, phrases_daw]);
 
+  const obtenerEnlaceCV = () => {
+    const idioma = i18n.language; 
+    switch (idioma) {
+      case "es":
+        return "/cv/tony_vargas_cv_esp.pdf";
+      case "cat":
+        return "/cv/tony_vargas_cv_cat.pdf";
+      case "en":
+        return "/cv/tony_vargas_cv_eng.pdf";
+      default:
+        return "/cv/tony_vargas_cv_esp.pdf"; 
+    }
+  };
+
   return (
     <div className="home">
       <div className="my_self">
@@ -51,19 +66,7 @@ export const Inicio = () => {
           </h1>
         </div>
       </div>
-      <h2 className="texts">{t("Inicio.text")}</h2>
-
-      {/* <article className="last-works">
-        <h2 className="heading">{t("Inicio.last")}</h2>
-        <div className="works">
-          <ListadoTrabajos limite="2" />
-        </div>
-        <h2>
-        <Link to="/portafolio" align="center">
-        {t("Inicio.button1")}
-        </Link>
-        </h2>
-      </article> */}
+      <h2 className="texts">{t("Inicio.text")}</h2>      
       <div className="cajas">
         <Link to="/portafolio_dS">
           <div className="work-item-skills">
@@ -92,7 +95,6 @@ export const Inicio = () => {
                 src={image_matplotlib}
                 alt="MATPLOTLIB"
               />
-
               <img className="skills1" src={image_seaborn} alt="SEABORN" />
             </div>
             <h3>{phrases_ds[randomIndexDS]}</h3>
@@ -201,8 +203,8 @@ export const Inicio = () => {
 
           <br />
           <a
-            href="/cv/Tony_Vargas_CV.pdf"
-            download="Tony_Vargas_CV.pdf"
+            href={obtenerEnlaceCV()}
+            download
             target="_blank"
             title="Descargar Currículum Vitae"
             alt="CV"
