@@ -71,6 +71,8 @@ export const Inicio = () => {
         <Link to="/portafolio_dS">
           <div className="work-item-skills">
             <h4 className="heading">DATA SCIENCE</h4>
+            <h4 className="heading">& ANALYTICS</h4>
+
             <br />
             <img
               fetchpriority="high"

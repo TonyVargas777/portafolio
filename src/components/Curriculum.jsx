@@ -50,6 +50,10 @@ export const Curriculum = () => {
             <li>{t("Curriculum.boot_camp_m1")}</li>
             <li>{t("Curriculum.boot_camp_m2")}</li>
             <li>{t("Curriculum.boot_camp_m3")}</li>
+            <li>Python, PySpark, SQL</li>
+            <li>Numpy, Pandas, Matplotlib, Seaborn, Plotly</li>
+            <li>Scikit-learn, TensorFlow, Keras, NLTK, Spacy, OpenCV</li>
+
           </ul>
           <h2>{t("Curriculum.boot_camp_school")}</h2>
         </div>
@@ -95,15 +99,22 @@ export const Curriculum = () => {
         <div className="service">
         <h2>{t("Curriculum.bd2")}</h2>
           <ul>
-            <li>{t("Curriculum.bd2_1")}</li>
+            <li>{t("Curriculum.bd1_1")}</li>
+            <li>{t("Curriculum.bd1_2")}</li>
+            <li>{t("Curriculum.bd1_3")}</li>
+            <li>{t("Curriculum.bd1_4")}</li>
+            <li>{t("Curriculum.bd1_5")}</li>
+            <li>{t("Curriculum.bd1_6")}</li>
+            
+            {/* <li>{t("Curriculum.bd2_1")}</li>
             <li>{t("Curriculum.bd2_2")}</li>
             <li>{t("Curriculum.bd2_3")}</li>
             <li>{t("Curriculum.bd2_4")}</li>
-            <li>{t("Curriculum.bd2_5")}</li>
+            <li>{t("Curriculum.bd2_5")}</li> */}
           </ul>
           <h2>{t("Curriculum.ioe")}</h2>
         </div>
-        <div className="service">
+        {/* <div className="service">
           <h2>{t("Curriculum.bd1")}</h2>
           <ul>
             <li>{t("Curriculum.bd1_1")}</li>
@@ -114,7 +125,7 @@ export const Curriculum = () => {
             <li>{t("Curriculum.bd1_6")}</li>
           </ul>
           <h2>{t("Curriculum.ioe")}</h2>
-          </div>
+          </div> */}
           </div>
         <div  className="education">
         <div>
