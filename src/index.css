@@ -546,6 +546,7 @@ nav {
   color: white;
   max-width: 500px;
   justify-content: center;
+  padding: 10px;
 }
 .work-item a {
   background: lightblue;
@@ -635,6 +636,7 @@ nav {
   padding: 0;
   margin: 0;
   z-index: 1;
+  width: 100px;
 }
 
 .dropdown-menu li {
@@ -646,6 +648,10 @@ nav {
 
 .dropdown-menu li:hover {
   background-color: lightblue;
+}
+
+.dropdown-menu img {
+  margin: -5px;
 }
 
 @media (max-width: 1030px) {

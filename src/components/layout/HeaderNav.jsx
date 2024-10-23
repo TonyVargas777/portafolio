@@ -27,6 +27,13 @@ export const HeaderNav = () => {
     }
   };
 
+  // Lista de idiomas y sus banderas
+  const languages = [
+    { code: "es", label: "Spanish", flag: Es_Flag },
+    { code: "cat", label: "Catalan", flag: Cat_Flag },
+    { code: "en", label: "English", flag: En_Flag },
+  ];
+
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);
     localStorage.setItem("language", language);
@@ -100,25 +107,21 @@ export const HeaderNav = () => {
             </button>
             {showDropdown && (
               <ul className="dropdown-menu">
-                <li onClick={() => handleLanguageChange("es")}>
-                  <img
-                    width="24"
-                    height="24"
-                    src={Es_Flag}
-                    alt="Spanish Flag"
-                  />{" "}
-                </li>
-                <li onClick={() => handleLanguageChange("cat")}>
-                  <img
-                    width="24"
-                    height="24"
-                    src={Cat_Flag}
-                    alt="Catalan Flag"
-                  />{" "}
-                </li>
-                <li onClick={() => handleLanguageChange("en")}>
-                  <img width="24" height="24" src={En_Flag} alt="US Flag" />{" "}
-                </li>
+                {languages
+                  .filter((lang) => lang.code !== currentLanguage) 
+                  .map((lang) => (
+                    <li
+                      key={lang.code}
+                      onClick={() => handleLanguageChange(lang.code)}
+                    >
+                      <img
+                        width="24"
+                        height="24"
+                        src={lang.flag}
+                        alt={`${lang.label} Flag`}
+                      />{" "}
+                    </li>
+                  ))}
               </ul>
             )}
           </div>
