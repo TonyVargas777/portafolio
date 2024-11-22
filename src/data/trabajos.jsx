@@ -2,10 +2,10 @@ export const trabajos = [
   {
     id: "mi_blog",
     nombre: "Mi Blog de Cine",
-    nombre_cat: "El meu Blog de Cinema",
+    nombre_cat: "El meu Blog de Cine",
     nombre_en: "My Cinema Blog",
     url: "https://mi-blog-de-cine.vercel.app/",
-    tecnologias: "MongoDB Express React Node",
+    tecnologias: "Mern Stack",
     categorias: "MERN STACK",
     categorias_cat:"MERN STACK",
     categorias_en:"MERN STACK"
@@ -22,27 +22,16 @@ export const trabajos = [
     categorias_en:"PERFECT HOME"
   },
   {
-    id: "juegos",
-    nombre: "Los Juegos de mi Vida",
-    nombre_cat: "Els Jocs de la meva Vida",
-    nombre_en: "The Games of my Life",
-    url: "https://los-juegos-de-mi-vida.onrender.com/",
-    tecnologias: "REACT Node Mongo",
-    categorias: "CRUD COMPLETO",
-    categorias_cat:"CRUT COMPLET",
-    categorias_en:"COMPLETE CRUD"
-  },
-  {
-    id: "Pokemon_Api",
-    nombre: "Pokemon Api",
-    nombre_cat: "Pokemon Api",
-    nombre_en: "Pokemon Api",
-    url: "https://pokeapi-five-sepia.vercel.app/",
-    tecnologias: "REACT Node API",
-    categorias: "Pokemon Api",
-    categorias_cat:"Pokemon Api",
-    categorias_en:"Pokemon Api"
-  },
+    id: "Monty_Hall",
+    nombre: "Monty Hall",
+    nombre_cat: "Monty Hall",
+    nombre_en: "Monty Hall",
+    url: "https://monty-hall-tonyvargas777s-projects.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
+    categorias: "SIMULACIÓN",
+    categorias_cat:"SIMULACIÓ",
+    categorias_en:"SIMULATION"
+  }, 
   {
     id: "Arkanoid",
     nombre: "Versión de Arkanoid",
@@ -65,6 +54,29 @@ export const trabajos = [
     categorias_cat:"JOC RETRO",
     categorias_en:"RETRO GAME"
   },
+  {
+    id: "juegos",
+    nombre: "Mis Juegos",
+    nombre_cat: "Els meus Jocs",
+    nombre_en: "My Games",
+    url: "https://los-juegos-de-mi-vida.onrender.com/",
+    tecnologias: "HTML, CSS, JS",
+    categorias: "CRUD COMPLETO",
+    categorias_cat:"CRUT COMPLET",
+    categorias_en:"COMPLETE CRUD"
+  },
+  {
+    id: "Pokemon_Api",
+    nombre: "Pokemon Api",
+    nombre_cat: "Pokemon Api",
+    nombre_en: "Pokemon Api",
+    url: "https://pokeapi-five-sepia.vercel.app/",
+    tecnologias: "REACT Node API",
+    categorias: "Pokemon Api",
+    categorias_cat:"Pokemon Api",
+    categorias_en:"Pokemon Api"
+  },
+
   /* {
     id: "musica",
     nombre: "Compositores",

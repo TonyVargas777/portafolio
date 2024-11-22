@@ -28,8 +28,11 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
+            <p></p>
             <h2 className="">PYTHON</h2>
+            <p></p>
             <p className="">{t("Portafolio_DS.python_text")}</p>
+            <p></p>
           </div>
         </div>
         <div className="service">
@@ -42,7 +45,7 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-          <h2 className="">{t("Portafolio_DS.TFM_title")}</h2>
+            <h2 className="">{t("Portafolio_DS.TFM_title")}</h2>
             <p className="">{t("Portafolio_DS.TFM_text")}</p>
             <a
               href="https://github.com/TonyVargas777/Baltimore_Police_Department"
@@ -50,6 +53,32 @@ export const Portafolio_ds = () => {
               className="no-format-link"
             >
               {t("Portafolio_DS.TFM_link1")}
+            </a>
+          </div>
+        </div>
+        <div className="service">
+          <div className="mask2">
+            <a
+              href="https://monty-hall-tonyvargas777s-projects.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={`/img/Monty_Hall/MONTY-HALL.jpg`}
+                alt="Monty Hall"
+                style={{ cursor: "pointer" }}
+              />
+            </a>
+          </div>
+          <div className="datos">
+            <h2 className="">{t("Portafolio_DS.Monty_title")}</h2>
+            <p className="">{t("Portafolio_DS.Monty_text")}</p>
+            <a
+              href="https://github.com/TonyVargas777/Monty_Hall.git"
+              target="_blank"
+              className="no-format-link"
+            >
+              {t("Portafolio_DS.Monty_link1")}
             </a>
           </div>
         </div>
@@ -226,7 +255,7 @@ export const Portafolio_ds = () => {
               className="no-format-link"
             >
               {t("Portafolio_DS.airflow_link3")}
-            </a>            
+            </a>
           </div>
         </div>
         <div className="service">
