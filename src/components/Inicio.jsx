@@ -66,6 +66,7 @@ export const Inicio = () => {
           </h1>
         </div>
       </div>
+      <br />
       <h2 className="texts">{t("Inicio.text")}</h2>      
       <div className="cajas">
         <Link to="/portafolio_dS">

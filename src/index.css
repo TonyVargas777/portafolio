@@ -166,7 +166,7 @@ nav {
 }
 .my_self {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -634,19 +634,21 @@ nav {
   display: block;
   position: absolute;
   background-color: blue;
+  border: #000 2px double;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   list-style: none;
   padding: 0;
   margin: 0;
   z-index: 1;
-  width: 100px;
+  width: 90px;
+  height: 35px;
 }
 
 .dropdown-menu li {
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
   display: flex;
-  align-items: center;
+  align-items:center;
 }
 
 .dropdown-menu li:hover {
@@ -654,7 +656,8 @@ nav {
 }
 
 .dropdown-menu img {
-  margin: -5px;
+  margin: -10px;
+  border: #000 2px 0 0;
 }
 
 @media (max-width: 1030px) {
@@ -754,7 +757,7 @@ nav {
   }
   .my_self {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
