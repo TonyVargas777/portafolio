@@ -16,10 +16,21 @@ export const trabajos = [
     nombre_cat: "Web Completa",
     nombre_en: "Complete Web",
     url: "https://home-steel-chi.vercel.app/",
-    tecnologias: "HTML, CSS, JS",
+    tecnologias: "React, HTML, CSS, JS",
     categorias: "HOME PERFECTO",
     categorias_cat:"HOME PERFECTE",
     categorias_en:"PERFECT HOME"
+  },
+  {
+    id: "ford_t",
+    nombre: "Calculadora Horas Extra",
+    nombre_cat: "Calculadora Hores Extra",
+    nombre_en: "Overtime Calculator",
+    url: "https://horas-extra.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
+    categorias: "HORAS EXTRA",
+    categorias_cat:"HORES EXTRA",
+    categorias_en:"OVERTIME"
   },
   {
     id: "Monty_Hall",
