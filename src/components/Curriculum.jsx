@@ -134,14 +134,20 @@ export const Curriculum = () => {
           {t("Curriculum.cv")}
           <hr />
           <br />
+          <div className="cv">
+          <h3>{t("Inicio.know")}</h3>
+
+          <br />
           <a
-            href="/cv/Tony_Vargas_CV.pdf"
-            download="Tony_Vargas_CV.pdf"
+            href={obtenerEnlaceCV()}
+            download
             target="_blank"
             title="Descargar Currículum Vitae"
+            alt="CV"
           >
-            {t("Curriculum.download")}
+            {t("Inicio.download")}
           </a>
+        </div>
         
         </div>
       </div>
