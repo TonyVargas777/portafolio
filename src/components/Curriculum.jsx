@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 export const Curriculum = () => {
@@ -7,7 +7,7 @@ export const Curriculum = () => {
   }, []);
   const [t, i18n] = useTranslation("global");
   const obtenerEnlaceCV = () => {
-    const idioma = i18n.language; 
+    const idioma = i18n.language;
     switch (idioma) {
       case "es":
         return "/cv/tony_vargas_cv_esp.pdf";
@@ -16,7 +16,7 @@ export const Curriculum = () => {
       case "en":
         return "/cv/tony_vargas_cv_eng.pdf";
       default:
-        return "/cv/tony_vargas_cv_esp.pdf"; 
+        return "/cv/tony_vargas_cv_esp.pdf";
     }
   };
   return (
@@ -28,14 +28,13 @@ export const Curriculum = () => {
         <div className="service">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
           <h2>(IFCD66)</h2>
-          <ul >
+          <ul>
             <li>{t("Curriculum.boot_camp_m1")}</li>
             <li>{t("Curriculum.boot_camp_m2")}</li>
             <li>{t("Curriculum.boot_camp_m3")}</li>
             <li>Python, PySpark, SQL</li>
             <li>Numpy, Pandas, Matplotlib, Seaborn, Plotly</li>
             <li>Scikit-learn, TensorFlow, Keras, NLTK, Spacy, OpenCV</li>
-
           </ul>
           <h2>{t("Curriculum.boot_camp_school")}</h2>
         </div>
@@ -59,7 +58,7 @@ export const Curriculum = () => {
             <li>{t("Curriculum.daw_m3")}</li>
           </ul>
           <h2>{t("Curriculum.consorci")}</h2>
-        </div>        
+        </div>
         <div className="service">
           <h2>{t("Curriculum.ds")}</h2>
           <ul>
@@ -76,7 +75,7 @@ export const Curriculum = () => {
           <h2> EF Standard English Test (EF SET) (2023)</h2>
         </div>
         <div className="service">
-        <h2>{t("Curriculum.bd2")}</h2>
+          <h2>{t("Curriculum.bd2")}</h2>
           <ul>
             <li>{t("Curriculum.bd1_1")}</li>
             <li>{t("Curriculum.bd1_2")}</li>
@@ -87,15 +86,13 @@ export const Curriculum = () => {
           </ul>
           <h2>{t("Curriculum.ioe")}</h2>
         </div>
-          </div>
-        <div  className="education">
-        <div>
-          <h2 className="cv">Curriculum Vitae</h2>
-          <hr />
-          {t("Curriculum.cv")}
-          <hr />
+      </div>
+      <div className="home">
+      <article className="work-item2">  
+        <div className="cv">
+          <h3>{t("Inicio.know")}</h3>
+
           <br />
-          <div>
           <a
             href={obtenerEnlaceCV()}
             download
@@ -105,11 +102,9 @@ export const Curriculum = () => {
           >
             {t("Inicio.download")}
           </a>
-          </div>
-        
         </div>
+      </article>
       </div>
-      
     </div>
   );
 };

@@ -498,6 +498,8 @@ nav {
 .cv {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 .work-item .mask img {
@@ -754,6 +756,10 @@ nav {
   }
   .cv {
     max-width: 350px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
   }
   .my_self {
     display: flex;
@@ -864,6 +870,10 @@ nav {
   }
   .cv {
     max-width: 250px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
   }
   .red {
     margin: 0px;
