@@ -23,7 +23,7 @@ export const Curriculum = () => {
     <div className="page">
       <div className="education">
         <h2 className="heading">{t("Curriculum.education")}</h2>
-      </div>      
+      </div>
       <div className="services">
         <div className="service">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
@@ -83,7 +83,7 @@ export const Curriculum = () => {
             <li>{t("Curriculum.bd1_3")}</li>
             <li>{t("Curriculum.bd1_4")}</li>
             <li>{t("Curriculum.bd1_5")}</li>
-            <li>{t("Curriculum.bd1_6")}</li>            
+            <li>{t("Curriculum.bd1_6")}</li>
           </ul>
           <h2>{t("Curriculum.ioe")}</h2>
         </div>
@@ -95,10 +95,7 @@ export const Curriculum = () => {
           {t("Curriculum.cv")}
           <hr />
           <br />
-          <div className="cv">
-          <h3>{t("Inicio.know")}</h3>
-
-          <br />
+          <div>
           <a
             href={obtenerEnlaceCV()}
             download
@@ -108,7 +105,7 @@ export const Curriculum = () => {
           >
             {t("Inicio.download")}
           </a>
-        </div>
+          </div>
         
         </div>
       </div>
