@@ -44,6 +44,17 @@ export const trabajos = [
     categorias_en:"SIMULATION"
   }, 
   {
+    id: "dali",
+    nombre: "Cronómetro",
+    nombre_cat: "Cronòmetre",
+    nombre_en: "CHRONOMETER",
+    url: "https://cronometro-one-rust.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
+    categorias: "DALÍ",
+    categorias_cat:"DALÍ",
+    categorias_en:"DALÍ"
+  }, 
+  {
     id: "Arkanoid",
     nombre: "Arkanoid",
     nombre_cat: "Arkanoid",
