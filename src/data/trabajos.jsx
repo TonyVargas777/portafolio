@@ -22,6 +22,17 @@ export const trabajos = [
     categorias_en:"PERFECT HOME"
   },
   {
+    id: "marvel",
+    nombre: "Galería",
+    nombre_cat: "Galeria",
+    nombre_en: "Gallery",
+    url: "https://marvel-psi-lilac.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
+    categorias: "MARVEL",
+    categorias_cat:"MARVEL",
+    categorias_en:"MARVEL"
+  },
+  {
     id: "ford_t",
     nombre: "Horas Extra",
     nombre_cat: "Hores Extra",
