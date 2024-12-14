@@ -99,6 +99,17 @@ export const trabajos = [
     categorias_en:"COMPLETE CRUD"
   },
   {
+    id: "pokemon",
+    nombre: "Pokemon",
+    nombre_cat: "Pokemon",
+    nombre_en: "Pokemon",
+    url: "https://poke-api-2-0.vercel.app/",
+    tecnologias: "REACT Node API",
+    categorias: "Galería",
+    categorias_cat:"Galeria",
+    categorias_en:"Gallery"
+  },
+  {
     id: "Pokemon_Api",
     nombre: "Pokemon Api",
     nombre_cat: "Pokemon Api",
