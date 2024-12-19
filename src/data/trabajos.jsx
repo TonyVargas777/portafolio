@@ -22,6 +22,17 @@ export const trabajos = [
     categorias_en:"PERFECT HOME"
   },
   {
+    id: "pdf&word",
+    nombre: "PDF & WORD",
+    nombre_cat: "PDF & WORD",
+    nombre_en: "PDF & WORD",
+    url: "https://rrhh-cv-filter.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
+    categorias: "RRHH",
+    categorias_cat:"RRHH",
+    categorias_en:"HR"
+  },
+  {
     id: "ford_t",
     nombre: "Horas Extra",
     nombre_cat: "Hores Extra",
