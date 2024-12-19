@@ -33,6 +33,17 @@ export const trabajos = [
     categorias_en:"HR"
   },
   {
+    id: "marvel",
+    nombre: "Galería",
+    nombre_cat: "Galeria",
+    nombre_en: "Gallery",
+    url: "https://marvel-psi-lilac.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
+    categorias: "MARVEL",
+    categorias_cat:"MARVEL",
+    categorias_en:"MARVEL"
+  },
+  {
     id: "ford_t",
     nombre: "Horas Extra",
     nombre_cat: "Hores Extra",
@@ -97,6 +108,17 @@ export const trabajos = [
     categorias: "CRUD COMPLETO",
     categorias_cat:"CRUT COMPLET",
     categorias_en:"COMPLETE CRUD"
+  },
+  {
+    id: "pokemon",
+    nombre: "Pokemon",
+    nombre_cat: "Pokemon",
+    nombre_en: "Pokemon",
+    url: "https://poke-api-2-0.vercel.app/",
+    tecnologias: "REACT Node API",
+    categorias: "Galería",
+    categorias_cat:"Galeria",
+    categorias_en:"Gallery"
   },
   {
     id: "Pokemon_Api",
