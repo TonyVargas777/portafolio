@@ -38,7 +38,7 @@ export const trabajos = [
     nombre_cat: "Galeria",
     nombre_en: "Gallery",
     url: "https://marvel-psi-lilac.vercel.app/",
-    tecnologias: "React, HTML, CSS, JS",
+    tecnologias: "React, HTML, CSS",
     categorias: "MARVEL",
     categorias_cat:"MARVEL",
     categorias_en:"MARVEL"
