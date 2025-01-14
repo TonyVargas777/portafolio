@@ -186,7 +186,7 @@ export const Inicio = () => {
           </div>
           <div>
             <a
-              href="mailto:tonacovargas@hotmail.com"
+              href="mailto:tonacovargas@gmail.com"
               target="blank"
               alt="email"
             >

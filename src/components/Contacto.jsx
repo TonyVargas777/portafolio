@@ -79,7 +79,7 @@ export const Contacto = () => {
         </a>
 
         <article>
-          <a href="mailto:tonacovargas@hotmail.com" target="blank" alt="email">
+          <a href="mailto:tonacovargas@gmail.com" target="blank" alt="email">
             <img
               className="red"
               align="center"
@@ -90,8 +90,8 @@ export const Contacto = () => {
             ></img>
           </a>
         </article>
-        <a href="mailto:tonacovargas@hotmail.com" target="blank" alt="email" className="contacto_a">
-          tonacovargas@hotmail.com
+        <a href="mailto:tonacovargas@gmail.com" target="blank" alt="email" className="contacto_a">
+          tonacovargas@gmail.com
         </a>
       </div>
     </section>

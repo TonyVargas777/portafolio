@@ -52,7 +52,7 @@ export const Footer = () => {
           </div>
           <div>
             <a
-              href="mailto:tonacovargas@hotmail.com"
+              href="mailto:tonacovargas@gmail.com"
               target="blank"
               height="20px"
               width="20px"
