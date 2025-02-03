@@ -33,15 +33,15 @@ export const trabajos = [
     categorias_en:"HR"
   },
   {
-    id: "marvel",
+    id: "dragonball",
     nombre: "Galería",
     nombre_cat: "Galeria",
     nombre_en: "Gallery",
-    url: "https://marvel-psi-lilac.vercel.app/",
+    url: "https://dragon-ball-brown.vercel.app/",
     tecnologias: "React, HTML, CSS",
-    categorias: "MARVEL",
-    categorias_cat:"MARVEL",
-    categorias_en:"MARVEL"
+    categorias: "DRAGON BALL",
+    categorias_cat:"DRAGON BALL",
+    categorias_en:"DRAGON BALL"
   },
   {
     id: "ford_t",

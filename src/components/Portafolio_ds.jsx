@@ -28,11 +28,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <p></p>
-            <h2 className="">PYTHON</h2>
-            <p></p>
-            <p className="">{t("Portafolio_DS.python_text")}</p>
-            <p></p>
+            <h2>PYTHON</h2>
+            <p>{t("Portafolio_DS.python_text")}</p>
           </div>
         </div>
         <div className="service">
@@ -45,8 +42,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">{t("Portafolio_DS.TFM_title")}</h2>
-            <p className="">{t("Portafolio_DS.TFM_text")}</p>
+            <h2>{t("Portafolio_DS.TFM_title")}</h2>
+            <p>{t("Portafolio_DS.TFM_text")}</p>
             <a
               href="https://github.com/TonyVargas777/Baltimore_Police_Department"
               target="_blank"
@@ -71,8 +68,8 @@ export const Portafolio_ds = () => {
             </a>
           </div>
           <div className="datos">
-            <h2 className="">{t("Portafolio_DS.Monty_title")}</h2>
-            <p className="">{t("Portafolio_DS.Monty_text")}</p>
+            <h2>{t("Portafolio_DS.Monty_title")}</h2>
+            <p>{t("Portafolio_DS.Monty_text")}</p>
             <a
               href="https://github.com/TonyVargas777/Monty_Hall.git"
               target="_blank"
@@ -92,8 +89,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">MACHINE LEARNING</h2>
-            <p className="">{t("Portafolio_DS.ML_text")}</p>
+            <h2>MACHINE LEARNING</h2>
+            <p>{t("Portafolio_DS.ML_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Unsupervised%20Learning.ipynb"
               target="_blank"
@@ -127,8 +124,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">{t("Portafolio_DS.python_image_title")}</h2>
-            <p className="">{t("Portafolio_DS.python_image_text")}</p>
+            <h2>{t("Portafolio_DS.python_image_title")}</h2>
+            <p>{t("Portafolio_DS.python_image_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/fusion.ipynb"
               target="_blank"
@@ -155,8 +152,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">MY_SQL</h2>
-            <p className="">{t("Portafolio_DS.mysql_text")}</p>
+            <h2>MY_SQL</h2>
+            <p>{t("Portafolio_DS.mysql_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/tables.ipynb"
               target="_blank"
@@ -183,8 +180,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">MONGODB</h2>
-            <p className="">{t("Portafolio_DS.mongoDB_text")}</p>
+            <h2>MONGODB</h2>
+            <p>{t("Portafolio_DS.mongoDB_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/compass1.png"
               target="_blank"
@@ -212,8 +209,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">SPARK</h2>
-            <p className="">{t("Portafolio_DS.spark_text")}</p>
+            <h2>SPARK</h2>
+            <p>{t("Portafolio_DS.spark_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/PySpark.ipynb"
               target="_blank"
@@ -233,8 +230,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">AIRFLOW</h2>
-            <p className="">{t("Portafolio_DS.airflow_text")}</p>
+            <h2>AIRFLOW</h2>
+            <p>{t("Portafolio_DS.airflow_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Airflow_graph.png"
               target="_blank"
@@ -269,8 +266,8 @@ export const Portafolio_ds = () => {
             />
           </div>
           <div className="datos">
-            <h2 className="">DOCKER</h2>
-            <p className="">{t("Portafolio_DS.docker_text")}</p>
+            <h2>DOCKER</h2>
+            <p>{t("Portafolio_DS.docker_text")}</p>
             <a
               href="https://github.com/TonyVargas777/recursos/blob/main/Data_Science_Portfolio/Docker_containers.png"
               target="_blank"
