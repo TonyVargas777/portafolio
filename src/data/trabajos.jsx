@@ -103,7 +103,7 @@ export const trabajos = [
     nombre: "Mis Juegos",
     nombre_cat: "Els meus Jocs",
     nombre_en: "My Games",
-    url: "https://pac1juegos-production.up.railway.app/",
+    url: "https://los-juegos-de-mi-vida.onrender.com/",
     tecnologias: "HTML, CSS, JS",
     categorias: "CRUD COMPLETO",
     categorias_cat:"CRUT COMPLET",
