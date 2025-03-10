@@ -55,6 +55,17 @@ export const trabajos = [
     categorias_en:"OVERTIME"
   },
   {
+    id: "duel",
+    nombre: "Cromos",
+    nombre_cat: "Cromos",
+    nombre_en: "Stickers",
+    url: "https://anakin-obiwan.vercel.app/",
+    tecnologias: "React, HTML, CSS",
+    categorias: "STAR WARS",
+    categorias_cat:"STAR WARS",
+    categorias_en:"STAR WARS"
+  },
+  {
     id: "Monty_Hall",
     nombre: "Monty Hall",
     nombre_cat: "Monty Hall",
