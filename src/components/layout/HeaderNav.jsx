@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Es_Flag from "/public/spain_c.png";
@@ -8,12 +8,10 @@ import En_Flag from "/public/usa_c.png";
 export const HeaderNav = () => {
   const [t, i18n] = useTranslation("global");
   const location = useLocation();
-  const [showDropdown, setShowDropdown] = useState(false); // Para mostrar/ocultar el menú
+  const [showDropdown, setShowDropdown] = useState(false);
 
-  // Obtener el idioma actual guardado en localStorage o español por defecto
   const currentLanguage = localStorage.getItem("language") || "es";
 
-  // Función para obtener la bandera correspondiente al idioma actual
   const getCurrentFlag = () => {
     switch (currentLanguage) {
       case "es":
@@ -27,7 +25,6 @@ export const HeaderNav = () => {
     }
   };
 
-  // Lista de idiomas y sus banderas
   const languages = [
     { code: "es", label: "Spanish", flag: Es_Flag },
     { code: "cat", label: "Catalan", flag: Cat_Flag },
@@ -37,12 +34,21 @@ export const HeaderNav = () => {
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);
     localStorage.setItem("language", language);
-    setShowDropdown(false); // Cerrar el menú después de seleccionar el idioma
+    setShowDropdown(false);
   };
 
   const toggleDropdown = () => {
-    setShowDropdown(!showDropdown); // Alternar el estado del menú
+    setShowDropdown(!showDropdown);
   };
+
+  // Manejo del tema (dark/light)
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+
+  useEffect(() => {
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   return (
     <header className="header">
@@ -54,77 +60,57 @@ export const HeaderNav = () => {
       <nav>
         <ul>
           <li>
-            <NavLink
-              to="/portafolio_dS"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
+            <NavLink to="/portafolio_dS" className={({ isActive }) => (isActive ? "active" : "")}>
               {"DATA"}
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/portafolio"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
+            <NavLink to="/portafolio" className={({ isActive }) => (isActive ? "active" : "")}>
               {"WEB"}
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/curriculum"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
+            <NavLink to="/curriculum" className={({ isActive }) => (isActive ? "active" : "")}>
               {t("Curriculum.education")}
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/servicios"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
+            <NavLink to="/servicios" className={({ isActive }) => (isActive ? "active" : "")}>
               {t("HeaderNav.services")}
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/contacto"
-              className={({ isActive }) => (isActive ? "active" : "")}
-            >
+            <NavLink to="/contacto" className={({ isActive }) => (isActive ? "active" : "")}>
               {t("HeaderNav.contact")}
             </NavLink>
           </li>
 
-          {/* Menú desplegable de idiomas */}
           <div className="language-selector">
             <button onClick={toggleDropdown} className="dropdown-btn">
-              {/* Mostrar la bandera del idioma actual como botón */}
-              <img
-                src={getCurrentFlag()} // Obtener la bandera actual
-                alt="Current Language"
-                width="24"
-                height="24"
-              />
+              <img src={getCurrentFlag()} alt="Current Language" width="24" height="24" />
             </button>
             {showDropdown && (
               <ul className="dropdown-menu">
                 {languages
-                  .filter((lang) => lang.code !== currentLanguage) 
+                  .filter((lang) => lang.code !== currentLanguage)
                   .map((lang) => (
-                    <li
-                      key={lang.code}
-                      onClick={() => handleLanguageChange(lang.code)}
-                    >
-                      <img
-                        width="24"
-                        height="24"
-                        src={lang.flag}
-                        alt={`${lang.label} Flag`}
-                      />{" "}
+                    <li key={lang.code} onClick={() => handleLanguageChange(lang.code)}>
+                      <img width="24" height="24" src={lang.flag} alt={`${lang.label} Flag`} />
                     </li>
                   ))}
               </ul>
             )}
           </div>
+
+          {/* Botón de cambio de tema */}
+          <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          <img 
+    src="/cambiar.png" 
+    alt="Theme Toggle" 
+    width="25" 
+    height="25"
+  />
+          </button>
         </ul>
       </nav>
     </header>

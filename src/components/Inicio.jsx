@@ -24,22 +24,25 @@ export const Inicio = () => {
   }, []);
 
   const [t, i18n] = useTranslation("global");
-  const [randomIndexDS, setRandomIndexDS] = useState(0);
-  const [randomIndexDAW, setRandomIndexDAW] = useState(0);
+  const [randomIndexDS, setRandomIndexDS] = useState(null);
+  const [randomIndexDAW, setRandomIndexDAW] = useState(null);
 
   // Obtiene las frases del archivo de traducción global según el idioma actual seleccionado
   const phrases_ds = t("Inicio.phrases_ds", { returnObjects: true });
   const phrases_daw = t("Inicio.phrases_daw", { returnObjects: true });
 
+  // Ejecuta solo una vez después de que las frases estén disponibles
   useEffect(() => {
-    const randomIndexDS = Math.floor(Math.random() * phrases_ds.length);
-    const randomIndexDAW = Math.floor(Math.random() * phrases_daw.length);
-    setRandomIndexDS(randomIndexDS);
-    setRandomIndexDAW(randomIndexDAW);
-  }, [phrases_ds, phrases_daw]);
+    if (phrases_ds.length && phrases_daw.length && randomIndexDS === null && randomIndexDAW === null) {
+      const randomIndexDS = Math.floor(Math.random() * phrases_ds.length);
+      const randomIndexDAW = Math.floor(Math.random() * phrases_daw.length);
+      setRandomIndexDS(randomIndexDS);
+      setRandomIndexDAW(randomIndexDAW);
+    }
+  }, [phrases_ds, phrases_daw, randomIndexDS, randomIndexDAW]);  // Solo ejecuta cuando las frases cambian
 
   const obtenerEnlaceCV = () => {
-    const idioma = i18n.language; 
+    const idioma = i18n.language;
     switch (idioma) {
       case "es":
         return "/cv/tony_vargas_cv_esp.pdf";
@@ -48,7 +51,7 @@ export const Inicio = () => {
       case "en":
         return "/cv/tony_vargas_cv_eng.pdf";
       default:
-        return "/cv/tony_vargas_cv_esp.pdf"; 
+        return "/cv/tony_vargas_cv_esp.pdf";
     }
   };
 
@@ -67,7 +70,7 @@ export const Inicio = () => {
         </div>
       </div>
       <br />
-      <h2 className="texts">{t("Inicio.text")}</h2>      
+      <h2 className="texts">{t("Inicio.text")}</h2>
       <div className="cajas">
         <Link to="/portafolio_dS">
           <div className="work-item-skills">
@@ -100,14 +103,14 @@ export const Inicio = () => {
               />
               <img className="skills1" src={image_seaborn} alt="SEABORN" />
             </div>
-            <h3>{phrases_ds[randomIndexDS]}</h3>
+            {randomIndexDS !== null && <h3>{phrases_ds[randomIndexDS]}</h3>}
           </div>
         </Link>
         <Link to="/portafolio">
           <div className="work-item-skills">
             <h4 className="heading">WEB DEVELOPMENT</h4>
             <br />
-            {<h2 className="heading">(MERN STACK)</h2>}
+            <h2 className="heading">(MERN STACK)</h2>
             <br />
 
             <img
@@ -122,7 +125,7 @@ export const Inicio = () => {
               <img className="skills1" src={image_react} alt="REACT" />
               <img className="skills1" src={image_node} alt="NODE" />
             </div>
-            <h3>{phrases_daw[randomIndexDAW]}</h3>
+            {randomIndexDAW !== null && <h3>{phrases_daw[randomIndexDAW]}</h3>}
           </div>
         </Link>
       </div>
