@@ -108,7 +108,7 @@ export const HeaderNav = () => {
     src="/cambiar.png" 
     alt="Theme Toggle" 
     width="25" 
-    height="25"
+    height="20"
   />
           </button>
         </ul>
