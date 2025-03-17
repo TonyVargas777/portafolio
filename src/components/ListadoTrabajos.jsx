@@ -17,7 +17,8 @@ export const ListadoTrabajos = ({ limite }) => {
         const categorias = trabajo[`categorias_${i18n.language}`] || trabajo.categorias;
 
         return (
-          <article key={trabajo.id} className="work-item">
+          <Link to={trabajo.url} target="blank" className="work-item">
+          <article key={trabajo.id} >
             <Link to={trabajo.url} target="blank" className="work-item">
               <div className="mask">
                 <img src={`/img/${trabajo.id}.avif`} alt={trabajo.id} />
@@ -33,6 +34,7 @@ export const ListadoTrabajos = ({ limite }) => {
               <h3>{trabajo.tecnologias}</h3>
             </div>
           </article>
+          </Link>
         );
       })}
     </section>
