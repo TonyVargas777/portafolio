@@ -8,11 +8,11 @@ export const Contacto = () => {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <section className="education">
-      <div className="education">
+    <>
+    <div className="education">
         <h2 className="heading">{t("Contacto.title")}</h2>
       </div>
-      
+    <section className="education">   
       <br />
       <div align="center" className="redes_contacto">
         <article>
@@ -95,5 +95,6 @@ export const Contacto = () => {
         </a>
       </div>
     </section>
+    </>
   );
 };
