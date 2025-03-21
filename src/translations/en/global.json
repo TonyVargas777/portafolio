@@ -7,20 +7,20 @@
   },
   "Inicio": {
     "hi1": "Hello there, I'm",
-    "hi2": "I am a Data Scientist and Full Stack Web Developer",
+    "hi2": "I am a Data Scientist and a Full-Stack Web Developer",
     "text": "I offer my programming and development services for all kinds of projects.",
     "last": "My last projects:",
-    "button1": "Access to the Rest of the Projects",
-    "phrase": "''We are no longer in the age of information. We are in the era of information management.'' Chris Hardwich",
+    "button1": "Access the Rest of the Projects",
+    "phrase": "''We are no longer in the Information Age; we are in the era of Information Management.'' Chris Hardwich",
     "phrases_ds": [
       "''We are no longer in the age of information. We are in the era of information management.'' Chris Hardwich",
       "''It's easy to lie with statistics. It's hard to tell the truth without statistics'' Andrejs Dunkels",
-      "''In God we trust; all others must bring data.'' William Edwards Deming",
+      "''In God we trust. All others must bring data.'' William Edwards Deming",
       "''The role of data analytics in an organization is to provide a greater level of specificity to discussion.'' Jeff Zeanah",
       "''Data is the language of the powerholders.'' Jodi Petersen",
-      "''Data Science isn't about the quantity of data but rather the quality.'' Joo ann Lee",
+      "''Data Science isn't about the quantity of data but rather its quality.'' Joo Ann Lee",
       "''Data is the nutrition of artificial intelligence. When an AI eats junk food, it's not going to perform very well.'' Matthew Emerick",
-      "''All analytics models do well at what the are biased to look for.'' Matthew Schneider",
+      "''All analytics models do well at what they are biased to look for.'' Matthew Schneider",
       "''Data and data science greatly influence everything we do…The impact that data has and will have…continues to grow every day.'' Ronald van Loon",
       "''Information is the oil of the 21st century, and analytics is the combustion engine.'' Peter Sondergaard",
       "''Most of the world will make decisions by either guessing or using their gut. They will be either lucky or wrong'' Suhail Doshi",
@@ -44,12 +44,12 @@
       "''When someone says: 'I want a programming language in which I need only say what I wish done', give him a lollipop.'' Alan J. Perlis",
       "''Good design adds value faster than it adds cost.'' Thomas C. Gale",
       "''Talk is cheap. Show me the code.'' Linus Torvalds",
-      "''In theory, theory and practice are the same. In practice, they’re not.'' Yogi Berra",
+      "''In theory, theory and practice are the same. In practice, they are not.'' Yogi Berra",
       "''I invented the term 'Object-Oriented', and I can tell you I did not have C++ in mind.'' Alan Kay"
     ],
-    "help": "I help you create your site or web application, have more visibility and relevance on the internet.",
+    "help": "I help you create your website or web application, increasing your visibility and relevance on the Internet.",
     "contact": "Contact Me",
-    "know": "If you want to know more about me you can download my Curriculum Vitae:",
+    "know": "If you want to know more about me, you can download my Curriculum Vitae:",
     "download": "Download CV"
   },
   "Portafolio": {
@@ -72,7 +72,7 @@
     "ML_link1": "🔗Unsupervised Learning Code",
     "ML_link2": "🔗Deep Learning Code",
     "ML_link3": "🔗Natural Language Processing (NLP) Code",
-    "mysql_text": "Relational database management",
+    "mysql_text": "Relational Database Management",
     "mysql_link": "🔗Database Code",
     "mysql_link2": "🔗BBDD Star Diagram",
     "mongoDB_text": "Non-relational database management",
@@ -82,7 +82,7 @@
     "airflow_link": "🔗Airflow Graph",
     "airflow_link2": "🔗Airflow DAGs",
     "airflow_link3": "🔗Airflow Logs",
-    "docker_text": "Application deployment within virtual containers",
+    "docker_text": "Application deployment using virtual containers",
     "docker_link": "🔗Docker Containers",
     "docker_link2": "🔗Docker Images"
   },
@@ -146,7 +146,7 @@
     "title5": "5. Continuous Innovation:",
     "text5": "The fields of design, web development, and data science are constantly evolving, and I am committed to staying up to date with the latest trends and technologies. This allows me to offer fresh and innovative solutions that keep my clients at the forefront of online and data analytics. My commitment to innovation ensures that every project I undertake lives up to the highest industry standards.",
     "title6": "6. Experience in Technologies:",
-    "text6": "My skill set includes experience in HTML5, CSS3, JavaScript, as well as using frameworks such as TailWindCSS and React for web development. In the field of data science, I have experience in Python, R and machine learning tools for data analysis. Additionally, I have experience optimizing websites for performance and accessibility, backed by data analysis, ensuring each project is fast, accessible, and based on valuable and accurate information."
+    "text6": "My skill set includes experience in HTML5, CSS3, and JavaScript, as well as frameworks such as Tailwind CSS and React for web development. In the field of data science, I have experience in Python, R and machine learning tools for data analysis. Additionally, I have experience optimizing websites for performance and accessibility, backed by data analysis, ensuring each project is fast, accessible, and based on valuable and accurate information."
   },
   "Contacto": {
     "title": "Contact"
