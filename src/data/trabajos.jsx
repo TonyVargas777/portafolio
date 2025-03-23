@@ -55,6 +55,17 @@ export const trabajos = [
     categorias_en:"OVERTIME"
   },
   {
+    id: "planet",
+    nombre: "Planetas",
+    nombre_cat: "Planetes",
+    nombre_en: "Star Wars",
+    url: "https://starwarsplanets-zeta.vercel.app/",
+    tecnologias: "React, HTML, CSS",
+    categorias: "STAR WARS",
+    categorias_cat:"STAR WARS",
+    categorias_en:"STAR WARS"
+  },
+  {
     id: "duel",
     nombre: "Cromos",
     nombre_cat: "Cromos",
