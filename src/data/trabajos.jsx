@@ -65,13 +65,24 @@ export const trabajos = [
     categorias_cat:"STAR WARS",
     categorias_en:"STAR WARS"
   },
+  // {
+  //   id: "duel",
+  //   nombre: "Cromos",
+  //   nombre_cat: "Cromos",
+  //   nombre_en: "Stickers",
+  //   url: "https://anakin-obiwan.vercel.app/",
+  //   tecnologias: "React, HTML, CSS",
+  //   categorias: "STAR WARS",
+  //   categorias_cat:"STAR WARS",
+  //   categorias_en:"STAR WARS"
+  // },
   {
-    id: "duel",
-    nombre: "Cromos",
-    nombre_cat: "Cromos",
-    nombre_en: "Stickers",
-    url: "https://anakin-obiwan.vercel.app/",
-    tecnologias: "React, HTML, CSS",
+    id: "Tinder_SW",
+    nombre: "Tinder",
+    nombre_cat: "Tinder",
+    nombre_en: "Tinder",
+    url: "https://tinder-sw.vercel.app/",
+    tecnologias: "React, HTML, CSS, JS",
     categorias: "STAR WARS",
     categorias_cat:"STAR WARS",
     categorias_en:"STAR WARS"
