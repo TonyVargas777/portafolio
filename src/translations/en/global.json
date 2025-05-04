@@ -91,6 +91,16 @@
     "cv": "If you want to know more about me you can download my Curriculum Vitae:",
     "download": "Download CV",
     "education": "Education",
+    "master_ds": "Big Data & Business Intelligence Master's Degree",
+    "master_ds_m1": "Data Analysis and Interpretation",
+    "master_ds_m2": "Big Data",
+    "master_ds_m3": "Business Intelligence",
+    "master_ds_m4": "Storage Technologies",
+    "master_ds_m5": "Python, Carto, Power BI and Google Data Studio",
+    "master_ds_m6": "Artificial Intelligence",
+    "master_ds_m7": "Project Management",
+    "master_ds_m8": "Data Management",
+    "master_ds_school": "ISABEL I INTERNATIONAL UNIVERSITY OF CASTILE (ENEB) (2025)",
     "boot_camp_ds": "Big Data Analyst and Data Scientist Technical Training",
     "boot_camp_m1": "Decision support systems and data management",
     "boot_camp_m2": "Data management and processing",
@@ -131,7 +141,9 @@
     "bd2_2": "Exasol - MemSQL - Kudu",
     "bd2_3": "Apache Impala - Hive LLAP - Presto",
     "bd2_4": "Phoenix - Dril - AtScale",
-    "bd2_5": "Jethro Data - Kyvos Insight"
+    "bd2_5": "Jethro Data - Kyvos Insight",
+    "c2_1": "Listening Comprehension: 76/100",
+    "c2_2": "Reading Comprehension: 81/100"
   },
   "Servicios": {
     "title": "Services",

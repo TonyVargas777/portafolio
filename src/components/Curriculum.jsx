@@ -25,6 +25,20 @@ export const Curriculum = () => {
         <h2 className="heading">{t("Curriculum.education")}</h2>
       </div>
       <div className="services">
+      <div className="service">
+          <h2>{t("Curriculum.master_ds")}</h2>
+          <ul>
+            <li>{t("Curriculum.master_ds_m1")}</li>
+            <li>{t("Curriculum.master_ds_m2")}</li>
+            <li>{t("Curriculum.master_ds_m3")}</li>
+            <li>{t("Curriculum.master_ds_m4")}</li>
+            <li>{t("Curriculum.master_ds_m5")}</li>
+            <li>{t("Curriculum.master_ds_m6")}</li>
+            <li>{t("Curriculum.master_ds_m7")}</li>
+            <li>{t("Curriculum.master_ds_m8")}</li>
+          </ul>
+          <h2>{t("Curriculum.master_ds_school")}</h2>
+        </div>
         <div className="service">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
           <h2>(IFCD66)</h2>
@@ -72,6 +86,13 @@ export const Curriculum = () => {
         </div>
         <div className="service">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
+          <img width="200" src="/img/English.png" alt="English_Certificate" />
+          <ul>
+            <li>{t("Curriculum.c2_1")}</li>   
+            <li>{t("Curriculum.c2_2")}</li>
+          </ul>  
+          <h2>C2 Proficient</h2>
+          <a href="https://cert.efset.org/om9m4p?cid=em100a">🔗English Certificate</a>
           <h2> EF Standard English Test (EF SET) (2023)</h2>
         </div>
         <div className="service">
