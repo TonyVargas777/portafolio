@@ -88,12 +88,7 @@ export const Curriculum = () => {
         <div className="service">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
           <img width="200" src="/img/English.png" alt="English_Certificate" />
-          {/* <ul>
-            <li>{t("Curriculum.c2_1")}</li>   
-            <li>{t("Curriculum.c2_2")}</li>
-          </ul>   */}
           <h2>C2 Proficient</h2>
-          {/* <a href="https://cert.efset.org/om9m4p?cid=em100a" target="_blank">🔗English Certificate</a> */}
           <h2> EF Standard English Test (EF SET) (2023)</h2>
         </div>
         <div className="service">

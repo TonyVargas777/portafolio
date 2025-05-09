@@ -142,9 +142,7 @@
     "bd2_2": "Exasol - MemSQL - Kudu",
     "bd2_3": "Apache Impala - Hive LLAP - Presto",
     "bd2_4": "Phoenix - Dril - AtScale",
-    "bd2_5": "Jethro Data - Kyvos Insight",
-    "c2_1": "Comprensió Auditiva: 76/100",
-    "c2_2": "Comprensió Lectora: 81/100"
+    "bd2_5": "Jethro Data - Kyvos Insight"
   },
   "Servicios": {
     "title": "Serveis",
