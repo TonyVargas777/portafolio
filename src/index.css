@@ -402,7 +402,7 @@ nav {
 .redes a,
 .redes a:hover {
     background-color: transparent;
-    border: none;
+    border: 1px solid blue;
 }
 
 .redes_contacto {

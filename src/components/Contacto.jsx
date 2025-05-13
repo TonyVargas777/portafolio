@@ -37,7 +37,7 @@ export const Contacto = () => {
           target="blank"
           className="contacto_a"
         >
-          Linkedin Tony_Vargas_García
+          LinkedIn <br />Tony_Vargas_García
         </a>
 
         <article>
@@ -75,7 +75,7 @@ export const Contacto = () => {
           </a>
         </article>
         <a href="https://github.com/TonyVargas777" alt="github" target="blank" className="contacto_a">
-          Github TonyVargas777
+          Github <br />TonyVargas777
         </a>
 
         <article>
@@ -83,7 +83,7 @@ export const Contacto = () => {
             <img
               className="red"
               align="center"
-              src="img/email.jpg"
+              src="img/email.png"
               alt="email"
               height="40"
               width="40"

@@ -196,7 +196,7 @@ export const Inicio = () => {
               <img
                 className="red"
                 align="center"
-                src="img/email.jpg"
+                src="img/email.png"
                 alt="email"
                 height="40"
                 width="40"

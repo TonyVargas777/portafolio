@@ -60,7 +60,7 @@ export const Footer = () => {
               <img
                 className="red"
                 align="center"
-                src="img/email.jpg"
+                src="img/email.png"
                 alt="email"
                 height="20px"
                 width="20px"
