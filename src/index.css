@@ -856,8 +856,8 @@ nav {
 
 .language-popup {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  top: 25%;
+  right: 5%;
   transform: translate(-50%, -50%);
   background: var(--color-secondary);
   border: 2px solid blue;
