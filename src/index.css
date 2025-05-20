@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
     --color-text-light: rgba(0, 0, 0, 0.87);
     --color-text-dark: rgba(255, 255, 255, 0.87);
@@ -42,7 +38,7 @@ html {
 button {
     border-radius: 8px;
     border: 1px solid transparent;
-    padding: 0.6em 1.2em;
+    /* padding: 0.6em 1.2em; */
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
@@ -159,6 +155,14 @@ a {
 
 .header nav {
     flex-grow: 1;
+}
+
+.theme_language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
 nav {
@@ -852,6 +856,47 @@ nav {
 .dropdown-menu img {
     margin: -10px;
     border: #000 2px 0 0;
+}
+
+.language-popup {
+  position: fixed;
+  top: 20%;
+  right: 5%;
+  transform: translate(-50%, -50%);
+  background: lightgrey;
+  border: 2px solid grey;
+  padding: 15px;
+  z-index: 1000;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  background: transparent;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.language-option:hover {
+  background: grey;
+}
+
+.close-popup {
+  margin-top: -5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
 }
 
 @media (max-width: 1030px) {

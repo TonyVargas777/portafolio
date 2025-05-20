@@ -1,4 +1,15 @@
 export const trabajos = [
+   {
+    id: "PYH",
+    nombre: "Plan Your Holidays",
+    nombre_cat: "Plan Your Holidays",
+    nombre_en: "Plan Your Holidays",
+    url: "https://holidays-self.vercel.app/inicio",
+    tecnologias: "Api, Widgets",
+    categorias: "MERN STACK",
+    categorias_cat:"MERN STACK",
+    categorias_en:"MERN STACK"
+  },  
   {
     id: "mi_blog",
     nombre: "Blog de Cine",
