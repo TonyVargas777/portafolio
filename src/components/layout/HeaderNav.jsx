@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Es_Flag from "/public/spain_c.png";
 import Cat_Flag from "/public/catalonia_c.png";
@@ -8,7 +8,6 @@ import IdiomaIcon from "/public/idioma.png"; // Icono principal
 
 export const HeaderNav = () => {
   const [t, i18n] = useTranslation("global");
-  const location = useLocation();
   const [showPopup, setShowPopup] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
@@ -23,6 +22,7 @@ export const HeaderNav = () => {
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);
     localStorage.setItem("language", language);
+    setShowPopup(false);
     setShowPopup(false);
   };
 
@@ -72,6 +72,8 @@ export const HeaderNav = () => {
           </li>
 
           {/* Botón para mostrar popup de idiomas */}
+          <div className="theme_language">
+          {/* Botón para mostrar popup de idiomas */}
           <li>
             <button onClick={togglePopup} className="popup-btn">
               <img src={IdiomaIcon} alt="Idioma" width="24" height="24" />
@@ -80,10 +82,19 @@ export const HeaderNav = () => {
 
           {/* Botón cambio de tema */}
           <li>
-            <button onClick={() => setTheme(theme === "light" ? "dark" : "light")} className="popup-btn">
-              <img src="/cambiar.png" alt="Theme Toggle" width="24" height="24" />
+            <button
+              onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+              className="popup-btn"
+            >
+              <img
+                src="/cambiar.png"
+                alt="Theme Toggle"
+                width="24"
+                height="24"
+              />
             </button>
           </li>
+          </div>
         </ul>
       </nav>
 

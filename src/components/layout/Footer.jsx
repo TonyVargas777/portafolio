@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <div>Portafolio Tony Vargas &copy; Máster en React</div>
+      <p>Portafolio Tony Vargas &copy; Máster en React</p>
       <section>
         <div className="redes_footer">
           <div>
@@ -24,7 +24,6 @@ export const Footer = () => {
           <div>
             <a
               href="https://github.com/TonyVargas777"
-              alt="github"
               height="20px"
               width="20px"
             >
