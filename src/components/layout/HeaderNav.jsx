@@ -38,13 +38,13 @@ export const HeaderNav = () => {
 
   return (
     <header className="header">
-      <li>
-        <NavLink to="/inicio" className="port">
-          {t("HeaderNav.portfolio")}
-        </NavLink>
-      </li>
       <nav>
         <ul>
+          <li>
+            <NavLink to="/inicio" className="port">
+              {t("HeaderNav.portfolio")}
+            </NavLink>
+          </li>
           <li>
             <NavLink to="/portafolio_dS" className={({ isActive }) => (isActive ? "active" : "")}>
               {"DATA"}
@@ -74,8 +74,8 @@ export const HeaderNav = () => {
           <div className="theme_language">
           {/* Botón para mostrar popup de idiomas */}
           <li>
-            <button onClick={togglePopup} className="popup-btn">
-              <img src={IdiomaIcon} alt="Idioma" width="24" height="24" />
+            <button onClick={togglePopup} className="popup-btn" aria-label="Seleccionar idioma">
+              <img src={IdiomaIcon} alt="Seleccionar idioma" width="24" height="24" />
             </button>
           </li>
 
@@ -84,10 +84,11 @@ export const HeaderNav = () => {
             <button
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
               className="popup-btn"
+              aria-label="Cambiar tema claro/oscuro"
             >
               <img
                 src="/cambiar.png"
-                alt="Theme Toggle"
+                alt="Cambiar tema claro/oscuro"
                 width="24"
                 height="24"
               />
