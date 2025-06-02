@@ -1117,6 +1117,20 @@ background: blue;
         padding: 20px;
         transition: all 300ms ease-in-out;
         }
+    .service2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--color-bg-dark);
+        width: 25%;
+        margin: 10px;
+        border: 2px solid blue;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        transition: all 300ms ease-in-out;
+    }
 
     .services {
         display: flex;
@@ -1278,6 +1292,16 @@ background: blue;
     }
 
     .service {
+        background-color: var(--color-bg-dark);
+        width: 90%;
+        margin: 10px;
+        border: 2px solid blue;
+        border-radius: 10px;
+        text-align: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .service2 {
         background-color: var(--color-bg-dark);
         width: 90%;
         margin: 10px;
