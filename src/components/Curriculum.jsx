@@ -53,7 +53,7 @@ export const Curriculum = () => {
           </ul>
           <a
             href="../pdf/Diplomas_DSPP01-DataScience.pdf "
-            target="_blank" ç
+            target="_blank" 
           >🔗Data Science</a>
           <h2>{t("Curriculum.boot_camp_school")}</h2>
           <h2>{t("Curriculum.boot_camp_year")}</h2>

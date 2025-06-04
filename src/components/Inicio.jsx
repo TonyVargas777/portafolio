@@ -60,7 +60,7 @@ export const Inicio = () => {
     <div className="home">
       <div className="my_self">
         <div className="container">
-          <img className="avatar" src={image_photo} alt="Foto de perfil de Tony Vargas" />
+          <img className="avatar" src={image_photo} alt="Tony Vargas" />
         </div>
         <div className="my_self_type">
           <h1 className="ancho_home">
@@ -76,8 +76,8 @@ export const Inicio = () => {
         <Link to="/portafolio_dS">
           <div className="work-item-skills">
             <h4 className="heading">DATA SCIENCE</h4>
+            <br />
             <h4 className="heading">& ANALYTICS</h4>
-
             <br />
             <img
               fetchpriority="high"
@@ -110,7 +110,6 @@ export const Inicio = () => {
         <Link to="/portafolio">
           <div className="work-item-skills">
             <h4 className="heading">WEB DEVELOPMENT</h4>
-            <br />
             <h2 className="heading">(MERN STACK)</h2>
             <br />
 
@@ -126,6 +125,7 @@ export const Inicio = () => {
               <img className="skills1" src={image_react} alt="Logo de React" />
               <img className="skills1" src={image_node} alt="Logo de NodeJS" />
             </div>
+            <br />
             {randomIndexDAW !== null && <h3>{phrases_daw[randomIndexDAW]}</h3>}
           </div>
         </Link>
