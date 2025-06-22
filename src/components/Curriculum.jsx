@@ -25,7 +25,7 @@ export const Curriculum = () => {
         <h2 className="heading">{t("Curriculum.education")}</h2>
       </div>
       <div className="services">
-        {/* <div className="service2">
+        <div className="service2">
           <h2>{t("Curriculum.master_ds")}</h2>
           <ul>
             <li>{t("Curriculum.master_ds_m1")}</li>
@@ -37,10 +37,14 @@ export const Curriculum = () => {
             <li>{t("Curriculum.master_ds_m7")}</li>
             <li>{t("Curriculum.master_ds_m8")}</li>
             <li>{t("Curriculum.master_ds_m9")}</li>
-            <li>{t("Curriculum.master_ds_year")}</li>
           </ul>
+           {/* <a
+            href="../pdf/Diploma_Master.pdf "
+            target="_blank"
+          >🔗Big data & Business Intelligence</a> */}
           <h2>{t("Curriculum.master_ds_school")}</h2>
-        </div> */}
+            <h2>{t("Curriculum.master_ds_year")}</h2>
+        </div>
         <div className="service2">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
           <ul>

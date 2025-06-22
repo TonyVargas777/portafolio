@@ -6,6 +6,19 @@ export const Contacto = () => {
     window.scrollTo(0, 0);
   }, []);
   const [t, i18n] = useTranslation("global");
+    const obtenerEnlaceCV = () => {
+    const idioma = i18n.language;
+    switch (idioma) {
+      case "es":
+        return "/cv/tony_vargas_cv_esp.pdf";
+      case "cat":
+        return "/cv/tony_vargas_cv_cat.pdf";
+      case "en":
+        return "/cv/tony_vargas_cv_eng.pdf";
+      default:
+        return "/cv/tony_vargas_cv_esp.pdf";
+    }
+  };
 
   return (
     <>
@@ -93,6 +106,24 @@ export const Contacto = () => {
         <a href="mailto:tonacovargas@gmail.com" target="blank" alt="email" className="contacto_a">
           tonacovargas@gmail.com
         </a>
+      </div>
+      <div className="home">
+        <article className="work-item2">
+          <div className="cv">
+            <h3>{t("Inicio.know")}</h3>
+
+            <br />
+            <a
+              href={obtenerEnlaceCV()}
+              download
+              target="_blank"
+              title="Descargar Currículum Vitae"
+              alt="CV"
+            >
+              {t("Inicio.download")}
+            </a>
+          </div>
+        </article>
       </div>
     </section>
     </>
