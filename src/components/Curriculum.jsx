@@ -37,10 +37,18 @@ export const Curriculum = () => {
             <li>{t("Curriculum.master_ds_m7")}</li>
             <li>{t("Curriculum.master_ds_m8")}</li>
           </ul>
-           {/* <a
+           <a
             href="../pdf/Diploma_Master.pdf "
             target="_blank"
-          >🔗Big data & Business Intelligence</a> */}
+          >🔗Big Data & Business Intelligence</a>
+          <a
+            href="../pdf/Diploma_Gestion.pdf "
+            target="_blank"
+          >🔗{t("Curriculum.master_ds_gestion")}</a>
+          <a
+            href="../pdf/English_Certificate.pdf "
+            target="_blank"
+          >🔗Business English Program Certificate</a>
           <h2>{t("Curriculum.master_ds_school")}</h2>
             <h2>{t("Curriculum.master_ds_year")}</h2>
         </div>
