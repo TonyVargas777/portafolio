@@ -50,7 +50,7 @@ export const Curriculum = () => {
             target="_blank"
           >🔗Business English Program Certificate</a>
           <h2>{t("Curriculum.master_ds_school")}</h2>
-            <h2>{t("Curriculum.master_ds_year")}</h2>
+            <h2>2025</h2>
         </div>
         <div className="service2">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
@@ -67,7 +67,7 @@ export const Curriculum = () => {
             target="_blank" 
           >🔗Data Science</a>
           <h2>{t("Curriculum.boot_camp_school")}</h2>
-          <h2>{t("Curriculum.boot_camp_year")}</h2>
+          <h2>2024</h2>
         </div>
         <div className="service2">
           <h2>{t("Curriculum.dam")}</h2>
@@ -83,7 +83,7 @@ export const Curriculum = () => {
             target="_blank"
           >🔗DAM</a>
           <h2>{t("Curriculum.unicas")}</h2>
-          <h2>{t("Curriculum.dam_year")}</h2>
+          <h2>2024</h2>
 
         </div>
         <div className="service2">
@@ -98,7 +98,7 @@ export const Curriculum = () => {
             target="_blank"
           >🔗DAW</a>
           <h2>{t("Curriculum.consorci")}</h2>
-          <h2>{t("Curriculum.daw_year")}</h2>
+          <h2>2023</h2>
         </div>
         <div className="service2">
           <h2>{t("Curriculum.ds")}</h2>
@@ -114,19 +114,9 @@ export const Curriculum = () => {
             target="_blank"
           >🔗Data Science Fundamentals</a>
           <h2>{t("Curriculum.coursera")}</h2>
-          <h2>{t("Curriculum.ds_year")}</h2>
+          <h2>2022</h2>
         </div>
-        <div className="service2">
-          <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
-          <img width="200" src="/img/English.png" alt="English_Certificate" />
-          <h2>C2 Proficient</h2>
-           <a
-            href="../pdf/EF SET Certificate.pdf "
-            target="_blank"
-          >🔗Certificate</a>
-          <h2> EF Standard English Test (EF SET)</h2>
-          <h2>2023</h2>
-        </div>
+        
         <div className="service2">
           <h2>{t("Curriculum.bd2")}</h2>
           <ul>
@@ -152,9 +142,21 @@ export const Curriculum = () => {
             target="_blank"
           >🔗Big Data II</a>
           <h2>{t("Curriculum.ioe")}</h2>
-          <h2>{t("Curriculum.bd1_year")}</h2>
+          <h2>2022</h2>
+        </div>
+        <div className="service2">
+          <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
+          <img width="200" src="/img/English.png" alt="English_Certificate" />
+          <h2>C2 Proficient</h2>
+           <a
+            href="../pdf/EF SET Certificate.pdf "
+            target="_blank"
+          >🔗Certificate</a>
+          <h2> EF Standard English Test (EF SET)</h2>
+          <h2>2023</h2>
         </div>
       </div>
+      
       <div className="home">
         <article className="work-item2">
           <div className="cv">
