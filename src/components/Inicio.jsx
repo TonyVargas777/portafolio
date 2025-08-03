@@ -122,6 +122,8 @@ export const Inicio = () => {
             <div className="skills1_caja">
               <img className="skills1" src={image_mongo} alt="Logo de MongoDB" />
               <img className="skills1" src={image_express} alt="Logo de ExpressJS" />
+            </div>
+            <div className="skills1_caja">
               <img className="skills1" src={image_react} alt="Logo de React" />
               <img className="skills1" src={image_node} alt="Logo de NodeJS" />
             </div>
