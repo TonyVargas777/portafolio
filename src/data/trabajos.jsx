@@ -1,5 +1,16 @@
 export const trabajos = [
    {
+    id: "rodar_y_rodar",
+    nombre: "Rodar y Rodar",
+    nombre_cat: "Rodar y Rodar",
+    nombre_en: "Rodar y Rodar",
+    url: "https://www.rodaryrodar.com/Films",
+    tecnologias: "MERN STACK",
+    categorias: "WEB PROFESIONAL",
+    categorias_cat:"WEB PROFESSIONAL",
+    categorias_en:"PROFESSIONAL WEB"
+  },  
+  {
     id: "PYH",
     nombre: "Plan Your Holidays",
     nombre_cat: "Plan Your Holidays",
