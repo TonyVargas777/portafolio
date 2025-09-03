@@ -4,7 +4,7 @@ export const trabajos = [
     nombre: "Rodar y Rodar",
     nombre_cat: "Rodar y Rodar",
     nombre_en: "Rodar y Rodar",
-    url: "https://www.rodaryrodar.com/Films",
+    url: "https://www.rodaryrodar.com/",
     tecnologias: "MERN STACK",
     categorias: "WEB PROFESIONAL",
     categorias_cat:"WEB PROFESSIONAL",
