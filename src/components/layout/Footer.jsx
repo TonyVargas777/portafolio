@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <p>Portafolio Tony Vargas &copy; Máster en React</p>
+      <p>Portfolio Tony Vargas &copy; Máster en React</p>
       <section>
         <div className="redes_footer">
           <div>
