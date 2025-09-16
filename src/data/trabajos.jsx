@@ -11,6 +11,17 @@ export const trabajos = [
   //   categorias_en:"PROFESSIONAL WEB"
   // },  
   {
+    id: "crypto-prices",
+    nombre: "Cripto Monedas",
+    nombre_cat: "Cripto Monedes",
+    nombre_en: "Crypto Prices",
+    url: "https://crypto-prices-nine.vercel.app/",
+    tecnologias: "Api, Widgets",
+    categorias: "MERCADO CRIPTO",
+    categorias_cat:"MERCAT CRIPTO",
+    categorias_en:"CRYPTO MARKET"
+  },  
+    {
     id: "PYH",
     nombre: "Plan Your Holidays",
     nombre_cat: "Plan Your Holidays",
