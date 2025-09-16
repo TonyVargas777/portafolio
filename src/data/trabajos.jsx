@@ -38,7 +38,7 @@ export const trabajos = [
     nombre_cat: "Blog de Cinema",
     nombre_en: "Cinema Blog",
     url: "https://mi-blog-de-cine.vercel.app/",
-    tecnologias: "Mern Stack",
+    tecnologias: "MongoDB, Express, React, Node",
     categorias: "MERN STACK",
     categorias_cat:"MERN STACK",
     categorias_en:"MERN STACK"
