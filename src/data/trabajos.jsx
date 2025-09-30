@@ -11,27 +11,6 @@ export const trabajos = [
   //   categorias_en:"PROFESSIONAL WEB"
   // },  
   {
-    id: "crypto-prices",
-    nombre: "Cripto Monedas",
-    nombre_cat: "Cripto Monedes",
-    nombre_en: "Crypto Prices",
-    url: "https://crypto-prices-nine.vercel.app/",
-    tecnologias: "Api, Widgets",
-    categorias: "MERCADO CRIPTO",
-    categorias_cat:"MERCAT CRIPTO",
-    categorias_en:"CRYPTO MARKET"
-  },  
-    {
-    id: "PYH",
-    nombre: "Plan Your Holidays",
-    nombre_cat: "Plan Your Holidays",
-    nombre_en: "Plan Your Holidays",
-    url: "https://holidays-self.vercel.app/inicio",
-    tecnologias: "Api, Widgets",
-    categorias: "MERN STACK",
-    categorias_cat:"MERN STACK",
-    categorias_en:"MERN STACK"
-   {
     id: "luxury",
     nombre: "Luxury Fashion",
     nombre_cat: "Luxury Fashion",
@@ -42,7 +21,7 @@ export const trabajos = [
     categorias_cat:"E-commerce",
     categorias_en:"E-commerce"
   },  
-  {
+   {
     id: "mi_blog",
     nombre: "Blog de Cine",
     nombre_cat: "Blog de Cinema",
@@ -52,6 +31,17 @@ export const trabajos = [
     categorias: "MERN STACK",
     categorias_cat:"MERN STACK",
     categorias_en:"MERN STACK"
+  },  
+  {
+    id: "crypto-prices",
+    nombre: "Cripto Monedas",
+    nombre_cat: "Cripto Monedes",
+    nombre_en: "Crypto Prices",
+    url: "https://crypto-prices-nine.vercel.app/",
+    tecnologias: "Api, Widgets",
+    categorias: "MERCADO CRIPTO",
+    categorias_cat:"MERCAT CRIPTO",
+    categorias_en:"CRYPTO MARKET"
   },  
     {
     id: "PYH",
