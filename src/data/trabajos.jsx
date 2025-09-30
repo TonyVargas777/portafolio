@@ -10,16 +10,16 @@ export const trabajos = [
   //   categorias_cat:"WEB PROFESSIONAL",
   //   categorias_en:"PROFESSIONAL WEB"
   // },  
-  {
-    id: "PYH",
-    nombre: "Plan Your Holidays",
-    nombre_cat: "Plan Your Holidays",
-    nombre_en: "Plan Your Holidays",
-    url: "https://holidays-self.vercel.app/inicio",
-    tecnologias: "Api, Widgets",
-    categorias: "MERN STACK",
-    categorias_cat:"MERN STACK",
-    categorias_en:"MERN STACK"
+   {
+    id: "luxury",
+    nombre: "Luxury Fashion",
+    nombre_cat: "Luxury Fashion",
+    nombre_en: "Luxury Fashion",
+    url: "https://luxury-lac.vercel.app/",
+    tecnologias: "Next JS",
+    categorias: "E-commerce",
+    categorias_cat:"E-commerce",
+    categorias_en:"E-commerce"
   },  
   {
     id: "mi_blog",
@@ -28,6 +28,17 @@ export const trabajos = [
     nombre_en: "Cinema Blog",
     url: "https://mi-blog-de-cine.vercel.app/",
     tecnologias: "Mern Stack",
+    categorias: "MERN STACK",
+    categorias_cat:"MERN STACK",
+    categorias_en:"MERN STACK"
+  },  
+    {
+    id: "PYH",
+    nombre: "Plan Your Holidays",
+    nombre_cat: "Plan Your Holidays",
+    nombre_en: "Plan Your Holidays",
+    url: "https://holidays-self.vercel.app/inicio",
+    tecnologias: "Api, Widgets",
     categorias: "MERN STACK",
     categorias_cat:"MERN STACK",
     categorias_en:"MERN STACK"
