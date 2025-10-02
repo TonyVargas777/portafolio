@@ -11,7 +11,7 @@ export const trabajos = [
   //   categorias_en:"PROFESSIONAL WEB"
   // },  
   {
-    id: "luxury",
+    id: "luxury2",
     nombre: "Luxury Fashion",
     nombre_cat: "Luxury Fashion",
     nombre_en: "Luxury Fashion",
@@ -33,7 +33,7 @@ export const trabajos = [
     categorias_en:"MERN STACK"
   },  
   {
-    id: "crypto-prices",
+    id: "crypto-prices2",
     nombre: "Cripto Monedas",
     nombre_cat: "Cripto Monedes",
     nombre_en: "Crypto Prices",
@@ -143,7 +143,7 @@ export const trabajos = [
     categorias_en:"SIMULATION"
   }, 
   {
-    id: "dali",
+    id: "dali2",
     nombre: "Cronómetro",
     nombre_cat: "Cronòmetre",
     nombre_en: "CHRONOMETER",
