@@ -40,8 +40,8 @@ export const Curriculum = () => {
             href="../pdf/English_Certificate.pdf "
             target="_blank"
           >🔗Business English Program Certificate</a>
+          <h3>{t("Curriculum.ia_hours")}</h3>
           <h2>{t("Curriculum.ia_school")}</h2>
-          <h2>{t("Curriculum.ia_hours")}</h2>
             <h2>2025</h2>
         </div> */}
         <div className="service2">
@@ -52,11 +52,11 @@ export const Curriculum = () => {
             <li>{t("Curriculum.master_ds_m3")}</li>
             <li>{t("Curriculum.master_ds_m4")}</li>
             <li>{t("Curriculum.master_ds_m5")}</li>
-            <li>{t("Curriculum.master_ds_m6")}</li>           
+            <li>{t("Curriculum.master_ds_m6")}</li>
             <li>{t("Curriculum.master_ds_m7")}</li>
             <li>{t("Curriculum.master_ds_m8")}</li>
           </ul>
-           <a
+          <a
             href="../pdf/Diploma_Master.pdf "
             target="_blank"
           >🔗Big Data & Business Intelligence</a>
@@ -68,9 +68,9 @@ export const Curriculum = () => {
             href="../pdf/English_Certificate.pdf "
             target="_blank"
           >🔗Business English Program Certificate</a>
+          <h3>60 ECTS</h3>
           <h2>{t("Curriculum.master_ds_school")}</h2>
-          <h2>60 ECTS</h2>
-            <h2>2025</h2>
+          <h2>2025</h2>
         </div>
         <div className="service2">
           <h2>{t("Curriculum.boot_camp_ds")}</h2>
@@ -84,10 +84,10 @@ export const Curriculum = () => {
           </ul>
           <a
             href="../pdf/Diplomas_DSPP01-DataScience.pdf "
-            target="_blank" 
+            target="_blank"
           >🔗Data Science</a>
+          <h3>{t("Curriculum.boot_camp_hours")}</h3>
           <h2>{t("Curriculum.boot_camp_school")}</h2>
-          <h2>{t("Curriculum.boot_camp_hours")}</h2>
 
           <h2>2024</h2>
         </div>
@@ -100,12 +100,13 @@ export const Curriculum = () => {
             <li>{t("Curriculum.dam_m6")}</li>
             <li>{t("Curriculum.dam_m7")}</li>
           </ul>
+
           <a
             href="../pdf/Diploma_Dam.pdf "
             target="_blank"
-          >🔗DAM</a>
+            >🔗DAM</a>
+            <h3>{t("Curriculum.dam_hours")}</h3>
           <h2>{t("Curriculum.unicas")}</h2>
-          <h2>{t("Curriculum.dam_hours")}</h2>
           <h2>2024</h2>
 
         </div>
@@ -119,9 +120,9 @@ export const Curriculum = () => {
           <a
             href="../pdf/Diploma_Daw.pdf "
             target="_blank"
-          >🔗DAW</a>
+            >🔗DAW</a>
+            <h3>{t("Curriculum.daw_m4")}</h3>
           <h2>{t("Curriculum.consorci")}</h2>
-          <h2>{t("Curriculum.daw_m4")}</h2>
           <h2>2023</h2>
         </div>
         <div className="service2">
@@ -136,13 +137,12 @@ export const Curriculum = () => {
           <a
             href="../pdf/Fundamentals_Python_SQL.pdf "
             target="_blank"
-          >🔗Data Science Fundamentals</a>          
-          <h2>COURSERA</h2>
+            >🔗Data Science Fundamentals</a>
+            <h3>{t("Curriculum.ds_6")}</h3>
+          {/* <h2>COURSERA</h2> */}
           <h2>{t("Curriculum.coursera")}</h2>
-          <h2>{t("Curriculum.ds_6")}</h2>
           <h2>2022</h2>
         </div>
-        
         <div className="service2">
           <h2>{t("Curriculum.bd2")}</h2>
           <ul>
@@ -162,20 +162,20 @@ export const Curriculum = () => {
           <a
             href="../pdf/BigData1.pdf "
             target="_blank"
-          >🔗Big Data I</a>
+            >🔗Big Data I</a>
           <a
             href="../pdf/BigData2.pdf "
             target="_blank"
-          >🔗Big Data II</a>
+            >🔗Big Data II</a>
+            <h3>{t("Curriculum.bd2_6")}</h3>
           <h2>{t("Curriculum.ioe")}</h2>
-          <h2>{t("Curriculum.bd2_6")}</h2>
           <h2>2022</h2>
         </div>
         <div className="service2">
           <h2>C2 - PROFICIENT ENGLISH CERTIFICATE (CEFR)</h2>
           <img width="200" src="/img/English.png" alt="English_Certificate" />
           <h2>C2 Proficient</h2>
-           <a
+          <a
             href="../pdf/EF SET Certificate.pdf "
             target="_blank"
           >🔗Certificate</a>
@@ -183,7 +183,7 @@ export const Curriculum = () => {
           <h2>2023</h2>
         </div>
       </div>
-      
+
       <div className="home">
         <article className="work-item2">
           <div className="cv">
