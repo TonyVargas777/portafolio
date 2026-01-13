@@ -1,15 +1,15 @@
 export const trabajos = [
-  //  {
-  //   id: "rodar_y_rodar",
-  //   nombre: "Rodar y Rodar",
-  //   nombre_cat: "Rodar y Rodar",
-  //   nombre_en: "Rodar y Rodar",
-  //   url: "https://www.rodaryrodar.com/",
-  //   tecnologias: "MERN STACK",
-  //   categorias: "WEB PROFESIONAL",
-  //   categorias_cat:"WEB PROFESSIONAL",
-  //   categorias_en:"PROFESSIONAL WEB"
-  // },  
+   {
+    id: "rodar_y_rodar",
+    nombre: "Rodar y Rodar",
+    nombre_cat: "Rodar y Rodar",
+    nombre_en: "Rodar y Rodar",
+    url: "https://www.rodaryrodar.com/",
+    tecnologias: "MERN STACK",
+    categorias: "WEB PROFESIONAL",
+    categorias_cat:"WEB PROFESSIONAL",
+    categorias_en:"PROFESSIONAL WEB"
+  },  
   {
     id: "luxury2",
     nombre: "Luxury Fashion",
