@@ -815,6 +815,23 @@ nav {
     }
 }
 
+.error-404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.error-404 img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+}
+
 .botonSubir {
     position: fixed;
     bottom: 1rem;
