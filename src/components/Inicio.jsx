@@ -7,6 +7,7 @@ import image_node from "./img/nodejs-ar21.avif";
 import image_mongo from "./img/Mongo-db-logo.avif";
 import image_express from "./img/express.avif";
 import image_photo from "./img/perfil_avatar2.avif";
+import image_blueandred from "./img/blueandred.png";
 import image_python from "./img/Python.svg.png";
 import image_numpy from "./img/numpy.png";
 import image_pandas from "./img/pandas.jpeg";
@@ -60,7 +61,7 @@ export const Inicio = () => {
     <div className="home">
       <div className="my_self">
         <div className="container">
-          <img className="avatar" src={image_photo} alt="Tony Vargas" />
+          <img className="avatar" src={image_blueandred} alt="Tony Vargas" />
         </div>
         <div className="my_self_type">
           <h1 className="ancho_home">
