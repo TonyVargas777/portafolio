@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import image_html from "./img/html_css_js1.avif";
@@ -6,8 +5,8 @@ import image_react from "./img/reactjs-ar21.avif";
 import image_node from "./img/nodejs-ar21.avif";
 import image_mongo from "./img/Mongo-db-logo.avif";
 import image_express from "./img/express.avif";
-import image_photo from "./img/perfil_avatar2.avif";
 import image_blueandred from "./img/blueandred.png";
+import image_blueandredlight from "./img/blueandredlight.png";
 import image_python from "./img/Python.svg.png";
 import image_numpy from "./img/numpy.png";
 import image_pandas from "./img/pandas.jpeg";
@@ -35,13 +34,18 @@ export const Inicio = () => {
 
   // Ejecuta solo una vez después de que las frases estén disponibles
   useEffect(() => {
-    if (phrases_ds.length && phrases_daw.length && randomIndexDS === null && randomIndexDAW === null) {
+    if (
+      phrases_ds.length &&
+      phrases_daw.length &&
+      randomIndexDS === null &&
+      randomIndexDAW === null
+    ) {
       const newRandomIndexDS = Math.floor(Math.random() * phrases_ds.length);
       const newRandomIndexDAW = Math.floor(Math.random() * phrases_daw.length);
       setRandomIndexDS(newRandomIndexDS);
       setRandomIndexDAW(newRandomIndexDAW);
     }
-  }, [phrases_ds, phrases_daw, i18n.language]);  // Solo ejecuta cuando las frases cambian o el idioma
+  }, [phrases_ds, phrases_daw, i18n.language]); // Solo ejecuta cuando las frases cambian o el idioma
 
   const obtenerEnlaceCV = () => {
     const idioma = i18n.language;
@@ -61,7 +65,16 @@ export const Inicio = () => {
     <div className="home">
       <div className="my_self">
         <div className="container">
-          <img className="avatar" src={image_blueandred} alt="Tony Vargas" />
+          <img
+            className="avatar light-avatar"
+            src={image_blueandredlight}
+            alt="Tony Vargas"
+          />
+          <img
+            className="avatar dark-avatar"
+            src={image_blueandred}
+            alt="Tony Vargas"
+          />
         </div>
         <div className="my_self_type">
           <h1 className="ancho_home">
@@ -88,22 +101,46 @@ export const Inicio = () => {
             />
             <div className="skills1_caja">
               <img className="skills1" src={image_numpy} alt="Logo de NumPy" />
-              <img className="skills1" src={image_pandas} alt="Logo de Pandas" />
-              <img className="skills1" src={image_docker} alt="Logo de Docker" />
+              <img
+                className="skills1"
+                src={image_pandas}
+                alt="Logo de Pandas"
+              />
+              <img
+                className="skills1"
+                src={image_docker}
+                alt="Logo de Docker"
+              />
             </div>
             <div className="skills1_caja">
               <img className="skills1" src={image_sql} alt="Logo de SQL" />
-              <img className="skills1" src={image_cassandra} alt="Logo de Cassandra" />
-              <img className="skills1" src={image_apache} alt="Logo de Apache Spark" />
+              <img
+                className="skills1"
+                src={image_cassandra}
+                alt="Logo de Cassandra"
+              />
+              <img
+                className="skills1"
+                src={image_apache}
+                alt="Logo de Apache Spark"
+              />
             </div>
             <div className="skills1_caja">
-              <img className="skills1" src={image_plotly} alt="Logo de Plotly" />
+              <img
+                className="skills1"
+                src={image_plotly}
+                alt="Logo de Plotly"
+              />
               <img
                 className="skills1"
                 src={image_matplotlib}
                 alt="Logo de Matplotlib"
               />
-              <img className="skills1" src={image_seaborn} alt="Logo de Seaborn" />
+              <img
+                className="skills1"
+                src={image_seaborn}
+                alt="Logo de Seaborn"
+              />
             </div>
             {randomIndexDS !== null && <h3>{phrases_ds[randomIndexDS]}</h3>}
           </div>
@@ -121,8 +158,16 @@ export const Inicio = () => {
               alt="Logos de HTML, CSS y JavaScript"
             />
             <div className="skills1_caja">
-              <img className="skills1" src={image_mongo} alt="Logo de MongoDB" />
-              <img className="skills1" src={image_express} alt="Logo de ExpressJS" />
+              <img
+                className="skills1"
+                src={image_mongo}
+                alt="Logo de MongoDB"
+              />
+              <img
+                className="skills1"
+                src={image_express}
+                alt="Logo de ExpressJS"
+              />
             </div>
             <div className="skills1_caja">
               <img className="skills1" src={image_react} alt="Logo de React" />
@@ -173,11 +218,7 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-            <a
-              href="https://wa.me/34661871759"
-              target="blank"
-              title="WhatsApp"
-            >
+            <a href="https://wa.me/34661871759" target="blank" title="WhatsApp">
               <img
                 className="red"
                 align="center"
@@ -189,10 +230,7 @@ export const Inicio = () => {
             </a>
           </div>
           <div>
-            <a
-              href="mailto:tonacovargas@gmail.com"
-              target="blank"
-            >
+            <a href="mailto:tonacovargas@gmail.com" target="blank">
               <img
                 className="red"
                 align="center"

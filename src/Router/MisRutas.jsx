@@ -22,11 +22,25 @@ export const MisRutas = () => {
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/curriculum" element={<Curriculum />} />
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/*" element={
-            <div className="error-404">
-              <img src="img/error_404.jpeg" alt="Error 404" />
-            </div>
-          }/>
+          <Route
+            path="/*"
+            element={
+              <div className="error-404">
+                <div className="error-container">
+                  <img
+                    className="error-img light-error"
+                    src="/img/error_404_light.jpeg"
+                    alt="Página no encontrada - modo claro"
+                  />
+                  <img
+                    className="error-img dark-error"
+                    src="/img/error_404.jpeg"
+                    alt="Página no encontrada - modo oscuro"
+                  />
+                </div>
+              </div>
+            }
+          />
         </Routes>
       </section>
 
