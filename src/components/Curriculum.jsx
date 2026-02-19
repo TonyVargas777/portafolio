@@ -25,7 +25,7 @@ export const Curriculum = () => {
         <h2 className="heading">{t("Curriculum.education")}</h2>
       </div>
       <div className="services">
-        {/* <div className="service2">
+        <div className="service2">
           <h2>{t("Curriculum.ia")}</h2>
           <ul>
             <li>{t("Curriculum.ia_m1")}</li>
@@ -37,13 +37,13 @@ export const Curriculum = () => {
             <li>{t("Curriculum.ia_m7")}</li>
           </ul>           
           <a
-            href="../pdf/English_Certificate.pdf "
+            href="../pdf/Certificado_IFCT0019.pdf "
             target="_blank"
-          >🔗Business English Program Certificate</a>
+          >🔗{t("Curriculum.ia_diploma")}</a>
           <h3>{t("Curriculum.ia_hours")}</h3>
           <h2>{t("Curriculum.ia_school")}</h2>
-            <h2>2025</h2>
-        </div> */}
+            <h2>2026</h2>
+        </div>
         <div className="service2">
           <h2>{t("Curriculum.master_ds")}</h2>
           <ul>
