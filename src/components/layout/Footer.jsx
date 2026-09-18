@@ -1,21 +1,35 @@
 import React from "react";
+import TVDA1 from "/TVDA1.avif";
+import LINKEDIN from "/img/linked-in-alt.svg";
+import GITHUB from "/img/github.svg";
+import WHATSAPP from "/img/whatsapp.svg";
+import EMAIL from "/img/email.png";
 
 export const Footer = () => {
   return (
     <footer className="footer">
-      <p>Portfolio Tony Vargas &copy; Máster en React</p>
+      <p>Portfolio Tony Vargas &copy;</p>
+      <img
+        src={TVDA1}
+        alt="Tony Vargas Development"
+        WIDTH="150px"
+        HEIGHT="150px"
+      />
       <section>
         <div className="redes_footer">
           <div>
             <a
-              href="https://linkedin.com/in/tony-vargas-garcía-122b1424b"
-              target="blank"
+              href="https://www.linkedin.com/in/tony-vargas-777/"
+              target="_blank"
+              loading="lazy"
             >
               <img
                 className="red"
                 align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                src={LINKEDIN}
                 alt="LinkedIn"
+                target="_blank"
+                loading="lazy"
                 height="20px"
                 width="20px"
               ></img>
@@ -24,14 +38,18 @@ export const Footer = () => {
           <div>
             <a
               href="https://github.com/TonyVargas777"
+              target="_blank"
+              loading="lazy"
               height="20px"
               width="20px"
             >
               <img
                 className="red"
                 align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                src={GITHUB}
                 alt="github"
+                target="_blank"
+                loading="lazy"
                 height="20px"
                 width="20px"
               ></img>
@@ -42,8 +60,10 @@ export const Footer = () => {
               <img
                 className="red"
                 align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+                src={WHATSAPP}
                 alt="WhatsApp"
+                target="_blank"
+                loading="lazy"
                 height="20px"
                 width="20px"
               ></img>
@@ -52,15 +72,18 @@ export const Footer = () => {
           <div>
             <a
               href="mailto:tonacovargas@gmail.com"
-              target="blank"
+              target="_blank"
+              loading="lazy"
               height="20px"
               width="20px"
             >
               <img
                 className="red"
                 align="center"
-                src="img/email.png"
+                src={EMAIL}
                 alt="email"
+                target="_blank"
+                loading="lazy"
                 height="20px"
                 width="20px"
               ></img>

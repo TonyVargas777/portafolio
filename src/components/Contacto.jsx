@@ -1,5 +1,9 @@
 import { React, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import LINKEDIN from "/img/linked-in-alt.svg";
+import GITHUB from "/img/github.svg";
+import WHATSAPP from "/img/whatsapp.svg";
+import EMAIL from "/img/email.png";
 
 export const Contacto = () => {
   useEffect(() => {
@@ -37,7 +41,7 @@ export const Contacto = () => {
             <img
               className="red"
               align="center"
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+              src={LINKEDIN}
               alt="LinkedIn"
               height="40px"
               width="40px"
@@ -58,7 +62,7 @@ export const Contacto = () => {
             <img
               className="red"
               align="center"
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+              src={WHATSAPP}
               alt="WhatsApp"
               height="40px"
               width="40px"
@@ -80,7 +84,7 @@ export const Contacto = () => {
             <img
               className="red"
               align="center"
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+              src={GITHUB}
               alt="github"
               height="40px"
               width="40px"
@@ -96,7 +100,7 @@ export const Contacto = () => {
             <img
               className="red"
               align="center"
-              src="img/email.png"
+              src={EMAIL}
               alt="email"
               height="40"
               width="40"

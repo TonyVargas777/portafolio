@@ -17,6 +17,10 @@ import image_apache from "./img/apache.jpg";
 import image_matplotlib from "./img/matplot.png";
 import image_plotly from "./img/plotly.png";
 import image_seaborn from "./img/seaborn.svg";
+import LINKEDIN from "/img/linked-in-alt.svg";
+import GITHUB from "/img/github.svg";
+import WHATSAPP from "/img/whatsapp.svg";
+import EMAIL from "/img/email.png";
 import { useTranslation } from "react-i18next";
 
 export const Inicio = () => {
@@ -100,29 +104,41 @@ export const Inicio = () => {
               alt="Logo de Python"
             />
             <div className="skills1_caja">
-              <img className="skills1" src={image_numpy} alt="Logo de NumPy" />
+              <img
+                className="skills1"
+                src={image_numpy}
+                alt="Logo de NumPy"
+                loading="lazy"
+              />
               <img
                 className="skills1"
                 src={image_pandas}
                 alt="Logo de Pandas"
+                loading="lazy"
               />
               <img
                 className="skills1"
                 src={image_docker}
                 alt="Logo de Docker"
+                loading="lazy"
               />
             </div>
             <div className="skills1_caja">
-              <img className="skills1" src={image_sql} alt="Logo de SQL" />
+              <img className="skills1" 
+              src={image_sql} 
+              alt="Logo de SQL" 
+              loading="lazy"/>
               <img
                 className="skills1"
                 src={image_cassandra}
                 alt="Logo de Cassandra"
+                loading="lazy"
               />
               <img
                 className="skills1"
                 src={image_apache}
                 alt="Logo de Apache Spark"
+                loading="lazy"
               />
             </div>
             <div className="skills1_caja">
@@ -130,16 +146,19 @@ export const Inicio = () => {
                 className="skills1"
                 src={image_plotly}
                 alt="Logo de Plotly"
+                loading="lazy"
               />
               <img
                 className="skills1"
                 src={image_matplotlib}
                 alt="Logo de Matplotlib"
+                loading="lazy"
               />
               <img
                 className="skills1"
                 src={image_seaborn}
                 alt="Logo de Seaborn"
+                loading="lazy"
               />
             </div>
             {randomIndexDS !== null && <h3>{phrases_ds[randomIndexDS]}</h3>}
@@ -162,16 +181,28 @@ export const Inicio = () => {
                 className="skills1"
                 src={image_mongo}
                 alt="Logo de MongoDB"
+                loading="lazy"
               />
               <img
                 className="skills1"
                 src={image_express}
                 alt="Logo de ExpressJS"
+                loading="lazy"
               />
             </div>
             <div className="skills1_caja">
-              <img className="skills1" src={image_react} alt="Logo de React" />
-              <img className="skills1" src={image_node} alt="Logo de NodeJS" />
+              <img
+                className="skills1"
+                src={image_react}
+                alt="Logo de React"
+                loading="lazy"
+              />
+              <img
+                className="skills1"
+                src={image_node}
+                alt="Logo de NodeJS"
+                loading="lazy"
+              />
             </div>
             <br />
             {randomIndexDAW !== null && <h3>{phrases_daw[randomIndexDAW]}</h3>}
@@ -193,8 +224,10 @@ export const Inicio = () => {
               <img
                 className="red"
                 align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                src={LINKEDIN}
                 alt="LinkedIn"
+                target="_blank"
+              loading="lazy"
                 height="40px"
                 width="40px"
               ></img>
@@ -204,14 +237,19 @@ export const Inicio = () => {
           <div>
             <a
               href="https://github.com/TonyVargas777"
+              target="_blank"
+              loading="lazy"
+              rel="noopener noreferrer"
               height="40px"
               width="40px"
             >
               <img
                 className="red"
                 align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                src={GITHUB}
                 alt="github"
+                target="_blank"
+                loading="lazy"
                 height="40px"
                 width="40px"
               ></img>
@@ -222,8 +260,10 @@ export const Inicio = () => {
               <img
                 className="red"
                 align="center"
-                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg"
+                src={WHATSAPP}
                 alt="WhatsApp"
+                target="_blank"
+                loading="lazy"
                 height="40px"
                 width="40px"
               ></img>
@@ -234,10 +274,10 @@ export const Inicio = () => {
               <img
                 className="red"
                 align="center"
-                src="img/email.jpg"
                 alt="Enviar correo electrónico de contacto"
-                src="img/email.png"
-                alt="email"
+                src={EMAIL}
+                target="_blank"
+                loading="lazy"
                 height="40"
                 width="40"
               ></img>
