@@ -14,7 +14,7 @@
 .light {
     color: var(--color-text-light);
     background-color: var(--color-bg-light);
-    background-image: url("/light.png");
+    background-image: url("/light.webp");
     transition: all 0.3s ease-in-out;
 }
 
@@ -22,7 +22,7 @@
 .dark {
     color: var(--color-text-dark);
     background-color: var(--color-bg-dark);
-    background-image: url("/dark.png");
+    background-image: url("/dark.webp");
     transition: all 0.3s ease-in-out;
 }
 
