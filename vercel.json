@@ -1,5 +1,7 @@
 {
-  "rewrites": [{ "source": "/((?!assets/).*)", "destination": "/" }],
+  "rewrites": [
+    { "source": "/((?!assets/).*)", "destination": "/" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -27,6 +29,10 @@
         {
           "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
         },
         {
           "key": "Access-Control-Allow-Origin",
